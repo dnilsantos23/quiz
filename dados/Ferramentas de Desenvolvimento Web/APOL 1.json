@@ -1,0 +1,229 @@
+[
+  {
+    "numero": 1,
+    "enunciado": "A computação em nuvem é a entrega de recursos de TI sob demanda por meio da Internet com definição de preço de pagamento conforme o uso. Em vez de comprar, ter e manter datacenters e servidores físicos, você pode acessar serviços de tecnologia, como capacidade computacional, armazenamento e bancos de dados, conforme a necessidade, usando um provedor de nuvem como a Amazon Web Services (AWS). O que é cloud computing (computação em nuvem)? - Amazon Web Services. https://aws.amazon.com/pt/what-is-cloud-computing/. Acessado em 29/05/2026. Acerca da computação em nuvem são feitas as seguintes afirmações:\n\tI. Antes da computação em nuvem, era necessário provisionar a capacidade com base em previsões sobre picos máximos.\n\tII. As soluções de hardware são físicas. Isso significa que elas exigem: espaço, pessoal, segurança física, planejamento e despesas de capital\n\tIII. Um provedor de nuvem, é um serviço www com servidores dedicados a cada usuário que contrata o serviço por demanda.\nEstão corretas apenas:",
+    "alternativas": {
+      "A": "I",
+      "B": "I e II",
+      "C": "II e III",
+      "D": "I e III",
+      "E": "I, II e III"
+    },
+    "gabarito": "B",
+    "explicacao": "A alternativa III está incorreta. Um provedor de nuvem fornece uma plataforma, infraestrutura, aplicativo ou serviços de armazenamento? em nuvem.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 2,
+    "enunciado": "Quanto a controle de qualidade são feitas as seguintes afirmativas:\n\tI. No desenvolvimento de software os custos de modificar um software aumentam conforme o projeto avança.\n\tII. O teste de unidade começa no centro da espiral e se concentra em cada unidade.\n\tIII. O teste de unidade verifica se as unidades se comunicam, se integram corretamente sem falhas. Realizado após serem testadas as unidades individualmente.\nEstão corretas as afirmativas:",
+    "alternativas": {
+      "A": "I apenas",
+      "B": "I e II apenas",
+      "C": "I e III apenas",
+      "D": "II e III apenas",
+      "E": "I, II e III"
+    },
+    "gabarito": "B",
+    "explicacao": "AULA 3",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 3,
+    "enunciado": "Engenharia de software é uma disciplina de engenharia relacionada a todos os aspectos de produção de software. Quando se fala em todos os aspectos:\n\tI. se refere a todas as etapas do ciclo de vida de desenvolvimento de software que vai desde a especificação do sistema até a manutenção.\n\tII. se refere a todos os profissionais da área que utilizam as abordagens ágeis e sistemáticas da produção de software.\n\tIII. se refere apenas a codificação e manutenção do desenvolvimento de software.\nEstão corretas apenas:",
+    "alternativas": {
+      "A": "I",
+      "B": "III",
+      "C": "I e II",
+      "D": "I e III",
+      "E": "II e III"
+    },
+    "gabarito": "A",
+    "explicacao": "I. CORRETA \"se refere a todas as etapas do ciclo de vida de desenvolvimento de software que vai desde a especificação do sistema até a manutenção.\" Essa é exatamente a definição clássica de Engenharia de Software (Sommerville): a disciplina abrange todo o ciclo de vida do software, incluindo: • Especificação (levantamento e análise de requisitos) • Projeto/Design (arquitetura, modelagem) • Implementação/Codificação • Verificação e Validação (testes) • Implantação • Manutenção e evolução Quando o conceito diz \"todos os aspectos da produção de software\", ele está justamente enfatizando que a engenharia de software não se limita a escrever código, mas cobre também gestão de projetos, qualidade, documentação, processos, ferramentas e técnicas usadas em cada uma dessas fases. II. INCORRETA \"se refere a todos os profissionais da área que utilizam as abordagens ágeis e sistemáticas da produção de software.\" Essa alternativa erra por dois motivos: 1. Muda o foco do conceito: \"todos os aspectos\" se refere às etapas/dimensões do processo de desenvolvimento, não aos profissionais envolvidos. 2. Restringe indevidamente às abordagens ágeis: a Engenharia de Software é neutra quanto à metodologia — ela abrange tanto abordagens ágeis (Scrum, XP, Kanban) quanto tradicionais/preditivas (Cascata, V-Model, RUP). Dizer que se refere \"aos profissionais que utilizam abordagens ágeis\" é uma generalização indevida e não corresponde à definição do conceito. III. INCORRETA \"se refere apenas à codificação e manutenção do desenvolvimento de software.\" Esse é um erro clássico e conceitual: reduzir a Engenharia de Software a apenas codificação e manutenção é o oposto do que o termo \"todos os aspectos\" quer dizer. Essa visão ignora etapas fundamentais como especificação de requisitos, projeto/arquitetura e testes/validação — que são, inclusive, citadas explicitamente na própria definição do enunciado (\"desde a especificação... até a manutenção\"). O uso da palavra \"apenas\" já é um forte indício de que a alternativa está incompleta e, portanto, incorreta.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 4,
+    "enunciado": "No desenvolvimento de software moderno, a gerência de configuração e o uso de Sistemas de Controle de Versão (VCS - Version Control Systems) são indispensáveis para rastrear o histórico de alterações no código-fonte, permitir o trabalho em equipe e evitar a perda de arquivos. Historicamente, essas ferramentas evoluíram de modelos centralizados (onde existe um único servidor central detentor do histórico completo e os desenvolvedores dependem dele para realizar a maioria das operações) para modelos distribuídos (onde cada desenvolvedor possui uma cópia local completa do repositório, incluindo todo o histórico de alterações). Considerando a classificação e as características arquiteturais das ferramentas de gerência de configuração, assinale a alternativa que apresenta uma ferramenta que se enquadra na categoria de controle de versão, mas que possui arquitetura centralizada (ou seja, não é considerada distribuída):",
+    "alternativas": {
+      "A": "Git",
+      "B": "BitKeeper",
+      "C": "Subversion",
+      "D": "Mercurial",
+      "E": "Bootstrap"
+    },
+    "gabarito": "C",
+    "explicacao": "Aula 3 - tema 4",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 5,
+    "enunciado": "Independentemente do modelo de desenvolvimento adotado em um projeto (seja ele cascata, incremental ou ágil), o processo de engenharia de software é composto por quatro atividades estruturais e fundamentais. Essas atividades formam uma sequência lógica que garante que o software atenda às necessidades do cliente, seja construído corretamente e continue útil ao longo do tempo. Considerando o fluxo lógico e cronológico dessas atividades essenciais, assinale a alternativa que apresenta a sequência correta em que elas costumam ser iniciadas no ciclo de vida de um software:",
+    "alternativas": {
+      "A": "Desenvolvimento, Evolução, Especificação, Validação",
+      "B": "Evolução, Especificação, Desenvolvimento, Validação",
+      "C": "Especificação, Validação, Desenvolvimento, Evolução",
+      "D": "Validação, Especificação, Desenvolvimento, Evolução",
+      "E": "Especificação, Desenvolvimento, Validação, Evolução"
+    },
+    "gabarito": "E",
+    "explicacao": "Aula 1 - tema 5",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 6,
+    "enunciado": "O ciclo de vida de um software contém três fases genéricas:\n\t¦definição;\n\t¦desenvolvimento;\n\t¦manutenção. De, Carvalho, André C. P. L. F., e LORENA, Ana Carolina Introdução à Computação - Hardware, Software e Dados. Grupo GEN, 2016. [Minha Biblioteca].pag 128\nConsiderando o clico de vida de software apresentado acima e o conteúdo visto em aula, são feitas as seguintes afirmações:\n\tI. A fase de definição: nesta fase ocorre o levantamento de requisitos\n\tII. A fase de desenvolvimento: nesta fase ocorre a análise de sistemas\n\tIII. Manutenção: são feitos ajustes e caso algum módulo necessite de alteração ou modificação, isto é feito\nEstão corretas apenas:",
+    "alternativas": {
+      "A": "I",
+      "B": "I e II",
+      "C": "II e III",
+      "D": "I e III",
+      "E": "I, II e III"
+    },
+    "gabarito": "D",
+    "explicacao": "Aula 1 - Tema 5 II está incorreta: análise de sistemas ocorre na fase definição. Na fase de desenvolvimento ocorre a codificação e testes.",
+    "imagens": [
+      "APOL 1_imagens/pagina-004-imagem-01.png"
+    ],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 7,
+    "enunciado": "Ciclo de vida de software define etapas que devem ser seguidas quando se cria um produto de software. São fases do ciclo de vida de software genérico",
+    "alternativas": {
+      "A": "Definição, desenvolvimento e manutenção",
+      "B": "Descrição, desenvolvimento e manutenção",
+      "C": "Descrição, codificação e verificação",
+      "D": "Definição, desenvolvimento e codificação",
+      "E": "Definição, projeto e testes"
+    },
+    "gabarito": "A",
+    "explicacao": "São três as fases do ciclo de vida genérico: Definição, desenvolvimento e manutenção",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 8,
+    "enunciado": "Existem vários tipos de software, Sistemas Operacionais, Sistemas de Aplicativos, Software Embarcados, dentre outros... Qual dos seguintes exemplos é um software utilitário que detecta e elimina, softwares que executam códigos maliciosos no sistema operacional e arquivos do usuário?",
+    "alternativas": {
+      "A": "Compactador",
+      "B": "Emulador",
+      "C": "Desfragmentador",
+      "D": "Antivírus",
+      "E": "Backup"
+    },
+    "gabarito": "D",
+    "explicacao": "Aula 1 - tema 1",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 9,
+    "enunciado": "“A Internet é um sistema de redes de computadores interligadas em escala global. Uma série de regras (também chamadas de protocolos) coordenam a comunicação entre essas máquinas que são compostas por equipamentos distintos desenvolvidos pelas mais diversas empresas.” Sobre o tópico em questão considere as afirmações a seguir:\n\tI- A internet surgiu no Japão em 1969 e foi desenvolvida com o objetivo de interligar hospitais e compartilhar dados de registros médicos.\n\tII- Os protocolos são um conjunto de regras, a internet combina diversos deles para cada momento e tipos específicos de comunicação.\n\tIII- Os servidores de DNS (Domain Name System) são responsáveis por fazer a ligação entre os nomes das máquinas com seu endereço na internet.\nÉ correto o que se afirma em",
+    "alternativas": {
+      "A": "I apenas",
+      "B": "II apenas",
+      "C": "III apenas",
+      "D": "II e III apenas",
+      "E": "I, II e III."
+    },
+    "gabarito": "D",
+    "explicacao": "Comentário: (FALSO) I. A rede precursora da internet se chamava ARPANET, surgiu em 1969 e interligava universidades no Oeste americano, possuía propósitos militares. (CORRETO) II. Diversos protocolos compõem a internet sendo o TCP/IP um dos mais importantes. (CORRETO) III.Os servidores de DNS fazem a localização do nome procurado para um endereço numérico IP(Internet Protocol). Conteúdo abordado na Aula 4",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 10,
+    "enunciado": "Uma das principais áreas de aplicação da Computação é certamente a de software administrativo, que engloba os sistemas de apoio a tomadas de decisões administrativas. Os sistemas integrados de gestão empresarial (ERP, do inglês Enterprise Resource Planning), por exemplo, são usados pelas empresas para integrar todos os dados e processos de uma organização. Já os sistemas de gestão do relacionamento com o cliente (CRM, do inglês Customer Relationship Management) proveem ferramentas para facilitar o contato com os clientes e também para prospectar boas ações a serem implementadas para agradar e fidelizar a clientela da empresa (Laudon e Laudon 2011, Stair e Reynolds 2011). Outros exemplos de software administrativo são de software que gerencia a folha de pagamento, software que controla o volume de estoque e software para contabilidade. Software científico e de engenharia são utilizados em problemas que requerem uma quantidade elevada de processamento numérico. Ferramentas computacionais utilizadas para cálculo estrutural, para classificação de corpos celestes em astronomia e para previsão do tempo se enquadram nessa categoria. Um software de inteligência artificial (IA) utiliza algoritmos sofisticados para resolver problemas de mineração de dados, planejamento de atividades ou operações e reconhecimento de padrões, que exigem um comportamento semelhante ao de um especialista humano. Alguns exemplos de aplicações são automação de residências (domótica), diagnóstico médico, detecção de fraudes financeiras e análise de dados ambientais. As máquinas de busca na web também fazem uso de técnicas de IA. Por fim, as páginas da web recuperadas por navegadores (o próprio navegador é um software para acesso à Internet e interpretação de páginas em HTML) são na verdade constituídas por várias instruções executáveis, como arquivos HTML, e dados, como sons e imagens. Aplicações para web incluem ferramentas de busca, gerenciamento de redes sociais, blogs e sítios de notícias, e aplicativos de suporte ao comércio eletrônico. De, Carvalho, André C. P. L. F., e LORENA, Ana Carolina Introdução à Computação - Hardware, Software e Dados. Grupo GEN, 2016. [Minha Biblioteca].pag 114 Com base no texto é correto afirmar:\n\tI. O texto em questão fala em software aplicativo, mostrando exemplos que vão desde software de gestão até aplicação em inteligência artificial.\n\tII. Existem várias exemplos de softwares de sistema (básico) no texto, como os ERP, CRM e navegadores.\n\tIII. Os softwares de inteligência Artificial, ganham cada vez mais espaços na web, sendo conhecidos também como software embarcado.\nÉ correto o que apenas o que se afirma em:",
+    "alternativas": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "I e III",
+      "E": "II e III"
+    },
+    "gabarito": "A",
+    "explicacao": "Aula 1 - Tema 1 Apenas I está correta. O texto todo fala de software aplicativo. Software embarcado são os firmware",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 11,
+    "enunciado": "O sistema operacional (SO) é um software responsável pela supervisão dos processos executados em um computador. O SO gerencia todo o hardware e todo o software do computador e realiza a “comunicação” entre eles. Especificamente, ele controla todos os arquivos, todos os dispositivos, todas as seções da memória principal e cada instante do tempo de processamento na CPU. De, Carvalho, André C. P. L. F., e LORENA, Ana Carolina Introdução à Computação - Hardware, Software e Dados. Grupo GEN, 2016. [Minha Biblioteca].Pag 106 São funções dos Sistemas Operacionais:\n\tI.Converter os programas escritos para um código em uma linguagem de máquina\n\tII.Gerenciar os recursos do computador\n\tIII.Controlar a execução de programas pela CPU\nEstão corretas apenas:",
+    "alternativas": {
+      "A": "II",
+      "B": "I e II",
+      "C": "II e III",
+      "D": "I e III",
+      "E": "I, II e III"
+    },
+    "gabarito": "C",
+    "explicacao": "Aula 1 – tema 4 –Sistemas básicos",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 12,
+    "enunciado": "A expressão “crise do software” foi usada pela primeira vez com impacto por Dijkstra (1971). Ele avaliava que, considerando o rápido progresso do hardware e das demandas por sistemas cada vez mais complexos, os desenvolvedores simplesmente estavam se perdendo, porque a engenharia de software, na época, era uma disciplina incipiente. Wazlawick, Raul. Engenharia de Software - Conceitos e Práticas. Grupo GEN, 2013. [Minha Biblioteca].pag1 Considerando a crise do software definida acima, são feitas as seguinte afirmações:\n\tI. Entre os problemas que deflagrou a crise do software estão projetos que estouram o cronograma e orçamento.\n\tII. O desenvolvimento do software na época era feito de forma informal, assim produto final era de baixa qualidade ou que não atendia aos requisitos.\n\tIII. Com o barateamento e miniaturização do hardware, cresce também a demanda por software.\nEstão corretas apenas:",
+    "alternativas": {
+      "A": "I",
+      "B": "I e II",
+      "C": "II e III",
+      "D": "I e III",
+      "E": "I, II e III"
+    },
+    "gabarito": "E",
+    "explicacao": "AULA1 2 - Tema1 Os problemas começaram a surgir quando a demanda por software começou a subir, começou a aumentar o número de usuário de computador e consequentemente a demanda por software. Nesta época a documentação que existia só era entendida por quem desenvolveu",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 13,
+    "enunciado": "Os três principais tipos de computação em nuvem são infraestrutura como serviço, plataforma como serviço e software como serviço. Cada tipo de computação em nuvem oferece diferentes níveis de controle, flexibilidade e gerenciamento para que você possa selecionar o conjunto certo de serviços para as suas necessidades.? Acerca dos tipos de computação em nuvem são fetias as seguintes definições:\n\tI. Com o PaaS, você gerencia a infraestrutura subjacente (geralmente, hardware e sistemas operacionais) dividindo o foco na implantação e no gerenciamento de aplicativos.\n\tII. O SaaS oferece um produto completo, executado e gerenciado pelo provedor de serviços. Na maioria dos casos, quando as pessoas mencionam SaaS, estão falando de aplicativos de usuários finais (como e- mail baseado na web).?\n\tIII. O IaaS oferece o mais alto nível de flexibilidade e controle de gerenciamento sobre os recursos de TI.O IaaS oferece capacidade de hardware ao usuário por meio de software.\nEstão corretas apenas:",
+    "alternativas": {
+      "A": "I",
+      "B": "I e II",
+      "C": "II e III",
+      "D": "I e III",
+      "E": "I, II e III"
+    },
+    "gabarito": "C",
+    "explicacao": "AULA 3 - TEMA 5 A afirmativa I está incorreta: Com o PaaS, você não precisa mais gerenciar a infraestrutura subjacente (geralmente, hardware e sistemas operacionais) e pode manter o foco na implantação e no gerenciamento de aplicativos.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 14,
+    "enunciado": "A engenharia de software é uma tecnologia em camadas... qualquer abordagem de engenharia (inclusive engenharia de software) deve estar fundamentada em um comprometimento organizacional com a qualidade. Roger, Pressman,, e MAXIM, Bruce Engenharia de Software. Grupo A, 2016. [Minha Biblioteca].pag 15 São camadas da engenharia de software:",
+    "alternativas": {
+      "A": "Qualidade, processos, métodos e ferramentas",
+      "B": "Definição, desenvolvimento e manutenção",
+      "C": "Hardware, Sistema Operacional e software",
+      "D": "Processos, metas, ferramentas e software",
+      "E": "Estratégia, processos e determinação"
+    },
+    "gabarito": "A",
+    "explicacao": "Aula 2 - Tema 2 – Engenharia de software A engenharia de software engloba um processo, métodos de gerenciamento e desenvolvimento de software, bem como ferramentas.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 15,
+    "enunciado": "São bastante conhecidos também os mitos do software, identificados por Pressman (2005). Esses mitos são crenças tácitas e explícitas que permeiam a cultura de desenvolvimento de software. Os mais experientes acabam percebendo que elas não têm fundamento, constituindo-se realmente em mitos, mas a cada ano novos desenvolvedores de software entram no mercado e reavivam as velhas crenças, já que seu apelo é grande. Pressman classifica os mitos em três grupos: administrativos, do cliente e do profissional. Wazlawick, Raul. Engenharia de Software - Conceitos e Práticas. Grupo GEN, 2013. [Minha Biblioteca].pag 326 Observe os seguintes mitos:\n\tI. Assim que o programa for colocado em operação, nosso trabalho terminou.\n\tII. Já temos um livro cheio de padrões e procedimentos para desenvolver software.\n\tIII. Enquanto o programa não estiver funcionando, não será possível avaliar sua qualidade.\n\tIV. Uma definição geral dos objetivos é suficiente para começar a escrever os programas, os detalhes podem ser preenchidos posteriormente.\n\tV. Os requisitos de software mudam. As mudanças podem ser facilmente assimiladas, pois o software é flexível.\nSão considerados mitos do desenvolvedor:",
+    "alternativas": {
+      "A": "Apenas I e III",
+      "B": "Apenas I e IV",
+      "C": "Apenas IV e V",
+      "D": "Apenas I, II e V",
+      "E": "Apenas I, III e IV"
+    },
+    "gabarito": "A",
+    "explicacao": "Aula2 - Tema 4 – Mitos do Software II - mito do gerenciamento IV e V – mitos do cliente",
+    "imagens": [],
+    "imagens_explicacao": []
+  }
+]

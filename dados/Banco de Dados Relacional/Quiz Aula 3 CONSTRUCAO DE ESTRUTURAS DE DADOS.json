@@ -1,0 +1,152 @@
+[
+  {
+    "numero": 1,
+    "enunciado": "Qual é a função da propriedade 'auto_increment' em uma coluna de banco de dados?",
+    "alternativas": {
+      "A": "Permitir a inserção manual de valores negativos.",
+      "B": "Gerar automaticamente um número inteiro e incrementá-lo a cada nova linha inserida.",
+      "C": "Preencher automaticamente os espaços ociosos com zeros.",
+      "D": "Garantir que a coluna aceite apenas valores nulos.",
+      "E": "Definir um valor padrão caso nenhum dado seja informado."
+    },
+    "gabarito": "B",
+    "explicacao": "A propriedade auto_increment gera automaticamente um número inteiro e o incrementa a partir da inclusão de uma nova linha, dispensando a inserção manual.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 2,
+    "enunciado": "Qual comando SQL é utilizado para excluir um banco de dados inteiro?",
+    "alternativas": {
+      "A": "delete database nome;",
+      "B": "remove database nome;",
+      "C": "drop database nome;",
+      "D": "erase database nome;",
+      "E": "truncate database nome;"
+    },
+    "gabarito": "C",
+    "explicacao": "O comando 'drop database' é utilizado para excluir um banco de dados, incluindo todas as suas tabelas e objetos.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 3,
+    "enunciado": "Sobre o tipo de dado 'varchar', qual das afirmações abaixo é correta?",
+    "alternativas": {
+      "A": "Ocupa sempre o tamanho total definido na coluna.",
+      "B": "É o tipo menos econômico para colunas que ficam vazias.",
+      "C": "Ocupa apenas o tamanho realmente utilizado acrescido de um caractere de controle.",
+      "D": "Armazena apenas valores numéricos.",
+      "E": "Não permite o armazenamento de caracteres Unicode."
+    },
+    "gabarito": "C",
+    "explicacao": "O tipo varchar é considerado o mais econômico, pois ocupa apenas o espaço utilizado mais um caractere de controle, desconsiderando o espaço ocioso.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 4,
+    "enunciado": "Qual é a função da cláusula 'where' em um comando 'select'?",
+    "alternativas": {
+      "A": "Ordenar os resultados da consulta.",
+      "B": "Definir o nome da tabela a ser consultada.",
+      "C": "Definir condições para filtrar os dados da consulta.",
+      "D": "Limitar o número de colunas retornadas.",
+      "E": "Excluir dados da tabela."
+    },
+    "gabarito": "C",
+    "explicacao": "A cláusula 'where' é utilizada para definir condições de filtro em uma consulta, permitindo selecionar apenas os dados que atendam a critérios específicos.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 5,
+    "enunciado": "O que acontece ao utilizar a restrição 'not null' em uma coluna?",
+    "alternativas": {
+      "A": "A coluna aceita apenas valores nulos.",
+      "B": "A coluna torna-se automaticamente uma chave primária.",
+      "C": "A coluna impede que valores nulos (vazios) sejam inseridos.",
+      "D": "A coluna passa a aceitar apenas valores numéricos.",
+      "E": "A coluna define um valor padrão automaticamente."
+    },
+    "gabarito": "C",
+    "explicacao": "A restrição 'not null' impede que a coluna aceite valores nulos, tornando o preenchimento obrigatório.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 6,
+    "enunciado": "Qual comando é utilizado para alterar a estrutura de uma tabela existente?",
+    "alternativas": {
+      "A": "change table",
+      "B": "update table",
+      "C": "modify table",
+      "D": "alter table",
+      "E": "edit table"
+    },
+    "gabarito": "D",
+    "explicacao": "O comando 'alter table' permite realizar modificações na estrutura de tabelas existentes, como adicionar, modificar ou excluir colunas.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 7,
+    "enunciado": "Qual é a diferença entre 'primary key' e 'unique key'?",
+    "alternativas": {
+      "A": "Não há diferença, são sinônimos.",
+      "B": "Apenas uma 'primary key' é permitida por tabela, mas várias 'unique' podem ser declaradas.",
+      "C": "A 'unique key' não garante a exclusividade dos dados.",
+      "D": "A 'primary key' permite valores nulos, enquanto a 'unique' não.",
+      "E": "A 'unique key' é obrigatória em todas as tabelas."
+    },
+    "gabarito": "B",
+    "explicacao": "Só é permitido uma única chave primária (PK) por tabela, enquanto é possível declarar diversas chaves únicas (unique) na mesma tabela.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 8,
+    "enunciado": "O que a propriedade 'zerofill' faz em uma coluna numérica?",
+    "alternativas": {
+      "A": "Impede valores negativos.",
+      "B": "Torna a coluna uma chave primária.",
+      "C": "Insere autopreenchimento com zeros nos espaços ociosos.",
+      "D": "Define o valor padrão como zero.",
+      "E": "Remove todos os dados da coluna."
+    },
+    "gabarito": "C",
+    "explicacao": "A propriedade 'zerofill' insere o autopreenchimento com zeros nos espaços ociosos da coluna numérica.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 9,
+    "enunciado": "Qual é a função do comando 'describe' no MySQL?",
+    "alternativas": {
+      "A": "Excluir uma tabela.",
+      "B": "Listar todos os bancos de dados.",
+      "C": "Apresentar o dicionário de dados (estrutura) de uma tabela.",
+      "D": "Inserir dados em uma tabela.",
+      "E": "Renomear uma coluna."
+    },
+    "gabarito": "C",
+    "explicacao": "O comando 'describe' é utilizado para exibir a estrutura lógica de uma tabela, como nomes de colunas, tipos de dados e chaves.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 10,
+    "enunciado": "No MySQL, como a restrição 'check' é tratada?",
+    "alternativas": {
+      "A": "É implementada e obrigatória.",
+      "B": "É ignorada, ou seja, não é implementada.",
+      "C": "Funciona apenas para colunas do tipo string.",
+      "D": "Funciona apenas para colunas do tipo data.",
+      "E": "É substituída automaticamente pela restrição 'default'."
+    },
+    "gabarito": "B",
+    "explicacao": "Conforme a apostila, no SGBD MySQL, a restrição 'check' é ignorada, não sendo implementada.",
+    "imagens": [],
+    "imagens_explicacao": []
+  }
+]

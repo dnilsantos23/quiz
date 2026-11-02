@@ -1,0 +1,6 @@
+# Leitura de PDFs e extração do texto das avaliações.
+pypdf>=6.0,<7.0
+# Exportação das imagens incorporadas nos PDFs.
+Pillow>=10.0,<13.0
+# Servidor local que permite atualizar o quiz pela interface.
+Flask>=3.0,<4.0

@@ -1,0 +1,245 @@
+[
+  {
+    "numero": 1,
+    "enunciado": "Sendo f(x) = x + 1. Calcule f(1).",
+    "alternativas": {
+      "A": "f(1) = 0",
+      "B": "f(1) = 2",
+      "C": "f(1) = 0",
+      "D": "f(1) = -2"
+    },
+    "gabarito": "B",
+    "explicacao": "Resolução: f(x) = x + 1 f(1) = 1 + 1 f(1) = 2",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 2,
+    "enunciado": "Descrição da imagem: Sabendo que f(x) é igual a x elevando a menos x, qual o valor de f(2)?",
+    "alternativas": {
+      "A": "f(2) = -4",
+      "B": "f(2) = 4",
+      "C": "f(2) = 1/4",
+      "D": "f(2) = -1/4"
+    },
+    "gabarito": "C",
+    "explicacao": "Descrição da imagem: f(2) = 2^(-2) f(2) = 1/(2^2) f(2) = 1/4",
+    "imagens": [
+      "Apol 1_imagens/pagina-002-imagem-01.png"
+    ],
+    "imagens_explicacao": [
+      "Apol 1_imagens/pagina-003-imagem-01.png"
+    ]
+  },
+  {
+    "numero": 3,
+    "enunciado": "Uma substância química tem uma concentração inicial de 1.000 g. A cada minuto a sua concentração é reduzida a um terço. Determine a concentração dessa substância após 3 minutos.",
+    "alternativas": {
+      "A": "0,037 g",
+      "B": "0,370 g",
+      "C": "3,703 g",
+      "D": "37,037 g"
+    },
+    "gabarito": "D",
+    "explicacao": "Resolução: f (x) = 1000 * (1/3)³ f(x) = 1000 * 0,037037 = 37,037g",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 4,
+    "enunciado": "Sendo f(x) = 3x - 1. Calcule f(3).",
+    "alternativas": {
+      "A": "f(3) = 9",
+      "B": "f(3) = 4",
+      "C": "f(3) = 6",
+      "D": "f(3) = 8"
+    },
+    "gabarito": "D",
+    "explicacao": "Resolução: f(x) = 3x - 1 f(3) = 3.3 - 1 f(3) = 9 - 1 f(3) = 8",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 5,
+    "enunciado": "Sendo f(x) = 2x - 1 e g(x) = x + 1. Com isso determine a função composta g(f(x)).",
+    "alternativas": {
+      "A": "g(f(x)) = 2x",
+      "B": "g(f(x)) = 2x - 1",
+      "C": "g(f(x)) = x",
+      "D": "g(f(x)) = 2x + 2"
+    },
+    "gabarito": "A",
+    "explicacao": "Descrição da imagem: g(f(x)) é igual a f(x) mais um. g(f(x)) é igual a dois x menos um, mais um. g(f(x)) é igual a dois x menos um mais um. g(f(x)) é igual a dois x.",
+    "imagens": [],
+    "imagens_explicacao": [
+      "Apol 1_imagens/pagina-006-imagem-01.png"
+    ]
+  },
+  {
+    "numero": 6,
+    "enunciado": "Encontre as raízes da função: y = xˆ2 + 5x - 14",
+    "alternativas": {
+      "A": "x1 = 2, x2=7",
+      "B": "x1 = -2, x2 = 7",
+      "C": "x1 = 2, x2 = -7",
+      "D": "x1 = - 2, x2 = -7"
+    },
+    "gabarito": "C",
+    "explicacao": "Aplicando a fórmula de Baskara temos as raízes: x1 = 2 e x2= -7",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 7,
+    "enunciado": "Calcule as raízes da função f(x) = x^2 - 8x +12.",
+    "alternativas": {
+      "A": "x1=6 e x2=2",
+      "B": "x1=-6 e x2=2",
+      "C": "x1=6 e x2=-2",
+      "D": "x1=-6 e x2=-2"
+    },
+    "gabarito": "A",
+    "explicacao": "Traduzindo a imagem: Seguindo o modelo f(x) = ax² + bx + c = 0 f(x) = x² – 8x + 12, temos que a=1, b=-8, c=12. Usando a fórmula quadrática (Fórmula de Bhaskara), x = (-b ± v(b² – 4ac)) / 2a Desta forma: x = ( -(-8) ± v((-8)² – 4·1·12) ) / (2·1) x = (8 ± v64 – 48) / 2 x = (8 ± v16) / 2 x = (8 ± 4) / 2 Sendo assim, x1 = 12 / 2 = 6 x2 = 4 / 2 = 2",
+    "imagens": [],
+    "imagens_explicacao": [
+      "Apol 1_imagens/pagina-008-imagem-01.png"
+    ]
+  },
+  {
+    "numero": 8,
+    "enunciado": "Um engenheiro recebe por um trabalho extra a quantia de R$ 7.520,00, desse valor ele utilizou 1/4 para alimentação e transporte. Qual é o valor, em reais, que o mesmo utilizou para esses fins?",
+    "alternativas": {
+      "A": "R$ 752,00",
+      "B": "R$ 1.880,00",
+      "C": "R$ 3.760,00",
+      "D": "R$ 5.640,00"
+    },
+    "gabarito": "B",
+    "explicacao": "Resolução: 7.520 x 1/4 = 1.880,00",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 9,
+    "enunciado": "Qual é o domínio da expressão fracionária descrita a seguir: (7x+1)/(x-3)",
+    "alternativas": {
+      "A": "Domínio: Valores de x diferentes a 3",
+      "B": "Domínio: Valores de x iguais a menos 3",
+      "C": "Domínio: Valores de x iguais a 3",
+      "D": "Domínio: Valores de x diferentes de menos 3"
+    },
+    "gabarito": "A",
+    "explicacao": "",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 10,
+    "enunciado": "Sendo f(x) = 2x +1 e g(x) = x - 1. Com isso, determine a função composta f(g(x))",
+    "alternativas": {
+      "A": "f(g(x)) = 2x - 1",
+      "B": "f(g(x)) = 2x + 1",
+      "C": "f(g(x)) = -2x + 1",
+      "D": "f(g(x)) = -2x - 1"
+    },
+    "gabarito": "A",
+    "explicacao": "Resolução: f(g(x)) = 2g(x) + 1 f(g(x)) = 2(x-1) + 1 f(g(x)) = 2x-2+1 f(g(x)) = 2x-1",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 11,
+    "enunciado": "Descrição da imagem: Dada a função f(x) = 3 / Raiz quadrada de (x + 2). Qual o domínio dessa função?",
+    "alternativas": {
+      "A": "Descrição da imagem: x maior do que 2, para valores Reais",
+      "B": "Descrição da imagem: x maior do que -2, para valores Reais",
+      "C": "Descrição da imagem: x menor do que 2, para valores Reais",
+      "D": "Descrição da imagem: x menor do que -2, para valores Reais"
+    },
+    "gabarito": "B",
+    "explicacao": "Descrição da imagem: Por se tratar de uma raiz quadrada no denominador, temos que o domínio da função: x + 2 maior do que 0 logo x maior dos que -2, para valores Reais",
+    "imagens": [
+      "Apol 1_imagens/pagina-011-imagem-01.png",
+      "Apol 1_imagens/pagina-012-imagem-01.png",
+      "Apol 1_imagens/pagina-012-imagem-02.png"
+    ],
+    "imagens_explicacao": [
+      "Apol 1_imagens/pagina-012-imagem-03.png",
+      "Apol 1_imagens/pagina-013-imagem-01.png",
+      "Apol 1_imagens/pagina-013-imagem-02.png"
+    ]
+  },
+  {
+    "numero": 12,
+    "enunciado": "Selecione a alternativa que corresponde ao domínio da seguinte expressão fracionária: Descrição da expressão fracionária: (3x^2 + 5x + 9) / (x^2 - 36)",
+    "alternativas": {
+      "A": "Descrição da imagem: x diferente -6 e x diferente 6, para valores reais.",
+      "B": "x = -6 e x = 6, para valores reais.",
+      "C": "x = 6",
+      "D": "x = -6"
+    },
+    "gabarito": "A",
+    "explicacao": "Descrição da imagem: x² – 36 diferente de 0 x² diferente 36, logo x diferente de –6 e 6, para valores reais.",
+    "imagens": [
+      "Apol 1_imagens/pagina-013-imagem-03.png",
+      "Apol 1_imagens/pagina-013-imagem-04.png"
+    ],
+    "imagens_explicacao": [
+      "Apol 1_imagens/pagina-014-imagem-01.png"
+    ]
+  },
+  {
+    "numero": 13,
+    "enunciado": "Tradução da imagem: Calcule as raízes da função quadrática f(x)=x^2 - 49.",
+    "alternativas": {
+      "A": "x1=7 e x2 = 7",
+      "B": "x1=-7 e x2 = 7",
+      "C": "x1=0 e x2 = 7",
+      "D": "x1=0 e x2 = -7"
+    },
+    "gabarito": "B",
+    "explicacao": "Tradução da imagem: Passo 1: Identificação da equação. A equação fornecida é: f(x) = x² menos 49. Isso significa que temos uma equação do segundo grau onde o coeficiente a é igual a 1, o coeficiente b é igual a zero e o coeficiente c é igual a menos quarenta e nove. Passo 2: Apresentação da fórmula geral para encontrar as raízes de uma equação quadrática. A fórmula é: x igual a menos b mais ou menos a raiz quadrada de b ao quadrado menos quatro vezes a vezes c, tudo isso dividido por duas vezes a. Passo 3: Substituímos os valores na fórmula. Como b é zero, a é um e c é menos quarenta e nove, temos: x igual a menos zero mais ou menos a raiz quadrada de zero ao quadrado menos quatro vezes um vezes menos quarenta e nove, tudo isso dividido por duas vezes um. Passo 4: Calculamos dentro da raiz. Zero ao quadrado é zero. Menos quatro vezes um vezes menos quarenta e nove resulta em mais cento e noventa e seis. Portanto, dentro da raiz temos cento e noventa e seis. Passo 5: Calculamos a raiz quadrada de cento e noventa e seis, que é quatorze. Passo 6: Aplicamos o mais ou menos. Temos zero mais quatorze e zero menos quatorze. Passo 7: Dividimos cada resultado por dois. Quatorze dividido por dois é sete. Menos quatorze dividido por dois é menos sete. Passo 8: Conclusão. As duas soluções da equação são: x igual a sete e x igual a menos sete.",
+    "imagens": [
+      "Apol 1_imagens/pagina-014-imagem-02.png"
+    ],
+    "imagens_explicacao": [
+      "Apol 1_imagens/pagina-015-imagem-01.png"
+    ]
+  },
+  {
+    "numero": 14,
+    "enunciado": "Qual é o domínio da função: Descrição da imagem: f(x) = raiz quadrada de ( x - 5 )",
+    "alternativas": {
+      "A": "Descrição da imagem: x maior que 5, para valores Reais",
+      "B": "Descrição da imagem: x menor que 5, para valores Reais",
+      "C": "Descrição da imagem: x menor ou igual a 5, para valores Reais",
+      "D": "Descrição da imagem: x maior ou igual a 5, para valores Reais"
+    },
+    "gabarito": "D",
+    "explicacao": "Descrição da imagem: x - 5 maior ou igual a 0 x maior ou igual a zero, para valores Reais",
+    "imagens": [
+      "Apol 1_imagens/pagina-016-imagem-01.png",
+      "Apol 1_imagens/pagina-017-imagem-01.png",
+      "Apol 1_imagens/pagina-017-imagem-02.png",
+      "Apol 1_imagens/pagina-017-imagem-03.png",
+      "Apol 1_imagens/pagina-017-imagem-04.png"
+    ],
+    "imagens_explicacao": [
+      "Apol 1_imagens/pagina-017-imagem-05.png"
+    ]
+  },
+  {
+    "numero": 15,
+    "enunciado": "Temos as seguintes funções: f(k) = 120 k + 11 e g(x) = x³ -10. Com isso determine: f(g(x))",
+    "alternativas": {
+      "A": "120 x³ - 1189",
+      "B": "120 x³ - 1200",
+      "C": "120 x³ - 1211",
+      "D": "120 x³ - 1310"
+    },
+    "gabarito": "A",
+    "explicacao": "Resolução: f(k) = 120k + 11 e g(x)= x³ - 10 f(g(x)) = 120(x³ - 10) + 11 f(g(x)) = 120 x³ - 1200 + 11 f(g(x)) = 120 x³ - 1189",
+    "imagens": [],
+    "imagens_explicacao": []
+  }
+]

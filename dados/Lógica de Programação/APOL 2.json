@@ -1,0 +1,196 @@
+[
+  {
+    "numero": 16,
+    "enunciado": "Na AULA 5 aprendemos a trabalhar com funções e a retornar valores. Observe o código: def parangaricutirimirruaro(palavra): if (palavra != 'Seu Madruga'): return 1 return 0 retorno = parangaricutirimirruaro('Chaves'). Acerca deste código, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "O valor da variável 'retorno', caso a string passada como parâmetro seja 'Seu Madruga', será o valor inteiro 1.",
+      "B": "O valor da variável 'retorno', caso a string passada como parâmetro seja 'Chaves', será o valor inteiro 1.",
+      "C": "O valor da variável 'retorno' só será 0 caso a palavra recebida como parâmetro não seja 'Seu Madruga'.",
+      "D": "O valor da variável 'retorno' só será 1 caso a palavra recebida como parâmetro seja 'Seu Madruga'.",
+      "E": "Caso seja passado como parâmetro uma string vazia para a função, ela não irá retornar nada."
+    },
+    "gabarito": "B",
+    "explicacao": "Se palavra for 'Chaves' (diferente de 'Seu Madruga'), o if é verdadeiro e retorna 1. Se for 'Seu Madruga', retorna 0."
+  },
+  {
+    "numero": 17,
+    "enunciado": "Na AULA 5 aprendemos que a ordem dos parâmetros faz a diferença. Observe def div2(num, den): res = num / den print(res). Assinale a alternativa que contém a chamada a função que CORRETAMENTE resultaria em 0,3 no resultado da divisão.",
+    "alternativas": {
+      "A": "div2(den = 3, 10)",
+      "B": "div2(3, num = 10)",
+      "C": "div2(den = 3, num = 10)",
+      "D": "div2(3, 10)",
+      "E": "div2(10, 3)"
+    },
+    "gabarito": "D",
+    "explicacao": "div2(3, 10) resulta em 3/10 = 0,3. As outras opções têm erros de argumento ou nomeados indevidos."
+  },
+  {
+    "numero": 18,
+    "enunciado": "Na AULA 4 você aprendeu sobre a estrutura de repetição while. O código abaixo deveria imprimir todos os valores de 10 até 100: x = 10 while (x <= 100): print(x). Porém, o código contém um problema. Assinale a alternativa que CORRETAMENTE explica o problema e a solução.",
+    "alternativas": {
+      "A": "O problema é que a variável de controle não está sendo iterada, gerando loop infinito. A solução é retirar o print de dentro do while e criar instrução para iterar a variável após o laço.",
+      "B": "O problema é que a expressão lógica no laço está incorreta. A solução é alterar a condição para x >= 100.",
+      "C": "O problema é que a variável de controle não está sendo iterada, gerando loop infinito. A solução é alterar a condição para x >= 100.",
+      "D": "O problema é que a variável de controle não está sendo iterada, gerando loop infinito. A solução é adicionar uma linha que incremente a variável de controle dentro do while. A linha deve ser inserida antes o print.",
+      "E": "O problema é que a variável de controle não está sendo iterada, gerando loop infinito. A solução é adicionar uma linha que incremente a variável de controle dentro do while. A linha deve ser inserida após o print."
+    },
+    "gabarito": "E",
+    "explicacao": "O while não incrementa a variável x, então cria loop infinito. A solução é adicionar x += 5 (ou += 1) dentro do laço, após o print (ou antes, depende do incremento desejado)."
+  },
+  {
+    "numero": 19,
+    "enunciado": "Na AULA 5 aprendemos a trabalhar com funções. Observe def KmMilha(km): milha = km * 0.621371 return milha resultado = KmMilha(float(input('Digite um valor em Kilômetros: '))) print('Equivalente em milhas: {}'.format(resultado)). Acerca deste código, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "As linhas 5 e 6 correspondem ao que chamamos de programa principal.",
+      "B": "A execução do nosso algoritmo se iniciará pela linha 1, definindo a função 'KmMilha'.",
+      "C": "Na linha 3, a variável 'milha' envia seu valor para o programa principal. Este dado é armazenado em uma variável chamada 'resultado'.",
+      "D": "A variável 'km', na linha 1, recebe o dado vindo do input realizado na linha 5.",
+      "E": "Na linha de código 1 temos a criação de uma função chamada 'KmMilha' e também de uma variável de nome 'km'."
+    },
+    "gabarito": "B",
+    "explicacao": "A execução se inicia pelo programa principal (linha 5/6), depois volta para a definição da função. A alternativa B diz que inicia pela linha 1, o que está incorreto."
+  },
+  {
+    "numero": 20,
+    "enunciado": "Na AULA 4, você aprendeu a trabalhar com o laço for. Suponha que precisa imprimir valores numéricos iniciando no 7 e imprimindo até o 25, de 3 em 3. Assinale a alternativa que contém o laço for que realize o que está sendo proposto.",
+    "alternativas": {
+      "A": "for i in range(26): print(i)",
+      "B": "for i in range(7, 26): print(i)",
+      "C": "for i in range(7, 25): print(i)",
+      "D": "for i in range(7, 26, 3): print(i)",
+      "E": "for i in range(7, 25, 3): print(i)"
+    },
+    "gabarito": "D",
+    "explicacao": "range(7, 26, 3) gera: 7, 10, 13, 16, 19, 22, 25. Para ir até 25 usando passo 3, devemos colocar 26 como fim (range vai até menos 1)."
+  },
+  {
+    "numero": 21,
+    "enunciado": "Na AULA 4 aprendemos a construir laços de repetição empregando while e for. Observe o código: x = 5 print(x) x+=5 print(x) x+=5 print(x) x+=5 print(x) x+=5 print(x). Apresenta saída: 5, 10, 15, 20, 25. Assinale a alternativa que CORRETAMENTE resolve o mesmo problema empregando um laço while.",
+    "alternativas": {
+      "A": "x = 5 while (x <= 25): print(x) x += 5",
+      "B": "x = 5 while (x < 25): print(x) x += 5",
+      "C": "while (x <= 25): print(x) x += 5",
+      "D": "while (x < 25): print(x) x += 5"
+    },
+    "gabarito": "A",
+    "explicacao": "A alternativa A imprime 5, 10, 15, 20, 25 (com x <= 25). As demais imprimiriam sem o 25 ou com condição diferente."
+  },
+  {
+    "numero": 22,
+    "enunciado": "Na AULA 4 você aprendeu a fazer validação de dados empregando laços de repetição. Observe o código que deve validar dados inteiro em intervalo entre -100 e 100 (incluindo estes valores): x = int(input('Digite um valor no intervalo de -100 até 100: ')) while (                ): x = int(input('Digite um valor no intervalo de -100 até 100: ')) print('Encerrando'). A condição do laço ficou vazia. Assinale a alternativa que contém a condição correta para este laço funcionar como o enunciado propõe.",
+    "alternativas": {
+      "A": "x < 100 or x > -100",
+      "B": "x > 100 or x < -100",
+      "C": "x > 100 and x < -100",
+      "D": "x < 100 and x > -100",
+      "E": "x < 99 and x > -99"
+    },
+    "gabarito": "B",
+    "explicacao": "O laço deve continuar enquanto o valor está FORA do intervalo. A condição de saída (enquanto verdadeiro) é: x fora de [-100, 100], ou seja, x > 100 OU x < -100. Logo, enquanto a condição B for verdadeira, o laço continua pedindo entrada."
+  },
+  {
+    "numero": 23,
+    "enunciado": "Na AULA 4 aprendemos sobre as instruções break e continue dentro dos laços de repetição. Sobre este assunto, analise as afirmativas: I - A instrução continue é capaz de fazer com que o laço de repetição garanta que a próxima iteração irá acontecer, pois ele ignora o próximo teste lógico do loop. II - A instrução break é capaz de fazer o loop retornar ao seu inicio, recomeçando o laço. III - É permitido combinarmos estruturas de break e continue dentro de um mesmo laço de repetição.",
+    "alternativas": {
+      "A": "I, apenas.",
+      "B": "II, apenas.",
+      "C": "III, apenas.",
+      "D": "I e III, apenas.",
+      "E": "II e III, apenas."
+    },
+    "gabarito": "C",
+    "explicacao": "A afirmativa III está correta: é permitido usar break e continue no mesmo laço. I está errada: continue pula para a próxima iteração, não para o teste lógico. II está errada: break interrompe o laço, não o reinicia."
+  },
+  {
+    "numero": 24,
+    "enunciado": "Na AULA 4 você aprendeu o laço while e o laço for. Observe o laço with while: i = 88 while (i >= 0): print(i) i -= 4. Assinale a alternativa que CORRETAMENTE gera a mesma saída, mas agora implementando com laço for.",
+    "alternativas": {
+      "A": "for i in range(88, -1, -4): print(i)",
+      "B": "for i in range (88, 0 , -4): print(i)",
+      "C": "for i in range(88, 1, -4): print(i)",
+      "D": "for i in range(88, 0, 4): print(i)",
+      "E": "for i in range(88, -1, 4): print(i)"
+    },
+    "gabarito": "A",
+    "explicacao": "range(88, -1, -4) vai de 88 até 0 (inclusive), de 4 em 4 para trás. O -1 é necessário pois o range vai até o valor final menos um."
+  },
+  {
+    "numero": 25,
+    "enunciado": "Na AULA 5 você aprendeu a conceituar funções em linguagem de programação. Sobre funções, observe as afirmações: I - Funções são rotinas de códigos que podem ser executadas quando tem seu nome invocado pelo programa. II - Exemplos de funções pré-definidas na linguagem Python são for, while e if. III - Funções tem como um de seus objetivos simplificar os códigos criados, auxiliando na abstração de recursos complexos de se manipular em programação, como drivers de vídeo e de teclado.",
+    "alternativas": {
+      "A": "I, apenas.",
+      "B": "II, apenas.",
+      "C": "III, apenas.",
+      "D": "I e II, apenas.",
+      "E": "I e III, apenas."
+    },
+    "gabarito": "E",
+    "explicacao": "I está correta. II está incorreta: for, while e if são estruturas da linguagem, não rotinas de códigos. III está correta: funções simplificam e abstraem recursos complexos. Por isso E (I e III) está correta."
+  },
+  {
+    "numero": 26,
+    "enunciado": "Na AULA 5 aprendemos sobre o escopo de variáveis e sobre passagem de parâmetros. Observe o código: def parangaricu(): palavra1 = 'parangaricu' tirimirruaro(palavra1) def tirimirruaro(palavra): palavra2 = palavra + 'tirimirruaro' #print(palavra2) #print(palavra2) parangaricu() #print(palavra2). Supondo que somente uma das linhas de print seja habilitada por vez, assinale a alternativa que CORRETamente contém a saída do programa para cada um dos prints e o motivo correto.",
+    "alternativas": {
+      "A": "Linha 7. Saída: parangaricutirimirruaro. Linha 10. Saída: parangaricutirimirruaro. Justificativa: a variável 'palavra2' é local da função 'tirimirruaro', portanto só existe dentro desta função. Por este motivo, o print dentro de 'tirimirruaro' funcionou concatenando as strings. Já o print no programa principal também retorna a mesma resposta porque o print está sendo realizado no escopo global.",
+      "B": "Linha 7. Saída: tirimirruaro. Linha 10. Saída: parangaricutirimirruaro. Justificativa: a variável 'palavra2' é local da função 'tirimirruaro', porém a variável 'palavra' é local de outra função, não sendo possível acessar seu valor dentro da função 'tirimirruaro'. Por este motivo, o print dentro de 'tirimirruaro' funcionou somente mostrando a parte acessível que é 'tirimirruaro'. Já o print no programa principal retorna a concatenação das strings porque está no escopo global.",
+      "C": "Linha 7. Saída: parangaricutirimirruaro. Linha 10. Saída: Erro (NameError). Justificativa: a variável 'palavra2' é global do programa. Porém, como ela não recebeu nenhuma atribuição no escopo global, um erro acontece.",
+      "D": "Linha 7. Saída: parangaricutirimirruaro. Linha 10. Saída: Erro (NameError). Justificativa: a variável 'palavra2' é local da função 'tirimirruaro', portanto só existe dentro desta função. Por este motivo, o print dentro de 'tirimirruaro' funcionou concatenando as strings. Já o print no programa principal não funcionou porque ele não conhece a variável do escopo local.",
+      "E": "Linha 7. Saída: parangaricutirimirruaro. Linha 10. Saída: Erro (NameError). Justificativa: a variável 'palavra2' é global do programa. Porém, como ela não recebeu nenhuma atribuição no escopo global, um erro acontece."
+    },
+    "gabarito": "D",
+    "explicacao": "A variável palavra2 é local da função tirimirruaro. No print da linha 7 (dentro da função), mostra 'parangaricutirimirruaro' (concatenação). No print da linha 10 (no escopo global), como palavra2 não existe no escopo global, dá NameError."
+  },
+  {
+    "numero": 27,
+    "enunciado": "Na AULA 4 você aprendeu o laço while e o laço for. Observe o laço for: for i in range(100, 1000, 10): print(i). Assinale a alternativa que CORRETAMENTE gera a mesma saída, mas agora implementando com laço while.",
+    "alternativas": {
+      "A": "i = 100 while (i <= 1000): print(i) i +=10",
+      "B": "i = 100 while (i <= 999): print(i) i += 10",
+      "C": "i = 99 while (i <= 1000): print(i) i += 10",
+      "D": "i = 99 while (i <= 999): print(i) i += 10",
+      "E": "i = 99 while (i <= 999): print(i)"
+    },
+    "gabarito": "B",
+    "explicacao": "range(100, 1000, 10) vai de 100 a 990 (até 999+10, mas sem incluir 1000). O while deve ser i = 100 enquanto i <= 999, imprimindo e incrementando de 10 em 10."
+  },
+  {
+    "numero": 28,
+    "enunciado": "Na AULA 4 você aprendeu estruturas de repetição aninhadas. Observe: for i in range(10, 20): for j in range(10, 20, 2): print('{} + {} = {}' .format(i, j, i+j)). Acerca deste código, assinale a alternativa que contém uma afirmação CORRETA sobre este código.",
+    "alternativas": {
+      "A": "O laço de repetição for interno será executado 10 vezes ao longo da execução de todo o programa. O laço interno é executado 10 x 50 = 50 vezes",
+      "B": "O print do resultado para i = 3 e j = 5 será o valor 2. i + j = 8",
+      "C": "Se alterássemos o laço for externo para um do tipo while, a linha de código corresponde ao laço poderia ser: while(i < 20). Sendo necessário também a inclusão de mais duas linhas para inicialização e incremento da variável de controle.",
+      "D": "O laço de repetição externo trabalha com um passo de 20. Passo é unitário, pois foi omitido.",
+      "E": "O laço de repetição interno trabalha com um passo unitário. Passo é 2."
+    },
+    "gabarito": "C",
+    "explicacao": "A alternativa C está correta: é possível substituir o for externo por while com a condição while(i < 20), acrescendo linhas de inicialização e incremento. A afirmação sobre 10 x 50 = 50 estar incorreta pois seriam 10 x 5 = 50 iterações internas por cada iterador externo."
+  },
+  {
+    "numero": 29,
+    "enunciado": "Na AULA 4 aprendemos sobre variáveis do tipo contadores e acumuladores dentro de laços de repetição. Observe: cont = 5 soma = 0 while (cont <= 25): soma = soma + cont cont = cont + 5 print(soma). Acerca deste algoritmo apresentado e seu funcionamento, assinale a alternativa CORRETA.",
+    "alternativas": {
+      "A": "No código, a linha 5 poderia ser substituída pela instrução cont += 1, sem prejuízo no seu funcionamento.",
+      "B": "A variável de controle do laço de repetição é a variável soma. Variável de controle é a variável cont",
+      "C": "O algoritmo apresentado tem como objetivo calcular e apresentar na tela o somatório de todos os valores múltiplos de 5, de 5 até 25.",
+      "D": "O algoritmo apresentado tem como objetivo calcular e apresentar na tela o somatório de todos os valores de 5 até 25, com passo unitário. O passo é de 5.",
+      "E": "A variável cont é uma variável acumuladora, enquanto que a variável soma é uma contadora. Está colocado ao contrário cada conceito."
+    },
+    "gabarito": "C",
+    "explicacao": "O algoritmo soma os valores 5, 10, 15, 20, 25 e apresenta 45. Tem como objetivo o somatório de múltiplos de 5 de 5 até 25."
+  },
+  {
+    "numero": 30,
+    "enunciado": "Na AULA 5 aprendemos sobre o escopo de variáveis e a existência do escopo local e do global. Acerca deste assunto, observe as afirmativas: I - O escopo é a propriedade que determina onde uma variável pode ser utilizada dentro de um programa. II - Variáveis do escopo local só existem dentro do escopo local, que é a função onde ela foi criada. III - Uma variável do escopo local pode ser acessada por outra função ou pelo programa principal. IV - Variáveis globais são criadas no programa principal e elas existem ao longo de todo o programa.",
+    "alternativas": {
+      "A": "I e II, apenas.",
+      "B": "I, II e III, apenas.",
+      "C": "I, II e IV, apenas.",
+      "D": "II, III e IV, apenas.",
+      "E": "I, II, III e IV."
+    },
+    "gabarito": "C",
+    "explicacao": "I está correta (definição de escopo). II está correta (escopo local é da função). III está incorreta: variável local não pode ser acessada diretamente por outra função ou programa principal. IV está correta (variáveis globais ao longo de todo o programa). Por isso I, II e IV está correta."
+  }
+]

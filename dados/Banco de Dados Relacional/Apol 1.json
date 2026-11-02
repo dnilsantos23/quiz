@@ -1,0 +1,227 @@
+[
+  {
+    "numero": 1,
+    "enunciado": "Na modelagem dimensional existem diversos tipos de modelos, cada qual apresentando suas próprias vantagens e desvantagens. Assim, a escolha do modelo mais adequado dependerá das necessidades específicas de cada projeto. Entre os modelos listados, assinale o que apresenta a desvantagem de não possuir suas dimensões normalizadas, podendo conter dados redundantes, nulos, entre outros.",
+    "alternativas": {
+      "A": "Constelação de Fatos Hierárquicos (Hierarchical Fact Constellation).",
+      "B": "Estrela (Star Schema).",
+      "C": "Floco de Neve (Snow Flake).",
+      "D": "Galáxia (Galaxy Schema).",
+      "E": "Constelação (Fact Constellation)."
+    },
+    "gabarito": "B",
+    "explicacao": "O modelo Estrela (Star Schema) é construído definindo-se todas as dimensões necessárias, relacionado-as diretamente a tabela fato (tabela central). Logo, as dimensões devem conter todas as descrições que são necessárias para definir os fatos que serão analisados. Sua principal desvantagem é que as dimensões não são normalizadas, ou seja, podem conter dados redundantes, nulos, entre outros. Referência: Aula 2 - Modelagem de Banco de Dados; Tema 4 - Schemas; Modelo Estrela - Star Schema.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 2,
+    "enunciado": "A conversão do modelo lógico para o físico é uma etapa crítica no desenvolvimento de Banco de Dados, pois é a partir da estrutura física que os dados serão armazenados e acessados. Logo, é importante garantir uma correta implementação da estrutura física, a fim de assegurar o pleno funcionamento do Banco de Dados e a eficiência na recuperação dos dados. Avalie as alternativas listadas e assinale a que contém quais são as principais etapas realizadas durante a conversão do modelo lógico para o físico em Banco de Dados.",
+    "alternativas": {
+      "A": "Determinar a estrutura do armazenamento físico, criar índices e restrições de integridade.",
+      "B": "Determinar as regras de negócio, identificar entidades e relacionamentos.",
+      "C": "Determinar a estrutura de armazenamento lógico, criar tabelas e especificar relacionamentos.",
+      "D": "Determinar a arquitetura de hardware, instalar o Sistema Gerenciador de Banco de Dados (SGBD) e criar tabelas.",
+      "E": "Criar Diagramas Entidade-Relacionamento (DERs) e mapear entidades em tabelas."
+    },
+    "gabarito": "A",
+    "explicacao": "Determinar a estrutura do armazenamento físico, criar índices e restrições de integridade são etapas importantes durante a conversão do modelo lógico para o modelo físico em Banco de Dados, garantindo, assim, que a implementação física do Banco de Dados seja eficiente, consistente e segura. Referência: Aula 2 - Modelagem de Banco de Dados; Tema 3 - Conversão para o modelo físico; Conversão para o modelo físico.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 3,
+    "enunciado": "Um Banco de Dados pode ser desenvolvido com base em alguns modelos, os quais têm a função de demonstrar a relação existente entre os dados. Dentre os modelos de Banco de Dados existentes, assinale a opção referente ao modelo que é utilizado de forma mais flexível no acesso e na manipulação de grandes volumes de dados e em situações onde a informação é apresentada de forma não estruturada ou semiestruturada.",
+    "alternativas": {
+      "A": "Hierárquico.",
+      "B": "Rede.",
+      "C": "Orientado a objetos.",
+      "D": "NoSQL.",
+      "E": "Relacional."
+    },
+    "gabarito": "D",
+    "explicacao": "NoSQL é um modelo de Banco de Dados que surgiu para trabalhar com dados não estruturados ou semiestruturados. Alguns exemplos de aplicação desse tipo de modelo são: redes sociais, streaming, games, Internet of Things (IoT), Big Data, entre outros. Referência: Aula 1 - Fundamentos de Banco de Dados; Tema 1 - Conceitos, definições e modelos; Modelos de Banco de Dados.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 4,
+    "enunciado": "O Structured Query Language (SQL) é uma linguagem de consulta usada para gerenciar dados em Bancos de Dados relacionais. Tal linguagem permite criar, ler, atualizar e excluir registros em tabelas de Banco de Dados. Para realizar suas diversas tarefas, o Structured Query Language (SQL) apresenta uma séria de comandos que são agrupados em várias categorias, denominadas linguagens. Entre as alternativas listadas, indique a linguagem usada para definição de tabelas, domínios de atributos e restrições de dados.",
+    "alternativas": {
+      "A": "Linguagem de Definição de Esquema.",
+      "B": "Linguagem de Definição de Armazenamento.",
+      "C": "Linguagem de Definição de Entidade.",
+      "D": "Linguagem de Definição de Dados.",
+      "E": "Linguagem de Definição de Visões."
+    },
+    "gabarito": "D",
+    "explicacao": "A Linguagem de Definição de Dados (DDL - Data Definition Language) trata da definição dos dados, composta por comandos utilizados nas definições dos objetos do Banco de Dados, ou seja, os comandos para criação, alteração ou exclusão desses objetos. Tais comandos são: create, drop, alter e truncate. Referência: Aula 2 - Modelagem de Banco de Dados; Tema 5 - Structured Query Language (SQL); Divisão do Structured Query Language (SQL).",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 5,
+    "enunciado": "A modelagem de Banco de Dados, por meio dos diversos modelos disponíveis, tem por objetivo o desenvolvimento de representações visuais dos dados que promovam não só a fácil compreensão, como também o aumento da eficácia na organização e na integridade dos dados modelados. Dessa forma, entre as alternativas listadas, assinale a opção a qual o modelo Constelação (Fact Constellation) pertence.",
+    "alternativas": {
+      "A": "Um modelo de dados baseado em índices.",
+      "B": "Um modelo que usa uma única tabela para representar os fatos.",
+      "C": "Um modelo de dados dimensional.",
+      "D": "Um modelo que organiza as informações em uma tabela central.",
+      "E": "Um modelo de dados baseado em entidades."
+    },
+    "gabarito": "C",
+    "explicacao": "O modelo Constelação faz parte dos tipos de modelos dimensionais e é uma variação dos modelos Estrela (Star Schema) e Floco de Neve (Snowflake), possuindo mais de uma tabela fato e, por causa disso, recebe o nome Constelação. É um modelo que contêm várias \"estrelas\", formando uma constelação. Referência: Aula 2 - Modelagem de Banco de Dados; Tema 4 - Schemas; Modelo constelação - Fact Constellation.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 6,
+    "enunciado": "Desde o surgimento dos Bancos de Dados, foram propostos diversos modelos de armazenamento de dados. Tais modelos foram evoluindo influenciados pelo avanço tecnológico, como por exemplo, a capacidade de processamento, o custo de armazenamento, o volume de d ados, entre outros aspectos. Assinale a alternativa que representa os modelos de Banco de Dados utilizados atualmente.",
+    "alternativas": {
+      "A": "Hierárquico e Rede.",
+      "B": "Rede e Orientado a Objeto.",
+      "C": "Relacional e NoSQL.",
+      "D": "Relacional e Rede.",
+      "E": "NoSQL e Hierárquico."
+    },
+    "gabarito": "C",
+    "explicacao": "Com o passar do tempo os modelos Hierárquico, Rede e Orientado a Objeto caíram em desuso. Atualmente são utilizados os modelos Relacional e NoSQL, sendo o modelo Relacional o mais indicado para armazenamento de informações transacionais estruturadas, enquanto o modelo NoSQL apresenta um melhor desempenho em aplicações que manipulam informações não estruturadas. Referência: Aula 1 - Fundamentos de Banco de Dados; Tema 1 - Conceitos, definições e modelos; Modelos de Banco de Dados.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 7,
+    "enunciado": "O princípio básico do modelo relacional é o princípio da informação, isto é, toda informação é representada por valores (atributos), armazenados em relações (tabelas) separadas e associadas entre si através de chaves primárias e estrangeiras. Nesse sentido, em relação à modelagem de um Banco de Dados relacional, o que representa uma chave estrangeira?",
+    "alternativas": {
+      "A": "Referência a uma coluna interna.",
+      "B": "Referência a uma restrição de integridade.",
+      "C": "Referência a uma regra de negócio.",
+      "D": "Referência a uma tabela externa.",
+      "E": "Referência a uma restrição de valor padrão."
+    },
+    "gabarito": "D",
+    "explicacao": "A chave estrangeira é usada para criar uma ligação, ou seja, uma associação entre duas relações em um Banco de Dados relacional, permitindo que os dados em uma relação (tabela) sejam relacionados aos dados em outra relação. Referência: Aula 2 - Modelagem de Banco de Dados; Tema 1 - Modelo lógico ou relacional; Chaves.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 8,
+    "enunciado": "O comando alter table permite ao usuário alterar uma tabela, ou seja, realizar modificações nos elementos existentes dentro de uma tabela específica. Considere o seguinte script SQL: alter table Funcionario change column telefone celular varchar(12); Após a execução do script SQL apresentado e, baseando-se em uma operação bem-sucedida, analise entre as alternativas listadas e indique qual apresenta o resultado correto.",
+    "alternativas": {
+      "A": "A coluna \"celular\" será renomeada para \"telefone\", assumindo o tipo de dado varchar(12).",
+      "B": "Uma nova coluna chamada \"celular\" será adicionada ao final da tabela \"Funcionário\" e receberá o tipo de dado varchar(12).",
+      "C": "A coluna \"telefone\" será renomeada para \"celular\" e receberá o tipo de dado varchar(12).",
+      "D": "Uma nova coluna chamada \"celular\" será adicionada no início da tabela \"Funcionário\" e receberá o tipo de dado varchar(12).",
+      "E": "A coluna \"telefone\" será removida e uma nova coluna chamada \"celular\" será adicionada no seu lugar, com o tipo de dado varchar(12)."
+    },
+    "gabarito": "C",
+    "explicacao": "O comando é usado para mudar o nome de uma coluna existente na tabela \"Funcionário\", nesse caso, a coluna \"telefone\" será renomeada para \"celular\" e o tipo de dado será alterado para varchar(12). Com isso, a tabela \"Funcionário\" terá uma coluna chamada \"celular\" e não terá mais a coluna \"telefone\". Referência: Aula 3 - Construção de Estruturas de Dados; Tema 5 - Alterações, auto increment, entre outros; Alter table.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 9,
+    "enunciado": "Em um Sistema Gerenciador de Banco de Dados (SGBD), onde o armazenamento da informação é determinado em um único local com acesso descentralizado e compartilhado por vários sistemas, é essencial que exista uma política de controle e eliminação de inconsistências, mantendo a informação confiável. Diante disso, assinale a alternativa que exemplifica a ocorrência de uma inconsistência de dados.",
+    "alternativas": {
+      "A": "Ocorre quando existe independência de dados.",
+      "B": "Ocorre quando um mesmo campo possui valores diferentes em sistemas diferentes.",
+      "C": "Ocorre quando é definida a padronização dos dados.",
+      "D": "Ocorre quando existem campos diferentes que armazenam valores diferentes.",
+      "E": "Ocorre quando existe o compartilhamento de dados."
+    },
+    "gabarito": "B",
+    "explicacao": "A inconsistência de dados, em um Sistema Gerenciador de Banco de Dados (SGBD), ocorre quando há conflito entre as informações armazenadas e as regras de integridade estabelecidas. Isso pode acontecer devido a diversos fatores, como falhas no sistema, erros humanos na inserção ou atualização de dados ou, ainda, a não conformidade com as restrições de integridade definidas, como chaves estrangeiras. Referência: Aula 1 - Fundamentos de Banco de Dados; Tema 2 - Sistema Gerenciador de Banco de Dados (SGBD) e aplicações de Banco de Dados; Características de um Sistema Gerenciador de Banco de Dados (SGBD).",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 10,
+    "enunciado": "Os tipos de dados temporais são muito importantes em um Banco de Dados. Tais tipos são responsáveis por manipularem os dados referentes a data e a hora. Contudo, existe um tipo de dado para cada finalidade. Assinale a alternativa que contém o tipo de dado temporal usado para armazenar datas e horas com precisão, até a fração de segundo.",
+    "alternativas": {
+      "A": "Date.",
+      "B": "Time.",
+      "C": "Datetime.",
+      "D": "Timestamp.",
+      "E": "Timeint."
+    },
+    "gabarito": "D",
+    "explicacao": "O tipo de dado temporal que armazena a data e a hora com fração de segundos é o timestamp, que é baseando no fuso horário e é um número sequencial que inicia em 01/01/1970 00:00 (fuso horário de Londres). Referência: Aula 3 - Construção de Estruturas de Dados; Tema 1 - SQL data types; Tipos de valores temporais.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 11,
+    "enunciado": "Todo e qualquer modelo de um projeto de Banco de Dados apresenta graficamente o relacionamento existentes entre as entidades. Essa associação entre as entidades ocorre devido as regras de negócio definidas no início do projeto, sendo que nessas relações também pode ocorrer casos especiais, como por exemplo, o relacionamento recursivo, também conhecido como autorrelacionamento. Assinale a alternativa que caracteriza a ocorrência de um autorrelacionamento em um Banco de Dados.",
+    "alternativas": {
+      "A": "Um relacionamento entre duas entidades diferentes em tabelas distintas.",
+      "B": "Um relacionamento entre três ou mais tabelas que representam a mesma entidade.",
+      "C": "Um relacionamento entre duas tabelas que representam entidades distintas e diretamente relacionadas.",
+      "D": "Um relacionamento que provoca a criação de uma nova tabela.",
+      "E": "Um relacionamento entre duas colunas na mesma tabela, que representam uma mesma entidade em relações diferentes."
+    },
+    "gabarito": "E",
+    "explicacao": "Em Banco de Dados relacional, o autorrelacionamento é uma técnica que permite representar relações hierárquicas entre instâncias de uma mesma entidade. Isso é feito criando duas colunas na mesma tabela, cada uma representando a mesma entidade em relações diferentes. Por exemplo, em uma tabela de funcionários é possível representar relações de gerente e subordinado usando o autorrelacionamento. A coluna \"matrícula\" representaria o funcionário em si e a coluna \"gerente\" representaria o gerente desse funcionário. Nesse caso, o autorrelacionamento permite representar a relação hierárquica entre os funcionários de maneira clara e eficiente. Referência: Aula 1 - Fundamentos de Banco de Dados; Tema 4 - Modelo Entidade- Relacionamento (MER); Relacionamento recursivo ou autorrelacionamento.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 12,
+    "enunciado": "O modelo conceitual de Banco de Dados é a representação geral e abstrata da organização dos dados em um Banco de Dados, proporcionando uma compreensão clara e compartilhada da estrutura de dados entre os usuários e os profissionais envolvidos e, assim, permitindo que os requisitos de dados sejam claramente definidos e verificados antes da implementação do Banco de Dados. Baseando-se nesse conceito, assinale qual das seguintes funções apresentadas não faz parte de um modelo de Banco de Dados conceitual.",
+    "alternativas": {
+      "A": "Agir como ferramenta de comunicação entre os usuários finais e os projetistas.",
+      "B": "Permitir que as regras de negócio sejam claramente definidas e verificadas.",
+      "C": "Representar os relacionamentos entre as entidades.",
+      "D": "Representar os tipos de dados armazenados no Banco de Dados.",
+      "E": "Permitir que os usuários compreendam de forma geral o modelo de dados."
+    },
+    "gabarito": "D",
+    "explicacao": "Na fase de desenvolvimento do modelo conceitual não ocorre a definição dos tipos de dados, sendo a execução dessa tarefa destinada ao modelo lógico. Referência: Aula 1 - Fundamentos de Banco de Dados; Tema 3 - Modelagem de dados; Modelo conceitual.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 13,
+    "enunciado": "Em Banco de Dados, a Álgebra Relacional é uma técnica importante utilizada na manipulação de dados, onde todos os dados são representados como relações matemáticas, sendo baseada na teoria dos conjuntos. Nesse contexto, assinale a alternativa que descreve corretamente o principal objetivo da Álgebra Relacional.",
+    "alternativas": {
+      "A": "Armazenar informações de forma eficiente e segura, permitindo acesso rápido e fácil as informações necessárias.",
+      "B": "Realizar cálculos matemáticos complexos, possibilitando o uso de fórmulas e equações para manipular os dados armazenados em tabelas.",
+      "C": "Manipular os dados em tabelas, permitindo a realização de operações, como seleção, projeção, junção, interseção, diferença e agregação de dados.",
+      "D": "Controlar o acesso aos dados armazenados, garantindo a segurança das informações e evitando acessos não autorizados.",
+      "E": "Gerenciar a integridade dos dados armazenados, garantindo que as informações sejam consistentes e precisas, evitando possíveis problemas de redundância ou corrupção de dados."
+    },
+    "gabarito": "C",
+    "explicacao": "A Álgebra Relacional é uma técnica utilizada para manipular dados em tabelas, permitindo a realização de operações, como seleção, projeção, junção, interseção, diferença e agregação de dados, o que torna possível acessar, filtrar, combinar e agrupar informações de forma eficiente. Dessa forma, o principal objetivo da Álgebra Relacional em Banco de Dados é manipular os dados em tabelas. Referência: Aula 2 - Modelagem de Banco de Dados; Tema 1 - Modelo lógico ou relacional; Álgebra Relacional.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 14,
+    "enunciado": "Todo objeto que tem a função de armazenamento de dados, sempre terá um tipo de dado associado ao mesmo, sendo predefinindo um único padrão de dado que o objeto pode receber. Assinale a alternativa que contém os três tipos básicos de dados do MySQL.",
+    "alternativas": {
+      "A": "Texto, lógico e data.",
+      "B": "Número inteiro, número de ponto flutuante e texto.",
+      "C": "Número, texto e temporais (data/hora).",
+      "D": "Texto, lógico e data/hora.",
+      "E": "Número, texto e lógico."
+    },
+    "gabarito": "C",
+    "explicacao": "Número, texto e temporais (data/hora) são os três tipos básicos de dados do MySQL que incluem informações numéricas, textuais e de data e hora. Além disso, o MySQL oferece uma série de tipos de dados específicos, incluindo tipos de dados de ponto flutuante, inteiros, lógicos, binários, entre outros. Referência: Aula 3 - Construção de Estruturas de Dados; Tema 1 - SQL data types; SQL data types.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 15,
+    "enunciado": "Para criar uma tabela em um Banco de Dados usa-se o comando create table. Esse comando tem uma sintaxe específica que deve ser respeitada. Nesse sentido, assinale a alternativa que descreve como se deve informar o tipo de dado de uma coluna que pertence a uma tabela.",
+    "alternativas": {
+      "A": "Utilizar a função cast para converter o tipo de dado da coluna.",
+      "B": "Utilizar a palavra-chave \"as\" para definir o tipo de dado da coluna.",
+      "C": "Especificar o tipo de dado da coluna ao lado do nome da coluna.",
+      "D": "Especificar o tipo de dado no final do comando create table.",
+      "E": "O tipo de dado não é especificado no momento de criação da tabela, sendo essa tarefa realizada posteriormente."
+    },
+    "gabarito": "C",
+    "explicacao": "Ao criar uma tabela deve-se especificar o tipo de dado, juntamente com o nome da coluna. Referência: Aula 3 - Construção de Estruturas de Dados; Tema 2 - SQL na prática; Principais comandos.",
+    "imagens": [],
+    "imagens_explicacao": []
+  }
+]

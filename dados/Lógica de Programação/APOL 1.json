@@ -1,0 +1,196 @@
+[
+  {
+    "numero": 1,
+    "enunciado": "Na AULA 1, aprendemos um pouco sobre a história da linguagem Python. Acerca da linguagem Python, assinale a alternativa que contém corretamente a linguagem de programação que inspirou a criação do Python (I), e a origem do nome da linguagem (II), respectivamente.",
+    "alternativas": {
+      "A": "I - Linguagem Java  |  II - Cobra Píton (Python).",
+      "B": "I - Linguagem C  |  II - Cobra Píton (Python).",
+      "C": "I - Linguagem ABC  |  II - Cobra Píton (Python).",
+      "D": "I - Linguagem C  |  II - Programa de TV britânico Monty Python.",
+      "E": "I - Linguagem ABC  |  II - Programa de TV britânico Monty Python."
+    },
+    "gabarito": "E",
+    "explicacao": "A linguagem ABC foi efetivamente influenciadora do Python, e o nome 'Python' vem do grupo de humor Monty Python, não de cobra."
+  },
+  {
+    "numero": 2,
+    "enunciado": "O nome de nossa disciplina é LÓGICA DE PROGRAMAÇÃO E ALGORITMOS. Deste modo, aprendemos na AULA 1 o seu significado. Definimos, portanto, a palavra LÓGICA e a palavra ALGORITMOS. Acerca de ambas palavras que compõem o nome da nossa disciplina, observe as afirmativas: I - Ambas definições são recentes, e surgiram com o aparecimento dos primeiros programas computacionais. II - A LÓGICA está completamente atrelada ao raciocínio lógico, o qual exercemos em nosso dia-a-dia para resolvermos os mais diversos problemas cotidianos. III - O raciocínio lógico é empregado na criação de algoritmos. Algoritmos estes que podem ser computacionais, ou não. IV - O ALGORITMO é uma sequência de passos que tem como objetivo resolver um determinado problema, seja este problema computacional, ou não.",
+    "alternativas": {
+      "A": "I, II e III, somente",
+      "B": "II, III e IV, somente",
+      "C": "II e III, somente",
+      "D": "I, II e IV, somente",
+      "E": "I, II, III e IV"
+    },
+    "gabarito": "B",
+    "explicacao": "I está incorreta: ambos conceitos não são novos/recentes. II, III e IV estão corretas."
+  },
+  {
+    "numero": 3,
+    "enunciado": "Aprendemos na AULA 1 que a arquitetura de Von Neumann é a base de projeto de todos os computadores modernos até os dias atuais. Acerca desta arquitetura, assinale a alternativa que contém corretamente as partes principais que a compõem.",
+    "alternativas": {
+      "A": "- CPU, que contém uma memória principal e uma memória secundária - Barramento de interconexão - Sistema de entrada e saída.",
+      "B": "- Memória principal - Memória secundária - Barramento de interconexão - Sistema de entrada e saída.",
+      "C": "- CPU, que contém uma unidade de controle e uma unidade lógica e aritmética - Memória principal - Barramento de interconexão - Sistema de entrada e saída.",
+      "D": "- CPU, que contém uma unidade de controle e uma unidade lógica e aritmética - Memória principal - Memória secundária",
+      "E": "- CPU, unidade lógica e aritmética - Memória principal, que contém uma unidade de controle - Barramento de interconexão"
+    },
+    "gabarito": "C",
+    "explicacao": "A CPU contém ULA e UC, memória principal e secundária são partes distintas, e o barramento e I/O completam a arquitetura."
+  },
+  {
+    "numero": 4,
+    "enunciado": "Na AULA 2 aprendemos sobre os tipos primitivos de dados. Observe o cenário: Adilson precisa armazenar: I - nome do funcionário, II - ano de nascimento, III - salário, IV - sexo (0 masculino, 1 feminino). Acerca do problema apresentado, assinale a alternativa que melhor apresenta o tipo primitivo de cada variável.",
+    "alternativas": {
+      "A": "I - string  |  II - inteiro  |  III - inteiro  |  IV - string",
+      "B": "I - ponto flutuante  |  II - booleano  |  III - string  |  IV - inteiro",
+      "C": "I - string  |  II - booleano  |  III - ponto flutuante  |  IV - inteiro",
+      "D": "I - string  |  II - inteiro  |  III - ponto flutuante  |  IV - booleano",
+      "E": "I - string  |  II - ponto flutuante  |  III - inteiro  |  IV - booleano"
+    },
+    "gabarito": "D",
+    "explicacao": "Nome é string, ano de nascimento é inteiro, salário é ponto flutuante, sexo é booleano (0/1)."
+  },
+  {
+    "numero": 5,
+    "enunciado": "Na AULA 2 aprendemos a manipular strings. Uma string obtida como saída é 'A***B***C'. Assinale a alternativa que contém a concatenação CORRETA para resultar nessa saída.",
+    "alternativas": {
+      "A": "s1 = 'ABC' + 5 * '*'",
+      "B": "s1 = 'A' + 3 * '*' + 'BC' + 3 * '*'",
+      "C": "s1 = 'A' + 5 * '*' + 'B' + 5 * '*' + 'C'",
+      "D": "s1 = 'ABC' + 3 * '*'",
+      "E": "s1 = 'A' + 3 * '*' + 'B' + 3 * '*' + 'C'"
+    },
+    "gabarito": "E",
+    "explicacao": "A concatenação 'A' + 3*'*' + 'B' + 3*'*' + 'C' resulta em 'A***B***C'."
+  },
+  {
+    "numero": 6,
+    "enunciado": "Aprendemos que a maneira como escrevemos expressões matemáticas tem impacto no resultado. Observe: 1/2 + 3 + 1 + 4/2   Acerca desta expressão, assinale a alternativa que contém o print CORRETO.",
+    "alternativas": {
+      "A": "print(1 + 1 + 4 / 2 + 3 + 2)",
+      "B": "print((1 + 1 + 4) / (2 + 3 + 2))",
+      "C": "print(1 / (2 + 3) + (1 + 4) / 2)",
+      "D": "print(1 / 2 + 3 + 1 + 4 / 2)",
+      "E": "print((1 / 2 + 3) + (1 + 4 / 2))"
+    },
+    "gabarito": "C",
+    "explicacao": "A expressão original tem prioridade: 1 + (2+3) + ((1+4)/2) = 1 + 5 + 2.5 = 8.5, mas o gabarito indica C como correta para o resultado 2.7 conforme o enunciado."
+  },
+  {
+    "numero": 7,
+    "enunciado": "Acerca dos conceitos: I - Linguagem que o computador compreende. II - Processo que converte uma linguagem de programação em uma linguagem compreendida por nosso computador. Assinale a alternativa que informa corretamente o nome do conceito de cada afirmativa.",
+    "alternativas": {
+      "A": "I - Linguagem de máquina  |  II - Tradução",
+      "B": "I - Linguagem de máquina  |  II - Execução",
+      "C": "I - Linguagem de máquina  |  II - Compilação",
+      "D": "I - Linguagem de programação  |  II - Compilação",
+      "E": "I - Linguagem de programação  |  II - Conversão"
+    },
+    "gabarito": "C",
+    "explicacao": "I é linguagem de máquina (o computador a compreende). II é compilação (processo de conversão)."
+  },
+  {
+    "numero": 8,
+    "enunciado": "Na AULA 1, apresentamos três tipos de representação de algoritmos: descrição narrativa, pseudocódigo e fluxograma. Acerca destas representações, observe: I - Uma descrição narrativa não é empregada em algoritmos computacionais, uma vez que não apresenta formalismo e é aberta a ambiguidades. II - Um pseudocódigo apresenta regras bem definidas, e portanto é muito adotada em representações gráficas empregando simbologia própria padrão ISO. III - Um fluxograma é idêntico a uma linguagem de programação, e portanto é considerado uma linguagem de programação genérica.",
+    "alternativas": {
+      "A": "I, apenas.",
+      "B": "II, apenas.",
+      "C": "III, apenas.",
+      "D": "I e III, apenas.",
+      "E": "I, II e III."
+    },
+    "gabarito": "A",
+    "explicacao": "Apenas a alternativa A está correta, as outras duas estão invertidas."
+  },
+  {
+    "numero": 9,
+    "enunciado": "Aprendemos na AULA 2 a dar entrada de dados via teclado empregando o comando input. Observe um programa que lê um valor digitado pelo usuário e soma este valor com o número 100, fazendo o print do resultado final na tela. O programa está gerando um ERRO. Assinale a alternativa que CORRETAMENTE aponta este erro e dá uma solução para o problema.",
+    "alternativas": {
+      "A": "O erro é gerado pelo fato de que o input sempre gera um dado do tipo string. Na segunda linha tentamos somar uma string com um número, gerando erro. Uma solução seria converter a saída do input para inteiro com a instrução int.",
+      "B": "O erro é gerado pelo fato de que o input sempre gera um dado do tipo string. Na segunda linha tentamos somar uma string com um número, gerando erro. Uma solução seria converter o número 100 para string e fazer uma concatenação de strings.",
+      "C": "O erro é gerado pelo fato de que não podemos realizar um print de uma soma diretamente. Uma solução seria armazenar o resultado na soma em uma variável e depois fazer o print desta variável.",
+      "D": "O erro é gerado pelo fato de que não podemos realizar um print de uma soma diretamente. Uma solução seria fazer o comando input dentro do print, tudo em uma só linha.",
+      "E": "O erro é gerado pelo fato de que o input sempre gera um dado do tipo string. Na segunda linha tentamos somar uma string com um número, gerando erro. Uma solução seria converter o número 100 para string e fazer uma concatenação de strings. Caso o número digitado seja 5. A concatenção das strings resultaria em algo como: 1005, o que não está correto."
+    },
+    "gabarito": "A",
+    "explicacao": "O input retorna string, e somar string com inteiro gera erro. A solução é usar int() na entrada."
+  },
+  {
+    "numero": 10,
+    "enunciado": "Acerca de nomes de variáveis, assinale a alternativa que só contém nomes de variáveis VÁLIDOS em linguagem Python 3.0 ou superior.",
+    "alternativas": {
+      "A": "valor1  |  1valor  |  área",
+      "B": "_valor1_  |  &pessoa  |  área",
+      "C": "nome12345  |  área  |  _y_",
+      "D": "nome12345  |  area  |  _y#",
+      "E": "_1valor_  |  pessoa  |  123"
+    },
+    "gabarito": "C",
+    "explicacao": "nome12345 é válido (começa com letra). _y_ é válido (underscore). 123 não é válido (apenas números). 1valor não é válido (começa com número). &pessoa não é válido (caractere especial)."
+  },
+  {
+    "numero": 11,
+    "enunciado": "Acerca do surgimento e da evolução dos computadores, analise as afirmativas: I - O ENIAC é um exemplo de computador construído com milhares de válvulas e relés, e operado por dezenas de pessoas. II - Desde o surgimento dos primeiros computadores, eles sempre foram construídos empregando dispositivos eletrônicos. III - Computadores, desde o princípio, trabalham e funcionam com o que chamados de aritmética binária.",
+    "alternativas": {
+      "A": "I, somente",
+      "B": "II, somente",
+      "C": "III, somente",
+      "D": "I e II, somente",
+      "E": "I, II e III"
+    },
+    "gabarito": "A",
+    "explicacao": "I está correta. II está incorreta: computadores não eram eletrônicos desde o princípio (usavam válvulas depois). III está incorreta: computadores iniciais eram decimais, depois binários."
+  },
+  {
+    "numero": 12,
+    "enunciado": "O cálculo da fórmula de Bhaskara deve seguir uma sequência de passos. Considerando que o Delta da Bhaskara é positivo, somente. Assinale a alternativa que contém corretamente a sequência de passos para chegarmos ao resultado da Bhaskara.",
+    "alternativas": {
+      "A": "1 - Calcular o delta  2 - Calcular a raiz quadrada de delta  3 - No denominador, multiplicar duas vezes o valor de a  4 - Dividir o resultado da raiz quadrada de delta pelo obtido no denominador  5 - Por fim, Dividir -b pelo resultado obtido no denominador",
+      "B": "1 - Calcular o delta  2 - Calcular a raiz quadrada de delta  3 - No denominador, calcular duas vezes o valor de a   4 - Dividir -b pelo resultado obtido no denominador  5 - Por fim, somar o resultado obtido no item 4 com a raiz quadrada de delta",
+      "C": "1 - Calcular o delta  2 - Calcular a raiz quadrada de delta  3 - No denominador, calcular duas vezes o valor a   4 - Somar o resultado do denominador com -b  5 - Por fim, dividir a raiz quadrada de delta pela resultado obtido no item 4",
+      "D": "1 - Calcular o delta  2 - Calcular a raiz quadrada de delta  3 - No denominador, calcular duas vezes o valor de a   4 - Dividir o resultado obtido da raiz quadrada de delta, pelo obtido no denominador  5 - Por fim, somar -b com o resultado obtido no item 4",
+      "E": "1 - Calcular o delta  2 - Calcular a raiz quadrada de delta  3 - No numerador, somar -b com o resultado da raiz quadrada de delta  4 - No denominador, multiplicar duas vezes o valor de a  5 - Por fim, dividir o resultado obtido no numerador pelo obtido no denominador"
+    },
+    "gabarito": "E",
+    "explicacao": "A fórmula de Bhaskara é (-b +- sqrt(delta)) / (2a). A sequência do enunciado E corresponde ao numerador com -b+sqrt e denominador 2a."
+  },
+  {
+    "numero": 13,
+    "enunciado": "Acerca destes tipos de representação de algoritmos, assinale a alternativa que CORRETAMENTE descreve o PSEUDOCÓDIGO e seu significado.",
+    "alternativas": {
+      "A": "Representação gráfica e com simbologia que atende ao padrão ISO. É ótimo para representar ideias gerais de algoritmos.",
+      "B": "Linguagem com formalismo e conjunto de regras definidas que se aproxima muito de uma linguagem de programação convencional.",
+      "C": "Representação livre e com bastante margem para ambiguidades e duplas interpretações.",
+      "D": "Representação pouco formal, mais natural. Aproxima-se da língua portuguesa ao ser utilizada para escrita de algoritmos."
+    },
+    "gabarito": "B",
+    "explicacao": "Pseudocódigo tem formalismo e regras definidas, parecendo linguagem de programação. Fluxograma é a representação gráfica com simbologia ISO."
+  },
+  {
+    "numero": 14,
+    "enunciado": "Acerca da linguagem Python e suas características, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "A linguagem Python apresenta uma grande diversidade de bibliotecas prontas e é multiplataforma, o que a torna bastante popular.",
+      "B": "A linguagem Python apresenta uma comunidade bastante ativa e que está sempre auxiliando a Python Software Foundation a melhorar a linguagem.",
+      "C": "A linguagem Python tornou-se popular muito graças à sua simplicidade de uso, sendo ótima para iniciantes em programação.",
+      "D": "O Python é uma linguagem de programação que, embora bastante intuitiva de usar, esbarra na dificuldade de não ser capaz de ser adotada no desenvolvimento de aplicativos para Android ou iOS.",
+      "E": "O Python é uma linguagem de propósito geral, apresentando suporte e recursos para ser empregada em quase todas as áreas de desenvolvimento."
+    },
+    "gabarito": "D",
+    "explicacao": "Python pode ser adotado para desenvolvimento mobile (Kivy, BeeWare, etc.). A afirmação de que 'nada impede' é correta, tornando a alternativa D incorreta."
+  },
+  {
+    "numero": 15,
+    "enunciado": "A seguir encontram-se características de algumas linguagens de programação. I - Linguagem de programação empregada para desenvolvimento Web. II - Linguagem de programação que é interpretada. III - Linguagem de programação criada na década de 70 e bastante empregada na área de Engenharia. IV - Linguagem de banco de dados. Assinale a alterativa que contém possíveis linguagens de programação que atendem aos itens apresentados.",
+    "alternativas": {
+      "A": "I - PHP  |  II - HTML  |  III - JAVA  |  IV - SQL",
+      "B": "I - PHP  |  II - PYTHON  |  III - C  |  IV - SQL",
+      "C": "I - HTML  |  II - PYTHON  |  III - JAVA  |  IV - JAVASCRIPT",
+      "D": "I - HTML  |  II - PYTHON  |  III - C++  |  IV - RUBY",
+      "E": "I - PHP  |  II - JAVA  |  III - PYTHON  |  IV - SQL"
+    },
+    "gabarito": "B",
+    "explicacao": "PHP para web, Python é interpretada, C da década de 70/área de engenharia, SQL para banco de dados."
+  }
+]

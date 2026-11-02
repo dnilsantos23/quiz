@@ -1,0 +1,268 @@
+[
+  {
+    "numero": 1,
+    "enunciado": ". Transcrição: Dadas as matrizes A=[[0,3][-2,4]] e B=[[3,-1][3,2]], calcule a subtração A-B.",
+    "alternativas": {
+      "A": "Transcrição: [[-9,7][12,-8]]",
+      "B": "Transcrição: [[1,2][1,6]]",
+      "C": "Transcrição: [[1,3][-2,4]]",
+      "D": "Transcrição: [[-3,4][-5,2]]"
+    },
+    "gabarito": "D",
+    "explicacao": "Transcrição: A-B = [[0,3][-2,4]] - [[3,-1][3,2]] = [[-3,4][-5,2]]",
+    "imagens": [
+      "Apol 2_imagens/pagina-001-imagem-01.png",
+      "Apol 2_imagens/pagina-002-imagem-01.png",
+      "Apol 2_imagens/pagina-002-imagem-02.png",
+      "Apol 2_imagens/pagina-002-imagem-03.png",
+      "Apol 2_imagens/pagina-002-imagem-04.png"
+    ],
+    "imagens_explicacao": [
+      "Apol 2_imagens/pagina-003-imagem-01.png"
+    ]
+  },
+  {
+    "numero": 2,
+    "enunciado": ". Transcrição: Calcule o determinante da matriz de terceira ordem: A matriz A é uma matriz quadrada de ordem 3 (ou seja, 3 linhas e 3 colunas), composta pelos seguintes elementos: Primeira linha: Elemento da primeira linha e primeira coluna: um (1). Elemento da primeira linha e segunda coluna: dois (2). Elemento da primeira linha e terceira coluna: menos um (-1). Segunda linha: Elemento da segunda linha e primeira coluna: três (3). Elemento da segunda linha e segunda coluna: menos um (-1). Elemento da segunda linha e terceira coluna: um (1). Terceira linha: Elemento da terceira linha e primeira coluna: dois (2). Elemento da terceira linha e segunda coluna: zero (0). Elemento da terceira linha e terceira coluna: dois (2).",
+    "alternativas": {
+      "A": "det(A) = -12",
+      "B": "det(A) = 10",
+      "C": "det(A) = 20",
+      "D": "det(A) = 0"
+    },
+    "gabarito": "A",
+    "explicacao": "Transcrição: A = [ [1, 2, -1], [3, -1, 1], [2, 0, 2] ] Passo 1: Fórmula do determinante para matriz 3x3: det(A) = a11(a22*a33 - a23*a32) - a12(a21*a33 - a23*a31) + a13(a21*a32 - a22*a31) Passo 2: Substituir os valores: det(A) = (1)[(-1)(2) - (1)(0)] - (2)[(3)(2) - (1)(2)] + (-1)[(3)(0) - (-1)(2)] Passo 3: Somar tudo: det(A) = -2+0-4-2+0-12 Determinante da matriz A é -12.",
+    "imagens": [
+      "Apol 2_imagens/pagina-003-imagem-02.png"
+    ],
+    "imagens_explicacao": [
+      "Apol 2_imagens/pagina-004-imagem-01.png"
+    ]
+  },
+  {
+    "numero": 3,
+    "enunciado": "Calcule o valor da tangente de 3 Pi sobre 4.",
+    "alternativas": {
+      "A": "-1",
+      "B": "1",
+      "C": "1/2",
+      "D": "0"
+    },
+    "gabarito": "A",
+    "explicacao": "Resolução: Usando uma calculadora científica, a tangente de 3 pi sobre 4 é -1",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 4,
+    "enunciado": "Transcrição: Calcule o valor, em graus, do arco cujo seno de alfa é igual a menos um sobre dois, que está no quarto quadrante.",
+    "alternativas": {
+      "A": "30º",
+      "B": "240°",
+      "C": "45º",
+      "D": "330°"
+    },
+    "gabarito": "D",
+    "explicacao": "Transcrição: seno de alfa é igual a menos um sobre dois alfa é igual ao arco seno de menos um sobre dois alfa é igual a trezentos e trinta graus",
+    "imagens": [
+      "Apol 2_imagens/pagina-006-imagem-01.png"
+    ],
+    "imagens_explicacao": [
+      "Apol 2_imagens/pagina-007-imagem-01.png"
+    ]
+  },
+  {
+    "numero": 5,
+    "enunciado": ". Transcrição do enunciado: Transforme 72 graus em radianos.",
+    "alternativas": {
+      "A": "Transcrição: x igual a 2 Pi divido por 5",
+      "B": "Transcrição: x igual a 3 Pi divido por 5",
+      "C": "Transcrição: x igual a 3 Pi divido por 4",
+      "D": "Transcrição: x igual a 5 Pi divido por 4"
+    },
+    "gabarito": "A",
+    "explicacao": "Transcrição: 180 graus equivale a Pi radianos, logo 72 graus equivalem a 2 Pi dividido por 5",
+    "imagens": [
+      "Apol 2_imagens/pagina-007-imagem-02.png",
+      "Apol 2_imagens/pagina-007-imagem-03.png"
+    ],
+    "imagens_explicacao": [
+      "Apol 2_imagens/pagina-008-imagem-01.png",
+      "Apol 2_imagens/pagina-008-imagem-02.png",
+      "Apol 2_imagens/pagina-008-imagem-03.png",
+      "Apol 2_imagens/pagina-008-imagem-04.png"
+    ]
+  },
+  {
+    "numero": 6,
+    "enunciado": "Transforme 144° em radianos:",
+    "alternativas": {
+      "A": "4 pi dividido por 5",
+      "B": "3 pi dividido por 5",
+      "C": "4 pi dividido por 3",
+      "D": "pi dividido por 5"
+    },
+    "gabarito": "A",
+    "explicacao": "Resolução: Usando uma regra de três onde 180 graus é equivalente a Pi radianos, temos então a relação: 180 graus está para pi radianos assim como 144 graus está para alfa. Desta forma temos que 180 multiplicando alfa é igual a 144 multiplicando Pi. Portanto, isolando alfa, isto é passando o 180 dividindo o 144, teremos, por através de simplificações o resultado que alfa vale 4 pi dividido por 5.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 7,
+    "enunciado": "Calcule o determinante da matriz quadrada 2x2 com termos: Na primeira linha -1 e 3 Na segunda linha -1 e 0",
+    "alternativas": {
+      "A": "2",
+      "B": "1",
+      "C": "7",
+      "D": "3"
+    },
+    "gabarito": "D",
+    "explicacao": "Multiplicando os elementos da diagonal principal -1 e 0, temos 0. Multiplicando e invertendo o sinal dos elementos da diagonal secundária -1 e 3, temos 3. Portanto, somando esses resultados o e 3, temos a resposta 3.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 8,
+    "enunciado": ". Transcrição: Calcule o determinante da matriz de segunda ordem A: Primeira linha: 1 e 3 Segunda linha: -2 e 4",
+    "alternativas": {
+      "A": "10",
+      "B": "0",
+      "C": "2",
+      "D": "1"
+    },
+    "gabarito": "A",
+    "explicacao": "Transcrição: Determinante é igual: a11 x a22 - a12 x a21 = 1 x 4 - 3(-2) = 4 + 6 = 10",
+    "imagens": [
+      "Apol 2_imagens/pagina-010-imagem-01.png"
+    ],
+    "imagens_explicacao": [
+      "Apol 2_imagens/pagina-011-imagem-01.png"
+    ]
+  },
+  {
+    "numero": 9,
+    "enunciado": "Calcule a soma das matrizes A + B, sendo que Matriz A uma quadrada 2x2: Na primeira linha -1 e 3 Na segunda linha -1 e 0 Matriz B uma quadrada 2x2: Na primeira linha 2 e 3 Na segunda linha -1 e 2",
+    "alternativas": {
+      "A": "Matriz A+B= Na primeira linha 1 e 6 Na segunda linha -2 e 2",
+      "B": "Matriz A+B= Na primeira linha 0 e 6 Na segunda linha 2 e 2",
+      "C": "Matriz A+B= Na primeira linha 1 e 2 Na segunda linha 0 e 2",
+      "D": "Matriz A+B= Na primeira linha 1 e -2 Na segunda linha 0 e 2"
+    },
+    "gabarito": "A",
+    "explicacao": "",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 10,
+    "enunciado": "Uma pessoa observa sob ângulo 13,5° o alto de um poste de iluminação a 50 metros de distância (fig. 1). Calcule a altura do poste de iluminação, desconsiderando a altura do observador. Transcrição da imagem: A imagem mostra um esquema de um observador olhando para um poste de iluminação. Há uma linha horizontal representando o solo, com a indicação de 50 metros de distância entre o observador e o poste. Um poste de iluminação está desenhado na extremidade direita, perpendicular ao solo. Uma linha inclinada, chamada linha de visão do observador, parte do ponto onde o observador está até o topo do poste. Entre a linha do solo e a linha de visão, forma-se um ângulo marcado como 13,5 graus. Esse diagrama representa uma situação típica de cálculo de altura usando trigonometria (função tangente). Quer que eu também descreva o cálculo completo que se aplica a essa imagem?",
+    "alternativas": {
+      "A": "20 metros de altura.",
+      "B": "25 metros de altura.",
+      "C": "12 metros de altura.",
+      "D": "2 metros de altura."
+    },
+    "gabarito": "C",
+    "explicacao": "Transcrição: tangente de treze vírgula cinco graus é igual a poste dividido por cinquenta zero vírgula duzentos e quarenta zero sete oito sete cinco nove um é igual a poste dividido por cinquenta zero vírgula duzentos e quarenta zero sete oito sete cinco nove um vezes cinquenta é igual a poste poste é igual a doze metros de altura (arredondando)",
+    "imagens": [
+      "Apol 2_imagens/pagina-013-imagem-01.png"
+    ],
+    "imagens_explicacao": [
+      "Apol 2_imagens/pagina-014-imagem-01.png"
+    ]
+  },
+  {
+    "numero": 11,
+    "enunciado": ". Transcrição: Transforme dois pi sobre cinco radianos em graus:",
+    "alternativas": {
+      "A": "60º",
+      "B": "90º",
+      "C": "36º",
+      "D": "72º"
+    },
+    "gabarito": "D",
+    "explicacao": "Transcrição: Sendo cento e oitenta graus igual a pi radianos Então x é igual a dois pi sobre cinco radianos. x é igual a dois vezes cento e oitenta dividido por cinco. x é igual a setenta e dois graus.",
+    "imagens": [
+      "Apol 2_imagens/pagina-015-imagem-01.png"
+    ],
+    "imagens_explicacao": [
+      "Apol 2_imagens/pagina-016-imagem-01.png"
+    ]
+  },
+  {
+    "numero": 12,
+    "enunciado": ". Transcrição: Calcule o determinante da matriz de terceira ordem: A matriz A é uma matriz quadrada de ordem 3 (ou seja, 3 linhas e 3 colunas), composta pelos seguintes elementos: Primeira linha: Elemento da primeira linha e primeira coluna: zero (0). Elemento da primeira linha e segunda coluna: dois (2). Elemento da primeira linha e terceira coluna: menos um (-1). Segunda linha: Elemento da segunda linha e primeira coluna: três (3). Elemento da segunda linha e segunda coluna: menos um (-1). Elemento da segunda linha e terceira coluna: um (1). Terceira linha: Elemento da terceira linha e primeira coluna: dois (2). Elemento da terceira linha e segunda coluna: zero (0). Elemento da terceira linha e terceira coluna: dois (2).",
+    "alternativas": {
+      "A": "det(A) = -10",
+      "B": "det(A) = 20",
+      "C": "det(A) = -20",
+      "D": "det(A) = 0"
+    },
+    "gabarito": "A",
+    "explicacao": "Transcrição: A = [ [0, 2, -1], [3, -1, 1], [2, 0, 2] ] Passo 1: Fórmula do determinante para matriz 3x3: det(A) = a11(a22*a33 - a23*a32) - a12(a21*a33 - a23*a31) + a13(a21*a32 - a22*a31) Passo 2: Substituir os valores: det(A) = (0)[(-1)(2) - (1)(0)] - (2)[(3)(2) - (1)(2)] + (-1)[(3)(0) - (-1)(2)] Passo 3: Calcular cada parte: (0)[(-2) - 0] = 0 -(2)[(6) - (2)] = -(2)[4] = -8 (-1)[(0) - (-2)] = (-1)[2] = -2 Passo 4: Somar tudo: det(A) = 0 - 8 - 2 = -10 Determinante da matriz A é -10.",
+    "imagens": [
+      "Apol 2_imagens/pagina-016-imagem-02.png"
+    ],
+    "imagens_explicacao": [
+      "Apol 2_imagens/pagina-017-imagem-01.png"
+    ]
+  },
+  {
+    "numero": 13,
+    "enunciado": ". Transcrição: Dadas as matizes de segunda ordem, A=[[1,3][-2,4]] e B=[[0,-1][3,2]], calcule a soma A+B.",
+    "alternativas": {
+      "A": "Transcrição: [[1,2][1,6]]",
+      "B": "Transcrição: [[0,3][-2,4]]",
+      "C": "Transcrição: [[3,-1][3,2]]",
+      "D": "Transcrição: [[1,-3][0,4]]"
+    },
+    "gabarito": "A",
+    "explicacao": "Transcrição: A+B=[[1,3][-2,4]] + [[0,-1][3,2]] = [[1,2],[1,6]]",
+    "imagens": [
+      "Apol 2_imagens/pagina-019-imagem-01.png",
+      "Apol 2_imagens/pagina-019-imagem-02.png"
+    ],
+    "imagens_explicacao": [
+      "Apol 2_imagens/pagina-019-imagem-03.png",
+      "Apol 2_imagens/pagina-019-imagem-04.png",
+      "Apol 2_imagens/pagina-020-imagem-01.png",
+      "Apol 2_imagens/pagina-020-imagem-02.png"
+    ]
+  },
+  {
+    "numero": 14,
+    "enunciado": ". Transcrição: Calcule o valor numérico de tangente de três pi sobre quatro.",
+    "alternativas": {
+      "A": "-1",
+      "B": "0",
+      "C": "1/2",
+      "D": "-1/2"
+    },
+    "gabarito": "A",
+    "explicacao": "Transcrição: tangente de três pi sobre quatro é igual a menos um.",
+    "imagens": [
+      "Apol 2_imagens/pagina-020-imagem-03.png"
+    ],
+    "imagens_explicacao": [
+      "Apol 2_imagens/pagina-021-imagem-01.png"
+    ]
+  },
+  {
+    "numero": 15,
+    "enunciado": ". Transcrição: Calcule o determinante da matriz de segunda ordem A: Primeira linha: 1 e -3 Segunda linha: -2 e 4",
+    "alternativas": {
+      "A": "0",
+      "B": "-2",
+      "C": "10",
+      "D": "12"
+    },
+    "gabarito": "B",
+    "explicacao": "Transcrição: Determinante é igual: a11 x a22 - a12 x a21 = 1 x 4 - (-3)(-2) = 4 - 6 = -2",
+    "imagens": [
+      "Apol 2_imagens/pagina-021-imagem-02.png"
+    ],
+    "imagens_explicacao": [
+      "Apol 2_imagens/pagina-022-imagem-01.png"
+    ]
+  }
+]

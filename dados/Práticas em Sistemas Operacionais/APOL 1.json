@@ -1,0 +1,233 @@
+[
+  {
+    "numero": 1,
+    "enunciado": "A arquitetura de sistemas operacionais está relacionada com a implantação do ambiente, compartilhamento de recursos e função do sistema operacional. A figura abaixo representa uma arquitetura centralizada, onde somente o servidor compartilha recursos ou serviços a rede, aqueles que consomem o recurso compartilhado são chamados de clientes: Assinale a alternativa que foi representada nesta figura:",
+    "alternativas": {
+      "A": "Peer-to-Peer",
+      "B": "Cliente-Servidor",
+      "C": "Servidor Dedicado",
+      "D": "Sistemas distribuídos",
+      "E": "Servidor não Dedicado"
+    },
+    "gabarito": "B",
+    "explicacao": "A arquitetura Cliente x Servidor é uma arquitetura centralizada, onde somente o servidor compartilha recursos ou serviços a rede, aqueles que consomem o recurso compartilhado são chamados de clientes. Aula 1: TEMA 4 – ARQUITETURA DE SISTEMAS OPERACIONAIS",
+    "imagens": [
+      "APOL 1_imagens/pagina-001-imagem-01.jpg"
+    ],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 2,
+    "enunciado": "Shell é uma interface textual que interpreta os comandos enviados pelos usuários para sistema operacional, os envia ao kernel, e posteriormente a sua execução imprime o resultado do processamento na tela. No ambiente GNU/Linux os principais interpretadores são bash, csh, ksh, sh, tcsh e zsh. Um componente importante do Shell é o prompt, que é uma mensagem ou símbolo que indica que um sistema está esperando por uma entrada do usuário. Qual das alternativas abaixo explica a formação deste prompt: ubuntu@uninter:/home$",
+    "alternativas": {
+      "A": "<nome do computador> @ <usuário> : <diretório corrente>",
+      "B": "<nome do computador> @ <diretório corrente> : <usuário>",
+      "C": "<diretório corrente> @ <nome do computador> : <usuário>",
+      "D": "<usuário> @ <nome do computador> : <diretório corrente>",
+      "E": "<usuário> @ <diretório corrente> : <nome do computador>"
+    },
+    "gabarito": "D",
+    "explicacao": "<usuário>@<nome do computador>:<diretório corrente> A formação desta mensagem é realizada pelo conteúdo da variável PS1, que por padrão no ambiente BASH é: PS1='\\u@\\h:\\w' \\u Usuário corrente \\h Nome do computador (hostname) \\w Diretório corrente Material de apoio – Aula 3: 4.1 Shell.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 3,
+    "enunciado": "As distribuições GNU/Linux surgiram logo após 1991 são as chamadas distribuições raiz, elas criam diferentes formas de desenvolvimento e distribuição. Alguma mantidas por grandes empresas e outras mantém sua própria comunidade de desenvolvimento. Assinale a alternativa que representa as 4 grandes distribuições raiz:",
+    "alternativas": {
+      "A": "Slackware, Debian, Red Hat e Ubuntu",
+      "B": "Slackware, Debian, Red Hat e Arch Linux",
+      "C": "Slackware, Debian, Red Hat e Fedora",
+      "D": "CentOS, Debian, Red Hat e Arch Linux",
+      "E": "CentOS, Ubuntu, Red Hat e Suse"
+    },
+    "gabarito": "B",
+    "explicacao": "As 4 grandes distribuições raiz surgiram entre 1992 e 1994, logo após o surgimento do Kernel Linux. Após a consolidação das distribuições raiz surgiram as distribuições derivadas, customizações para diversos fins, entre elas: 1) Baseada na distribuição Debian GNU/Linux: Ubuntu e Kali 2) Baseada na distribuição Red Hat GNU/Linux: Fedora e CentOS 3) Baseada na distribuição Slackware GNU/Linux: Suse e Slax Aula 3: TEMA 2 – DISTRIBUIÇÕES RAIZ E DERIVADAS",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 4,
+    "enunciado": "O GNU (GNU's Not Unix) é um projeto da Free Software Foundation (FSF), iniciado em setembro de 1983, que busca o desenvolvimento colaborativo de software livre. Esse objetivo foi alcançado com o surgimento do kernel Linux, desenvolvido a partir de 1991 por um estudante universitário finlandês. O Projeto GNU e o kernel Linux, juntos, permitiram o desenvolvimento dos sistemas operacionais GNU/Linux. Esses dois projetos foram iniciados, respectivamente, por:",
+    "alternativas": {
+      "A": "Richard Stallman e Linus Torvalds",
+      "B": "Steve Wozniak e Steve Jobs",
+      "C": "Bill Gates e Steve Jobs",
+      "D": "Bill Gates e Paul Allen",
+      "E": "Paul Allen e Richard Stallman"
+    },
+    "gabarito": "A",
+    "explicacao": "O GNU (GNU is not UNIX) é um projeto da Free Software Foundation (FSF) iniciado em setembro de 1983 por Richard Stallman e o Kernel Linux teve seu desenvolvimento iniciado por Linux Torvalds. Aula 3: TEMA 1 – HISTÓRICO E FILOSOFIA",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 5,
+    "enunciado": "O Sistema Operacional MS-Windows, desenvolvido e distribuído pela Microsoft, empresa fundada em 4 de abril de 1975 por Bill Gates e Paul Allen, é amplamente conhecido por sua interface gráfica (GUI). No entanto, as primeiras versões baseavam-se em um sistema de linha de comando (CLI). Este primeiro sistema, comercializado pela Microsoft, visava atender ao IBM PC lançado em 1981. Qual dos sistemas abaixo foi o primeiro sistema operacional vendido pela Microsoft:",
+    "alternativas": {
+      "A": "MS-UNIX",
+      "B": "MS-DOS (Microsoft Disk Operating System)",
+      "C": "Minix",
+      "D": "MS-Windows 1.0",
+      "E": "MS-Windows 95"
+    },
+    "gabarito": "B",
+    "explicacao": "A Microsoft compra o QDOS de Tim Paterson. Depois o QDOS viria a se chamar MS -DOS nas mãos da Microsoft após uma série de ajustes e entregue a IBM por US$ 186 mil em 1981, mas sem exclusividade. O que permitiu que a Microsoft continuasse a desenvolver e comercializar o uso do MS-DOS. Aula 2: TEMA 1 – HISTÓRICO E EVOLUÇÃO",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 6,
+    "enunciado": "No contexto de Sistemas Operacionais, o que é \"Modo Núcleo\"? Marque a única alternativa correta:",
+    "alternativas": {
+      "A": "Um modo onde o usuário pode alterar a aparência do sistema operacional.",
+      "B": "Um modo restrito que limita as ações do usuário para garantir a segurança do sistema.",
+      "C": "Um modo privilegiado que permite ao sistema operacional acessar e controlar diretamente o hardware.",
+      "D": "Um modo que permite ao sistema operacional executar somente aplicações de entretenimento.",
+      "E": "Um modo que permite ao sistema operacional navegar na internet com mais velocidade."
+    },
+    "gabarito": "C",
+    "explicacao": "Aula 1 - Tema 3 – Estrutura de Sistemas Operacionais, especificamente na seção sobre \"Modos de Acesso\".",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 7,
+    "enunciado": "Uma visão simplificada dos computadores é sua divisão em duas partes: Hardware e Software. O sistema operacional é responsável por proteger os recursos de Hardware, alocando os recursos necessários para que o usuário possa executar suas tarefas de forma se gura e com uma interface amigável. Os modos de operação do usuário e o modo de operação do sistema operacional são conhecidos respectivamente como:",
+    "alternativas": {
+      "A": "Modo leitura e modo de escrita",
+      "B": "Modo operação e modo de execução",
+      "C": "Modo software e modo hardware",
+      "D": "Modo usuário e modo núcleo",
+      "E": "Modo kernel e modo aplicativo"
+    },
+    "gabarito": "D",
+    "explicacao": "Conforme TANENBAUM: “A maioria dos computadores tem dois modos de operação: modo núcleo e modo usuário. O sistema operacional, a peça mais fundamental de software, opera em modo núcleo (também chamado modo supervisor)” - Aula 1: TEMA 3 – ESTRUTURA DE SISTEMAS OPERACIONAIS",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 8,
+    "enunciado": "O que significa a arquitetura Peer-to-Peer em Sistemas Operacionais de Rede? Marque a única alternativa correta:",
+    "alternativas": {
+      "A": "Uma arquitetura onde todos os computadores atuam como servidores e clientes simultaneamente.",
+      "B": "Um modelo onde um único servidor centralizado gerencia todas as solicitações de rede.",
+      "C": "Uma configuração onde um único cliente acessa múltiplos servidores.",
+      "D": "Uma arquitetura que não permite compartilhamento de arquivos entre usuários.",
+      "E": "Uma arquitetura que permite somente o envio de emails."
+    },
+    "gabarito": "A",
+    "explicacao": "Aula 1 - Tema 4 – Arquitetura de Sistemas Operacionais, na subseção sobre Arquitetura Peer-to-Peer.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 9,
+    "enunciado": "O que é um Sistema Operacional (SO)? Marque a única alternativa correta:",
+    "alternativas": {
+      "A": "Um conjunto de programas que gerenciam os recursos de hardware de um computador.",
+      "B": "Um tipo de software que permite apenas jogar jogos no computador.",
+      "C": "Um dispositivo físico que conecta o computador à internet.",
+      "D": "Uma linguagem de programação usada para criar aplicativos.",
+      "E": "Um dispositivo que torna a conexão a internet possivel."
+    },
+    "gabarito": "A",
+    "explicacao": "Aula1 - Tema 1 – Conceito de Sistema Operacional.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 10,
+    "enunciado": "O sistema operacional MS-Windows foi criado pela empresa Microsoft, fundada em 4 de abril de\n\t1975. O nome inicial da empresa era 'Micro-Soft', uma junção de 'Micro', de microprocessador, e 'Soft', da palavra software.\nAssinale a alternativa que contém os fundadores da Microsoft:",
+    "alternativas": {
+      "A": "Richard Stallman e Linus Torvalds",
+      "B": "Steve Wozniak, Steve Jobs",
+      "C": "Bill Gates e Steve Jobs",
+      "D": "Bill Gates e Paul Allen",
+      "E": "Paul Allen e Richard Stallman"
+    },
+    "gabarito": "D",
+    "explicacao": "O sistema operacional MS-Windows foi criado pela empresa Microsoft, fundada no dia 04 de abril de 1975 por Bill Gates e Paul Allen. Material de apoio – Aula 2: TEMA 1 – HISTÓRICO E EVOLUÇÃO.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 11,
+    "enunciado": "A estrutura de diretórios dos sistemas GNU/Linux é baseada no padrão UNIX. O documento que organiza e padroniza esse sistema é o Filesystem Hierarchy Standard (FHS): Assinale a alternativa INCORRETA em relação a função do diretório, conforme o FHS:",
+    "alternativas": {
+      "A": "/etc - Arquivos de configuração do sistema",
+      "B": "/home - É o diretório que mantém os dados dos usuários",
+      "C": "/tmp - Utilizado para armazenar arquivos temporários",
+      "D": "/boot - Arquivos necessários à inicialização do sistema",
+      "E": "/bin - Armazena todos os arquivos-dispositivos, chamados de nós de dispositivos"
+    },
+    "gabarito": "E",
+    "explicacao": "O diretório /dev armazena os nós de dispositivos, também conhecidos por pseudo- dispositivos. Já o diretório /bin contém os comandos essenciais para o funcionamento do sistema. Aula3: TEMA 3 – ESTRUTURA DE DIRETÓRIOS (FHS): 3.2 Diretório x Função.",
+    "imagens": [
+      "APOL 1_imagens/pagina-006-imagem-01.jpg"
+    ],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 12,
+    "enunciado": "Fundada por Richard Stallmann, em 04 de outubro de 1985, a Free Software Foundation (FSF) iniciou o movimento de Software Livre e criou conceitos como a Licença GPL, as 4 liberdades do Software Livre e o CopyLeft, que são métodos de tornar seus programas “livres”. Assinale a alternativa que corresponda ao principal projeto da Free Software Foundation:",
+    "alternativas": {
+      "A": "Linux",
+      "B": "GPL - General Public License",
+      "C": "BSD - Berkeley Software Distribution",
+      "D": "GNU – “GNU's Not Unix!\"",
+      "E": "Minix"
+    },
+    "gabarito": "D",
+    "explicacao": "O Projeto GNU é um projeto de desenvolvimento de um sistema operacional completo e totalmente composto por Software Livre. Aula 1: TEMA 1 – CONCEITO DE SISTEMA OPERACIONAL",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 13,
+    "enunciado": "A estrutura de diretórios dos sistemas GNU/Linux é baseada no padrão UNIX. Portanto cada diretório possui uma função padronizada pelo documento chamado Filesystem Hierarchy Standard (FHS). Entre os diretórios listados, assinale os dois diretórios que contém arquivos de log, de cache e temporários:",
+    "alternativas": {
+      "A": "/home e /tmp",
+      "B": "/var e /tmp",
+      "C": "/opt e /tmp",
+      "D": "/media e /mnt",
+      "E": "/dev e /sys"
+    },
+    "gabarito": "B",
+    "explicacao": "O diretório /var recebe arquivos variáveis, como arquivos de log e cache, e o diretório /tmp é reservado para armazenar arquivos temporários. Aula 3: TEMA 3 – ESTRUTURA DE DIRETÓRIOS (FHS)",
+    "imagens": [
+      "APOL 1_imagens/pagina-007-imagem-01.png"
+    ],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 14,
+    "enunciado": "O sistema operacional oculta a complexidade de um sistema computacional, e muitos usuários têm dificuldade em identificar o que é um sistema operacional. Qual das opções abaixo descreve corretamente o que é um sistema operacional?",
+    "alternativas": {
+      "A": "Conjunto de dispositivos de entrada, processamento e saída.",
+      "B": "Conjunto de instruções ordenadas de forma lógica para sua execução do hardware.",
+      "C": "O sistema operacional aloca todos os recursos de hardware disponíveis para que o usuário tenha a melhor experiência do programa em execução.",
+      "D": "Todo sistema operacional é capaz de realizar múltiplas tarefas, permitindo que o usuário tenha acesso direto ao hardware.",
+      "E": "O sistema operacional funciona como uma interface entre o usuário e o computador, gerenciando e protegendo os recursos computacionais."
+    },
+    "gabarito": "E",
+    "explicacao": "Aula 1: 1.1 Definição de Sistema Operacional.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 15,
+    "enunciado": "Uma variável de ambiente é uma área de memória, nomeada, que contém um valor que pode afetar a configuração do ambiente (sessão do usuário) e o modo como os processos em execução irão se comportar em um computador. Entre as variáveis de usuário, assinale a variável que contém todas as pastas que possuem programas executáveis o usuário:",
+    "alternativas": {
+      "A": "PATH",
+      "B": "TEMP",
+      "C": "DRIVERDATA",
+      "D": "WINDIR",
+      "E": "USERNAME"
+    },
+    "gabarito": "A",
+    "explicacao": "Entre as variáveis de usuário, a principal variável é o PATH, que contém todos as pastas que possuem programas executáveis personalizados o usuário corrente: c:\\>echo %PATH% C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath; C:\\Windows\\system32; C:\\Windows; C:\\Windows\\System32\\Wbem; C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\; C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Users\\sdand\\AppData\\Local\\Microsoft\\WindowsApps; Aula 2: 3.1 Variáveis do usuário",
+    "imagens": [],
+    "imagens_explicacao": []
+  }
+]

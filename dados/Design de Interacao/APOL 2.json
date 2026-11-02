@@ -1,0 +1,196 @@
+[
+  {
+    "numero": 1,
+    "enunciado": "O Responsive Web Design (RWD) entra em cena em 2010, com uma matéria escrita por Ethan Marcotte, que começa com a seguinte citação de John Allsopp: O controle que os designers têm sobre conteúdos publicados na mídia impressa e tão desejado para aplicação na web é, simplesmente, consequência das restrições que a página impressa impõe. Nós devemos nos conscientizar de que a web não impõe as restrições da mídia impressa, ela necessita de design flexível. Devemos, acima de tudo, \"aceitar o fluxo e o refluxo das coisas.\n(Allsopp, 2000 citado por Marcotte, 2010)\nSobre o RWD, analise as assertivas que seguem e marque V para as asserções verdadeiras, e F para as asserções falsas.\nI. () São elementos do RWD: grid fluído, imagens e mídias flexíveis e media queries.\nII. () Mobile First é uma boa solução para o RWD pois implica em pensar em comunicar o que é importante comunicar, descartando elementos desnecessários.\nIII. () O Google como boa prática recomenda o RWD.\nIV. () Adaptative Web Design (ADW) é sinônimo de Responsive Web Design (RWD).\nAgora, selecione a alternativa que apresenta a sequência correta:",
+    "alternativas": {
+      "A": "F - V - V - F",
+      "B": "V - V - V - F",
+      "C": "V - V - F - F",
+      "D": "V - F - F - V",
+      "E": "F - V - F - F"
+    },
+    "gabarito": "B",
+    "explicacao": "Está errada a alternativa IV (AWD não é sinônimo de RWD, a diferença está nas premissas do desenvolvimento. Aula 4 - temas 1 e 2)."
+  },
+  {
+    "numero": 2,
+    "enunciado": "Quant UX é apresentado na Aula 6 como uma ferramenta on-line que permite criar wireframes, protótipos e testar interações entre telas. Ela possui bibliotecas de widgets, opções de ação como \"link\", \"navegar para trás\" e \"animação\", além de simulação direta no navegador ou via QR Code no smartphone. Com base nessas características, responda à questão.\nQual ação representa corretamente uma interação possível no Quant UX?",
+    "alternativas": {
+      "A": "Compilar código nativo do app diretamente da ferramenta.",
+      "B": "Criar links entre telas para simular navegação dentro do protótipo.",
+      "C": "Gerar automaticamente a versão HTML final do aplicativo.",
+      "D": "Criar exclusivamente protótipos de alta fidelidade.",
+      "E": "Bloquear alterações após o primeiro teste do usuário."
+    },
+    "gabarito": "B",
+    "explicacao": "A ferramenta permite adicionar ações como link para outra tela, simulação e navegação."
+  },
+  {
+    "numero": 3,
+    "enunciado": "No processo de desenvolvimento de interfaces para dispositivos móveis, a Aula 4 destaca que as fases do projeto incluem desde esboços feitos à mão até wireframes que representam a estrutura de cada tela antes da definição dos elementos finais. Essas etapas são essenciais para reduzir retrabalho e alinhar a equipe em torno de um modelo visual claro do funcionamento do sistema. Com base nisso, responda à questão:\nQual alternativa descreve corretamente o papel do wireframe na fase de projeto?",
+    "alternativas": {
+      "A": "O wireframe é uma versão final do aplicativo, incluindo cores, ícones e animações.",
+      "B": "O wireframe representa a diagramação das telas, permitindo visualizar a estrutura sem detalhamento visual.",
+      "C": "O wireframe substitui totalmente a fase de esboço, tornando desnecessário desenhar à mão.",
+      "D": "O wireframe é criado apenas após toda a programação estar finalizada.",
+      "E": "O wireframe contém apenas elementos gráficos decorativos, sem relação com a funcionalidade."
+    },
+    "gabarito": "B",
+    "explicacao": "A aula 4 explica que o wireframe mostra a diagramação de cada tela, sem detalhamento estético, permitindo visualizar o layout como um todo antes da criação dos elementos visuais."
+  },
+  {
+    "numero": 4,
+    "enunciado": "O conceito de Mobile First, proposto em 2009 por Luke Wroblewski, defende que projetos de interfaces devem começar pela versão mobile, priorizando telas menores, foco no essencial e eliminação de elementos desnecessários. A abordagem surgiu em um contexto de crescimento acelerado do uso de dispositivos móveis e da necessidade de projetar experiências mais simples e eficientes. Com base nisso, assinale a alternativa correta.\nQual das alternativas expressa corretamente a ideia central do Mobile First?",
+    "alternativas": {
+      "A": "Desenvolver primeiro a versão desktop e, depois, remover elementos para adaptar ao mobile.",
+      "B": "Criar layouts que se adaptem automaticamente às capacidades do usuário, independentemente do dispositivo.",
+      "C": "Iniciar o projeto pelo mobile, priorizando conteúdo essencial e eliminando excessos visuais.",
+      "D": "Criar versões diferentes da interface para cada sistema operacional mobile.",
+      "E": "Priorizar recursos avançados que só funcionam em navegadores desktop."
+    },
+    "gabarito": "C",
+    "explicacao": "O Mobile First propõe começar o projeto pela versão mobile, focando no que é essencial e descartando elementos supérfluos, já que telas pequenas exigem priorização e simplicidade."
+  },
+  {
+    "numero": 5,
+    "enunciado": "A Aula 5 apresenta os principais componentes de interface do Material Design, como barras de aplicativo, botões, listas e campos de entrada. Esses elementos seguem diretrizes específicas para garantir hierarquia visual, padronização e facilidade de uso em dispositivos móveis. Considerar tais padrões é essencial para criar interfaces coerentes, claras e consistentes. Com base nesses conceitos, responda à questão a seguir.\nQual dos elementos abaixo faz parte dos componentes essenciais do Material Design apresentados na Aula 5?",
+    "alternativas": {
+      "A": "Barras de aplicativo, que organizam título, navegação e ações principais.",
+      "B": "Janelas pop-up obrigatórias em todas as transições de tela.",
+      "C": "Listas compostas apenas por imagens, sem possibilidade de texto.",
+      "D": "Campos de entrada que não possuem estados visuais.",
+      "E": "Botões que devem ser sempre invisíveis até o toque do usuário."
+    },
+    "gabarito": "A",
+    "explicacao": "A Aula 5 explica que barras de aplicativo são elementos fundamentais do Material Design e estruturam título, navegação e ações importantes dentro da interface."
+  },
+  {
+    "numero": 6,
+    "enunciado": "Observe os componentes de uma barra de aplicativo (Container, Ícone de Navegação, Título, Itens de ação, Menu Flutuante).\nA respeito das recomendações do Google, analise as assertivas que seguem:\nI. Deve-se posicionar a navegação na extrema esquerda.\nII. Posicionar quaisquer títulos à direita na navegação.\nIII. Menu flutuante é obrigatório.\nIV. Itens de ação são obrigatórios.\nSão corretas apenas as afirmativas:",
+    "alternativas": {
+      "A": "I e II",
+      "B": "II e IV",
+      "C": "II e III",
+      "D": "I, III e IV",
+      "E": "I, II e IV"
+    },
+    "gabarito": "A",
+    "explicacao": "Está errada a alternativa III e IV, pois o menu flutuante e os itens de ação são opcionais."
+  },
+  {
+    "numero": 7,
+    "enunciado": "A Aula 6 explica que a prototipação é uma etapa fundamental do design de interfaces, permitindo testar ideias rapidamente antes do desenvolvimento final. Nessa fase, o designer pode criar representações simples das telas como wireframes, mockups ou protótipos interativos para validar fluxos, funcionalidades e aspectos da interação. Esses modelos ajudam a identificar problemas cedo e reduzir retrabalho. Com base nisso, responda à questão.\nQual alternativa descreve corretamente a função da prototipação no processo de design?",
+    "alternativas": {
+      "A": "Criar a versão final do aplicativo com todos os recursos já programados.",
+      "B": "Testar ideias e fluxos por meio de modelos simples antes do desenvolvimento completo.",
+      "C": "Focar exclusivamente na estética visual, sem considerar interação ou usabilidade.",
+      "D": "Produzir documentação técnica obrigatória para os programadores.",
+      "E": "Garantir que o usuário veja exatamente o produto final, sem simulações."
+    },
+    "gabarito": "B",
+    "explicacao": "A Aula 6 afirma que a prototipação envolve criar representações simplificadas para testar ideias e validar funcionalidades antes da implementação definitiva, reduzindo erros e retrabalho."
+  },
+  {
+    "numero": 8,
+    "enunciado": "As atividades de design começam quando alguns requisitos tiverem sido estabelecidos. O design surge de forma iterativa, via ciclos repetidos de design-avaliação-redesign envolvendo usuários. Em termos gerais, existem dois tipos de design: o conceitual e o físico. O primeiro concentra-se no desenvolvimento de um modelo conceitual que entenda o que o produto irá fazer e como ele irá se comportar, e o segundo foca nos detalhes do design, como as estruturas de tela e menu, ícones e gráficos. (Rogers, Yvonne; Sharp, Helen; Preece, Jenny. Design de Interação: Além da Interação Humano-Computador).\nA respeito das fases do desenvolvimento de projetos para se definir o design, relacione corretamente os conceitos relacionados com as suas respectivas características:\n1. Esboço.\n2. Wireframes.\n3. Layouts elaborados.\n( ) Nesta etapa pode-se detalhar, pode criar objetos que serão usados no desenvolvimento.\n( ) É empregado na primeira fase do projeto.\n( ) Permite definir a diagramação de cada tela da UI device sem detalhar.\n( ) É possível utilizar a prototipagem em papel.\nAgora, selecione a alternativa que apresenta a sequência correta:",
+    "alternativas": {
+      "A": "1 - 3 - 2 - 1",
+      "B": "1 - 2 - 3 - 1",
+      "C": "2 - 3 - 1 - 1",
+      "D": "3 - 1 - 2 - 1",
+      "E": "1 - 2 - 1 - 3"
+    },
+    "gabarito": "D",
+    "explicacao": "A sequência correta é 3 - 1 - 2 - 1 (Layouts elaborados para detalhar objetos; Esboço na primeira fase; Wireframes para diagramação sem detalhar; Esboço/Prototipagem em papel). (Aula 4 - tema 3)"
+  },
+  {
+    "numero": 9,
+    "enunciado": "Dentre as diversas ferramentas de prototipação disponíveis foi apresentada a ferramenta QUANT UX. A respeito das funcionalidades do QUANT UX, analise as assertivas que seguem:\nI. É possível escolher o tamanho da tela do device para fazer o design.\nII. O QUANT UX permite tanto criar uma tela vazia quanto importar telas de outra IDE.\nIII. O QUANT UX não permite criar protótipos interativos, somente estáticos.\nIV. No QUANT UX só podemos criar wireframes.\nSão corretas apenas as afirmativas:",
+    "alternativas": {
+      "A": "I e II",
+      "B": "I, II e IV",
+      "C": "II e III",
+      "D": "I, III e IV",
+      "E": "I, II e III"
+    },
+    "gabarito": "A",
+    "explicacao": "As alternativas III e IV são falsas. No QUANT UX pode-se desenvolver protótipos interativos e tanto wireframes quanto protótipos de alta fidelidade."
+  },
+  {
+    "numero": 10,
+    "enunciado": "Os botões comunicam as ações que os usuários podem realizar. Eles geralmente são colocados em toda a sua interface do usuário, em lugares como: Diálogos, Janelas modais, Formulários, Cartões, Barras de ferramentas.\nConforme visto nas aulas e texto-base da disciplina, analise as assertivas que seguem:\nI. Um elemento obrigatório no botão é o rótulo do texto e pode haver um ícone opcional.\nII. O Material Design recomenda o uso de texto de botão em letras minúsculas.\nIII. O Material Design recomenda evitar a quebra de linhas em botões.\nIV. O Material Design recomenda evitar rótulos extensos em botões.\nSão corretas apenas as afirmativas:",
+    "alternativas": {
+      "A": "I, III e IV",
+      "B": "II e IV",
+      "C": "I e III",
+      "D": "I e IV",
+      "E": "Todas as alternativas estão corretas"
+    },
+    "gabarito": "A",
+    "explicacao": "Está errada a alternativa II (o Material Design recomenda o uso de rótulos de texto em maiúsculas)."
+  },
+  {
+    "numero": 11,
+    "enunciado": "Para desenvolver os projetos é possível utilizar materiais prontos disponibilizados para simplificação do trabalho. Você pode usá-los livremente em seus produtos e projetos, impressos ou digitais, comerciais ou outros. A respeito de recursos de design analise as assertivas que seguem:\nI. Os recursos de design disponibilizados na internet gratuitamente podem ser utilizados, mas não podem ser vendidos por quem os utiliza como se fossem seus.\nII. O Google disponibiliza fontes que podem ser adicionadas aos projetos gratuitamente.\nIII. O Google disponibiliza ícones que podem ser adicionados aos projetos gratuitamente.\nIV. No Material Design encontramos kits de Design da Figma que podem ser baixados gratuitamente.\nSão corretas apenas as afirmativas:",
+    "alternativas": {
+      "A": "I e II",
+      "B": "I, II e IV",
+      "C": "II e III",
+      "D": "I, III e IV",
+      "E": "Todas as afirmativas são corretas."
+    },
+    "gabarito": "E",
+    "explicacao": "Todas as afirmativas são corretas."
+  },
+  {
+    "numero": 12,
+    "enunciado": "Em outubro de 1993, Dave Raggett publicou a versão final da HTML+. A HTML+ começa com a seguinte afirmação: Documentos marcados com HTML+ são constituídos de títulos, parágrafos, listas, tabelas e figuras. E continua estabelecendo: Ao contrário da maioria das tecnologias destinadas à criação de documentos, a HTML não se destina a determinar a aparência; assim, nomes e tamanhos de fontes, margens, tabulações, espaçamentos entre os elementos não são funções da linguagem. (Silva, Maurício Samy. Fundamentos de HTML5 e CSS3).\nA respeito da evolução do HTML, analise as assertivas que seguem e marque V para as asserções verdadeiras, e F para as asserções falsas.\nI. () Em 1997 foi criado o elemento <table>, que permitia criar layouts complexos.\nII. () O CSS foi lançado no Brasil em 2003. Passando a compor a camada de estilos.\nIII. () O Responsive Web Design (RWD) entra em cena em 2010, por meio das ideias de Ethan Marcotte.\nIV. () O uso de tabelas é recomendado para diagramação de páginas web.\nAgora, selecione a alternativa que apresenta a sequência correta:",
+    "alternativas": {
+      "A": "V - V - V - F",
+      "B": "V - F - V - V",
+      "C": "V - V - F - F",
+      "D": "V - F - F - V",
+      "E": "F - V - F - F"
+    },
+    "gabarito": "A",
+    "explicacao": "Está errada a alternativa IV: o uso de tabelas não é recomendado para diagramação de páginas web, pois dificulta a manutenção do código. (aula 4, tema 1)"
+  },
+  {
+    "numero": 13,
+    "enunciado": "Considerando os conteúdos do texto-base e os vídeos sobre o uso de Checkbox em interfaces de usuário, é correto dizer que:",
+    "alternativas": {
+      "A": "Checkbox permite aos usuários selecionar apenas uma opção dentre as opções.",
+      "B": "Material Design recomenda o uso de checkbox quando apenas um item pode ser selecionado de uma lista.",
+      "C": "Checkbox permite que os usuários selecionem um ou mais itens de um conjunto. As caixas de seleção podem ativar ou desativar uma opção.",
+      "D": "Checkbox não é eficiente, pois não permite comparar as opções disponíveis.",
+      "E": "O checkbox não é um recurso familiar para os usuários é melhor evitar o uso."
+    },
+    "gabarito": "C",
+    "explicacao": "Checkbox permite que os usuários selecionem um ou mais itens de um conjunto. As caixas de seleção podem ativar ou desativar uma opção."
+  },
+  {
+    "numero": 14,
+    "enunciado": "Botões são recursos de interação com o usuário. Na maioria dos casos, os botões ficam disponíveis em todas as telas, o que significa que, independentemente da tela onde estiver, você pode usar os botões para visitar outras seções da aplicação. A respeito de botões, relacione as colunas:\n1. Botões de texto.\n2. Botões com contorno.\n3. Botão contido.\n4. Botão de alternância.\n( ) São usados para dar mais ênfase do que os botões de texto.\n( ) Agrupam um conjunto de ações usando layouts e espaçamento. São usados com menos frequência que os outros tipos de botões.\n( ) Possuem ênfase baixa.\n( ) Tem mais ênfase, usam preenchimento de cor e sombra.\nAgora, selecione a alternativa que apresenta a sequência correta:",
+    "alternativas": {
+      "A": "1 - 3 - 2 - 4",
+      "B": "4 - 2 - 3 - 1",
+      "C": "2 - 3 - 4 - 1",
+      "D": "2 - 4 - 1 - 3"
+    },
+    "gabarito": "D",
+    "explicacao": "1. Botão de texto (ênfase baixa); 2. Botão com contorno (ênfase média - dá mais ênfase do que botões de texto); 3. Botão contido (alta ênfase, usa cor e sombra); 4. Botão de alternância (agrupa ações e usado com menos frequência). Sequência: 2 - 4 - 1 - 3."
+  },
+  {
+    "numero": 15,
+    "enunciado": "É importante prototipar produtos e as interações do usuário com eles. Considerando o que estudou nos textos e aulas da disciplina sobre protótipos, analise as assertivas que seguem:\nI. Nos protótipos as funcionalidades podem ser testadas de maneira estática, não sendo possível fazer protótipos interativos.\nII. A prototipagem deve ser feita antes da fase do desenvolvimento da aplicação.\nIII. Esboços e protótipos ajudam a definir o que é essencial para o aplicativo, pois o espaço da tela é pequeno.\nIV. O Material Design recomenda desenvolver protótipos de alta qualidade.\nSão corretas apenas as afirmativas:",
+    "alternativas": {
+      "A": "I e II",
+      "B": "I, II e IV",
+      "C": "II e III",
+      "D": "I, III e IV",
+      "E": "Nenhuma das afirmativas está correta"
+    },
+    "gabarito": "C",
+    "explicacao": "I está errada pois é possível fazer protótipos interativos. IV está errada pois não necessariamente é preciso desenvolver protótipos de alta qualidade."
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "numero": 1,
+    "enunciado": "Qual é o domínio da função f(x) = (x² + 5x + 6) / (x² - 4)?",
+    "alternativas": {
+      "A": "x ≠ 0",
+      "B": "x ≠ 2",
+      "C": "x ≠ -2 e x ≠ 2",
+      "D": "x ≠ -2",
+      "E": "x ∈ ℝ"
+    },
+    "gabarito": "C",
+    "explicacao": "O denominador não pode ser zero, logo x² - 4 ≠ 0, o que implica x² ≠ 4, resultando em x ≠ ±2.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 2,
+    "enunciado": "Qual é o domínio da função f(x) = √(2x - 14)?",
+    "alternativas": {
+      "A": "x ≥ 7",
+      "B": "x > 7",
+      "C": "x ≥ 14",
+      "D": "x ≥ 0",
+      "E": "x ≤ 7"
+    },
+    "gabarito": "A",
+    "explicacao": "Para a raiz quadrada ser real, 2x - 14 ≥ 0, logo 2x ≥ 14, resultando em x ≥ 7.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 3,
+    "enunciado": "Dada a função f(x) = ∛(x - 3), qual o valor de f(4)?",
+    "alternativas": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3",
+      "E": "4"
+    },
+    "gabarito": "B",
+    "explicacao": "f(4) = ∛(4 - 3) = ∛1 = 1.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 4,
+    "enunciado": "Dada a função f(x) = 1 / √(x - 1), qual o domínio da função?",
+    "alternativas": {
+      "A": "x ≥ 1",
+      "B": "x > 1",
+      "C": "x ≠ 1",
+      "D": "x < 1",
+      "E": "x ∈ ℝ"
+    },
+    "gabarito": "B",
+    "explicacao": "Como a raiz está no denominador, o valor dentro dela deve ser estritamente maior que zero: x - 1 > 0, logo x > 1.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 5,
+    "enunciado": "Dada a função f(x) = x + 1, qual o valor de f(1/5)?",
+    "alternativas": {
+      "A": "1/5",
+      "B": "1",
+      "C": "6/5",
+      "D": "5/6",
+      "E": "0"
+    },
+    "gabarito": "C",
+    "explicacao": "f(1/5) = 1/5 + 1 = 1/5 + 5/5 = 6/5.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 6,
+    "enunciado": "Sendo f(x) = x - 1 e g(x) = x³ - 1, qual é a função composta f(g(x))?",
+    "alternativas": {
+      "A": "x³ - 1",
+      "B": "x³ - 2",
+      "C": "x³",
+      "D": "x³ + 1",
+      "E": "x - 2"
+    },
+    "gabarito": "B",
+    "explicacao": "f(g(x)) = (x³ - 1) - 1 = x³ - 2.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 7,
+    "enunciado": "Sendo f(x) = 2x + 1 e g(x) = 3x - 2, qual é a função composta g(f(x))?",
+    "alternativas": {
+      "A": "6x - 1",
+      "B": "6x + 1",
+      "C": "5x - 1",
+      "D": "6x + 3",
+      "E": "3x + 1"
+    },
+    "gabarito": "B",
+    "explicacao": "g(f(x)) = 3(2x + 1) - 2 = 6x + 3 - 2 = 6x + 1.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 8,
+    "enunciado": "Sabendo que f(x) = 4x * 3x, qual é o valor de f(2)?",
+    "alternativas": {
+      "A": "24",
+      "B": "48",
+      "C": "128",
+      "D": "256",
+      "E": "512"
+    },
+    "gabarito": "D",
+    "explicacao": "f(2) = 4 * 2 * 3 * 2 = 8 * 6 = 48? Não, a apostila define f(2) = 4 * 2^(3*2) = 4 * 2^6 = 4 * 64 = 256.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 9,
+    "enunciado": "Uma TV de 32 polegadas tem distância ideal de 1,8m. Qual a distância para uma de 60 polegadas (proporcionalidade direta)?",
+    "alternativas": {
+      "A": "0,33m",
+      "B": "0,96m",
+      "C": "1,57m",
+      "D": "3,37m",
+      "E": "3,60m"
+    },
+    "gabarito": "D",
+    "explicacao": "32/1,8 = 60/x => 32x = 108 => x = 3,375, aproximado para 3,37.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 10,
+    "enunciado": "Uma bacia não ecológica gasta 15L por descarga (60L/dia). Uma ecológica gasta 6L. Qual a economia diária?",
+    "alternativas": {
+      "A": "24 litros",
+      "B": "36 litros",
+      "C": "40 litros",
+      "D": "42 litros",
+      "E": "50 litros"
+    },
+    "gabarito": "B",
+    "explicacao": "60L/15L = 4 descargas. 4 descargas * 6L = 24L. Economia = 60 - 24 = 36 litros.",
+    "imagens": [],
+    "imagens_explicacao": []
+  }
+]

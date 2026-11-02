@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- ============================================================
+     ESTRUTURA da página (o "esqueleto").
+     A aparência fica em static/estilo.css e o comportamento
+     em static/quiz.js. O módulos/exercicios_web.py substitui __DATA__
+     pelas perguntas ao gerar o quiz.html final.
+     ============================================================ -->
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sistema de Exercícios</title>
+<link rel="icon" type="image/x-icon" href="/icone/quiz.ico?v=2">
+<link rel="stylesheet" href="static/estilo.css">
+</head>
+<body>
+
+<!-- Barra fixa do topo: título + contador de respondidas -->
+<header class="topo">
+ <h1>Sistema de Exerc&iacute;cios<span id="titulo-atual"></span></h1>
+ <div class="acoes-topo">
+  <span id="progresso"></span>
+  <button id="btn-atualizar" type="button">Atualizar</button>
+ </div>
+ <div id="carregamento-atualizacao" class="carregamento" role="status" aria-live="polite">
+  <span class="barra-carregamento"><span></span></span>
+  <span id="mensagem-atualizacao">Atualizando...</span>
+ </div>
+</header>
+
+<!-- Tela inicial: o quiz.js preenche #opcoes-menu com as disciplinas -->
+<div id="menu">
+ <div class="card-menu">
+  <h2>Escolha a avalia&ccedil;&atilde;o</h2>
+  <p>Selecione a disciplina e o quiz que deseja treinar</p>
+  <div id="opcoes-menu"></div>
+  <div class="apostila">
+   <h3>Gerar perguntas por apostila</h3>
+   <p>Use uma apostila PDF e uma API de IA para criar 10 questões de múltipla escolha.</p>
+   <form id="form-apostila">
+    <label>Disciplina
+     <select name="disciplina" id="disciplina-apostila" required>
+      <option value="">Carregando disciplinas...</option>
+     </select>
+    </label>
+    <label>Apostila
+     <select name="apostila" id="apostila-disponivel" required disabled>
+      <option value="">Selecione primeiro a disciplina</option>
+     </select>
+    </label>
+    <label>Nome do conjunto<input name="titulo" id="titulo-apostila" required placeholder="Ex.: Revisão da apostila"></label>
+    <label>Provedor
+     <select name="provedor" id="provedor-ia">
+      <option value="gemini">Google Gemini</option>
+      <option value="openai">OpenAI</option>
+     </select>
+    </label>
+    <label>Chave da API<input name="chave_api" id="chave-api" type="password" autocomplete="off" placeholder="Cole sua chave aqui"></label>
+    <small class="aviso-chave">A última chave usada é salva somente neste computador. Informe outra para substituí-la.</small>
+    <button type="submit">Gerar perguntas</button>
+    <div id="progresso-apostila" class="progresso-apostila" aria-live="polite">
+     <span class="barra-progresso"><span></span></span>
+     <span id="percentual-apostila">0%</span>
+    </div>
+    <span id="mensagem-apostila" role="status"></span>
+   </form>
+  </div>
+ </div>
+</div>
+
+<!-- Área onde o quiz.js cria os cartões das questões -->
+<main>
+ <div id="resultado"></div>
+ <div id="lista"></div>
+</main>
+
+<!-- Barra fixa do rodapé com as ações do quiz -->
+<div class="barra-final" id="barra">
+ <button id="btn-menu" type="button">Menu</button>
+ <button id="btn-refazer" type="button">Refazer</button>
+ <button id="btn-finalizar" type="button">Finalizar</button>
+</div>
+
+<!-- __DATA__ vira o JSON com todas as disciplinas/perguntas na geração.
+     O script abaixo carrega as regras do quiz. -->
+<script>const DADOS = __DATA__;</script>
+<script src="static/quiz.js?v=4"></script>
+</body>
+</html>

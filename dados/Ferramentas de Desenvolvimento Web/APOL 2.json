@@ -1,0 +1,227 @@
+[
+  {
+    "numero": 1,
+    "enunciado": "“CSS é a tecnologia mais popular e padrão do HTML5 para gerar estilos dentro da página. Em outras palavras, enquanto o HTML dita “QUAIS” elementos estão na página o CSS dita “COMO” eles serão apresentados.” Sobre o tópico em questão considere as afirmações a seguir:\n\tI- Seleção por classe é feita colocando um ponto antes do seletor\n\tII- Seleção por id é feita colocando um % antes do seletor\n\tIII- é possível em um seletor utilizar a vírgula para selecionar múltiplos elementos distintos\nÉ correto o que se afirma em",
+    "alternativas": {
+      "A": "I apenas",
+      "B": "II apenas",
+      "C": "III apenas",
+      "D": "I e III apenas",
+      "E": "I, II e III."
+    },
+    "gabarito": "D",
+    "explicacao": "(CORRETO) I. A classe é um elemento que serve para agrupar diferentes elementos em um mesmo grupo que pode ser facilmente selecionado pelos seletores do CSS (FALSO) II. O elemento que identifica um id em CSS é a # (CORRETO) III.O seletor do CSS é bastante flexível e permite este tipo de seleção múltipla separada por vírgula Conteúdo abordado na Aula 5",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 2,
+    "enunciado": "“CSS é a tecnologia mais popular e padrão do HTML5 para gerar estilos dentro da página. Em outras palavras, enquanto o HTML dita “QUAIS” elementos estão na página o CSS dita “COMO” eles serão apresentados.” Sobre o tópico em questão considere as afirmações a seguir:\n\tI- Imagens podem ser carregadas no lugar dos cores utilizando o atributo background-image.\n\tII- Ao carregar a imagem de fundo em um elemento HTML ela sempre irá se repetir verticalmente e horizontalmente, por isso é importante se atentar ao tamanho da imagem para que seja compatível caso não seja esse o efeito desejado.\n\tIII- Existe um atributo no CSS capaz de deixar a imagem fixa em uma posição na página, não importando o quanto você role a imagem verticalmente ou horizontalmente.\nÉ correto o que se afirma em",
+    "alternativas": {
+      "A": "I apenas",
+      "B": "II apenas",
+      "C": "III apenas",
+      "D": "I e III apenas",
+      "E": "I, II e III."
+    },
+    "gabarito": "D",
+    "explicacao": "(CORRETO) I. Basta passar o endereço da imagem como valor para o atributo background- image. (FALSO) II. Esse é o comportamento padrão, no entanto é possível configurar como a imagem será apresentada com uma série de atributos. (CORRETO) III. A configuração para este comportamento é: background-attachment: fixed; Conteúdo abordado na Aula 5",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 3,
+    "enunciado": "“CSS é a tecnologia mais popular e padrão do HTML5 para gerar estilos dentro da página. Em outras palavras, enquanto o HTML dita “QUAIS” elementos estão na página o CSS dita “COMO” eles serão apresentados.” Sobre o tópico em questão considere as afirmações a seguir:\n\tI- Um dos pontos fortes do CSS está em segmentar o conteúdo do estilo. Permitindo modificar um sem interferir no outro.\n\tII- É possível ter o CSS e HTML no mesmo arquivo porém para a maioria dos casos o ideal é manter em arquivos separados.\n\tIII- A propriedade style pode ser adicionada em certas tags e receber código CSS dentro delas.\nÉ correto o que se afirma em",
+    "alternativas": {
+      "A": "I apenas",
+      "B": "II apenas",
+      "C": "III apenas",
+      "D": "II e III apenas",
+      "E": "I, II e III."
+    },
+    "gabarito": "E",
+    "explicacao": "(CORRETO) I. Isso facilita bastante que profissionais distintos com especialistas em áreas distintas atuem em segmentos diferentes da página. (CORRETO) II. Separar em arquivos distintos facilita que um mesmo CSS seja aplicado em múltiplas páginas HTML. (CORRETO) III.De forma geral deve ser evitado colocar estilo dentro das tags, mas é possível. Conteúdo abordado na Aula 5",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 4,
+    "enunciado": "“HTML é uma linguagem descritiva de hipertextos composta por tags. Hoje o HTML em sua versão mais recente combina outras tecnologias como CSS e JavaScript que complementam os hipertextos com estilo e interatividade respectivamente.” Sobre o tópico em questão considere as afirmações a seguir:\n\tI- <form> é a tag de formulário, em que geralmente o usuário insere informações que serão enviadas para um servidor.\n\tII- A tag <input> pode ser configurada para inserir texto e também ser utilizada para representar um botão.\n\tIII- A tag <output> deve ser sempre utilizada junto da <input>\nÉ correto o que se afirma em",
+    "alternativas": {
+      "A": "I apenas",
+      "B": "II apenas",
+      "C": "I e II apenas",
+      "D": "II e III apenas",
+      "E": "I, II e III."
+    },
+    "gabarito": "C",
+    "explicacao": "(CORRETO) I. A tag <form> pode receber diversas outras tags de leitura de dados fazendo delas um único formulário. (CORRETO) II. Com o atributo type=”text” se torna um campo de texto, e type=”submit” se torna um botão. (FALSO) III. A tag <input> não precisa ser fechada e não possui relação com a tag <output> Conteúdo abordado na Aula 4",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 5,
+    "enunciado": "Em CSS, no que diz respeito a seletores. Qual a diferença entre # e .?",
+    "alternativas": {
+      "A": ". define IDs e # define classes",
+      "B": "# define IDs e . define classes",
+      "C": "; define IDs e > define classes",
+      "D": "< define IDs e $ define classes",
+      "E": ". define IDs e $ define classes"
+    },
+    "gabarito": "B",
+    "explicacao": "Resposta nos slides 4-8 da aula 2",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 6,
+    "enunciado": "“CSS é a tecnologia mais popular e padrão do HTML5 para gerar estilos dentro da página. Em outras palavras, enquanto o HTML dita “QUAIS” elementos estão na página o CSS dita “COMO” eles serão apresentados.” Sobre o tópico em questão considere as afirmações a seguir:\n\tI- Por margin (margem) entendemos o espaço vazio externo que circula um elemento HTML\n\tII- Por padding (estofamento) entendemos o espaço vazio interno que circula o elemento HTML\n\tIII- Por border (borda) entendemos como sendo a linha que circunda o elemento HTML\nÉ correto o que se afirma em",
+    "alternativas": {
+      "A": "I apenas",
+      "B": "II apenas",
+      "C": "III apenas",
+      "D": "II e III apenas",
+      "E": "I, II e III."
+    },
+    "gabarito": "E",
+    "explicacao": "(CORRETO) I. É possível configurar com os atributos margin-top, margin-bottom, margin- right, margin-left para borda topo, fundo, direita e esquerda respectivamente. (CORRETO) II. É possível configurar com os atributos padding-top, padding-bottom, padding-right, padding-left para estofo topo, fundo, direita e esquerda respectivamente. (CORRETO) III. A borda pode ser configurada de várias formas também, ser uma linha sólida ou pontilhada, mais grossa ou fina entre outros. Conteúdo abordado na Aula 5",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 7,
+    "enunciado": "A utilização adequada de variáveis é importante para o bom funcionamento de um programa. Elas permitem que os dados sejam armazenados e manipulados de forma dinâmica, facilitando a implementação de lógicas complexas. Além disso, o uso de variáveis torna o código mais legível e modular, facilitando a compreensão e manutenção do software. A respeito de variáveis, analise as afirmações a seguir e marque V para as asserções verdadeiras e F para as asserções falsas:\n\tI) Uma variável é um dado que pode ter seu valor alterado durante a execução de um algoritmo.\n\tII) Uma constante é um dado que não deve sofrer alteração durante a execução de um algoritmo.\n\tIII) Em JavaScript, é necessário declarar o tipo de uma variável antes de utilizá-la.\n\tIV) Os nomes das variáveis em JavaScript podem conter letras (maiúsculas e minúsculas), números, sublinhados e cifrões.\n\tV) É permitido utilizar palavras reservadas da linguagem JavaScript como nomes de variáveis.",
+    "alternativas": {
+      "A": "F – V – V – F – F",
+      "B": "V – V – F – V – F",
+      "C": "F – F – F – V – F",
+      "D": "V – V – V – F – V",
+      "E": "F – F – V – V – V"
+    },
+    "gabarito": "B",
+    "explicacao": "I. Verdadeira II. Verdadeira III. Falsa. Não é necessário. JavaScript é de tipagem dinâmica, ou seja, não é necessário declarar tipo a uma variável, podendo ser modificada posteriormente. IV. Verdadeira V. Falsa. Não é permitido usar as palavras reservadas como nomes de variáveis.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 8,
+    "enunciado": "“CSS é a tecnologia mais popular e padrão do HTML5 para gerar estilos dentro da página. Em outras palavras, enquanto o HTML dita “QUAIS” elementos estão na página o CSS dita “COMO” eles serão apresentados.” Sobre o tópico em questão considere as afirmações a seguir:\n\tI- O CSS reconhece alguns nomes de cores em inglês como blue, red, green entre outros. Mas também é possível escrever os mesmos em português.\n\tII- background-color é a propriedade CSS responsável pela cor de fundo.\n\tIII- Também é possível no CSS representar cor como uma combinação das 3 cores primárias, vermelho amarelo e azul.\nÉ correto o que se afirma em:",
+    "alternativas": {
+      "A": "I apenas",
+      "B": "II apenas",
+      "C": "III apenas",
+      "D": "II e III apenas",
+      "E": "I, II e III."
+    },
+    "gabarito": "B",
+    "explicacao": "(FALSO) I. CSS reconhece diversos nomes de cor porém apenas em inglês (CORRETO) II. background significa fundo em inglês e background-color por sua vez é a cor de fundo. (FALSO) III. as combinação de cores é vermelho verde e azul Conteúdo abordado na Aula 5",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 9,
+    "enunciado": "Observe o código abaixo: .container { display: grid; grid-template-columns: 100px 50px 80px 200px; grid-template-rows:80px 100px 100px; } Com base no código acima, analise as afirmações a seguir e marque V para as asserções verdadeiras e F para as asserções falsas:\n\tI) O grid possui 3 colunas de larguras fixas: 100px, 50px e 80px, respectivamente.\n\tII) O grid possui 4 colunas de larguras fixas: 100px, 50px, 80px e 200px, respectivamente.\n\tIII) O grid possui 3 linhas de alturas fixas: 80px, 100px e 100px, respectivamente.\n\tIV) O grid possui 4 linhas de alturas fixas: 80px, 100px, 100px e 200px, respectivamente.\n\tV) O grid possui 2 colunas de larguras fixas: 80px e 100px, e 3 linhas de alturas fixas: 100px, Agora, selecione a alternativa que apresenta a sequência correta de respostas:",
+    "alternativas": {
+      "A": "F - V - V - F - F",
+      "B": "F - F - F - V - F",
+      "C": "V - V - V - F - V",
+      "D": "F - F - V - V - V",
+      "E": "V - V - V - V - F"
+    },
+    "gabarito": "A",
+    "explicacao": "Observe que o grid especifica 4 colunas e 3 linhas com medidas fixas.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 10,
+    "enunciado": "“CSS é a tecnologia mais popular e padrão do HTML5 para gerar estilos dentro da página. Em outras palavras, enquanto o HTML dita “QUAIS” elementos estão na página o CSS dita “COMO” eles serão apresentados.” Sobre o tópico em questão considere as afirmações a seguir:\n\tI- O uso de pseudo-classes é uma forma de selecionar elementos quando estão em determinadas circunstâncias\n\tII- A sintaxe CSS com uso de pseudo classe fica da seguinte forma. “seletor:pseudo-classe{ propriedade: valor;}”\n\tIII- O uso de pseudo classes não é compatível com propriedades que modifiquem a cor.\nÉ correto o que se afirma em",
+    "alternativas": {
+      "A": "I apenas",
+      "B": "II apenas",
+      "C": "I e II apenas",
+      "D": "II e III apenas",
+      "E": "I, II e III."
+    },
+    "gabarito": "C",
+    "explicacao": "(CORRETO) I. É possível selecionar elementos considerando diversos fatores com pseudo classes (CORRETO) II. É possível também encadear diversas pseudo classes, assim como se faz com as classes regulares. (FALSO) III. Não existe nenhuma restrição quanto cor e uso de pseudo classes. Conteúdo abordado na Aula 5",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 11,
+    "enunciado": "No contexto da manipulação de CSS e do conceito de herança, analise as afirmações a seguir e marque V para as asserções verdadeiras e F para as asserções falsas:\n\tI. O modelo de árvore do documento (DOM) representa a hierarquia dos elementos em uma página HTML.\n\tII. A propriedade de largura (width) faz parte da herança em CSS.\n\tIII. Por padrão, todas as propriedades CSS herdam valores definidos no elemento pai.\n\tIV. O modelo de árvore do documento é semelhante a uma árvore genealógica, representando os graus de parentesco entre os elementos. Agora, selecione a alternativa que apresenta a sequência correta de respostas:",
+    "alternativas": {
+      "A": "F - V - F- F",
+      "B": "F - F - F - F",
+      "C": "V - V - V - F",
+      "D": "F - F - V - V",
+      "E": "V - F - F - V"
+    },
+    "gabarito": "E",
+    "explicacao": "GABARITO: (LETRA E) I. (V) - O modelo de árvore do documento (DOM) representa a hierarquia dos elementos em uma página HTML. Ele organiza os elementos em uma estrutura de árvore, onde cada elemento tem seus descendentes e ascendentes. II. (F) - A propriedade de largura (width) não faz parte da herança em CSS. Ela precisa ser definida explicitamente em cada elemento. III. (F) - Por padrão, nem todas as propriedades CSS herdam valores definidos no elemento pai. Algumas propriedades possuem herança, enquanto outras não. IV. (V) - O modelo de árvore do documento é semelhante a uma árvore genealógica, representando os graus de parentesco entre os elementos, com elementos pai, filho e irmão.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 12,
+    "enunciado": "No que diz respeito às propriedades do CSS. Qual a diferença entre Float e Clear",
+    "alternativas": {
+      "A": "Float define que a sobra do elemento irá ser posicionado flutuando ao lado do seu elemento anterior / Clear define que a sobra do elemento irá sempre estar embaixo (após) seus elementos anteriores",
+      "B": "Float define que o elemento irá não ser posicionado flutuando ao lado do seu elemento anterior / Clear define que o elemento não irá sempre estar embaixo (após) seus elementos anteriores",
+      "C": "Float define onde o elemento HTML será posicionado, movendo-o para um ponto específico / Clear se aplica para \"limpar\" os elementos abaixo dos elementos com Float",
+      "D": "Float define que o elemento irá sempre estar embaixo (após) seus elementos anteriores / Clear define que o elemento irá ser posicionado flutuando ao lado do seu elemento anterior",
+      "E": "Float define que o elemento irá sempre estar acima seus elementos anteriores / Clear define que o elemento irá ser posicionado flutuando sobre seu elemento anterior"
+    },
+    "gabarito": "C",
+    "explicacao": "",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 13,
+    "enunciado": "Toda vez que usamos o CSS, nós usamos os seletores. Em CSS, para indicarmos os seletores de classes e IDs, respectivamente usamos:",
+    "alternativas": {
+      "A": ". e ?",
+      "B": "# e !",
+      "C": "# e .",
+      "D": ". e #",
+      "E": ". e $"
+    },
+    "gabarito": "D",
+    "explicacao": "resposta na rota 2 pg 3",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 14,
+    "enunciado": "“HTML é uma linguagem descritiva de hipertextos composta por tags. Hoje o HTML em sua versão mais recente combina outras tecnologias como CSS e JavaScript que complementam os hipertextos com estilo e interatividade respectivamente.” Sobre o tópico em questão considere as afirmações a seguir:\n\tI- <ol> é uma tag responsável por gerar listas.\n\tII- <ul> é uma tag responsável por gerar listas.\n\tIII- <li> é a tag que descreve itens dentro das listas.\nÉ correto o que se afirma em",
+    "alternativas": {
+      "A": "I apenas",
+      "B": "II apenas",
+      "C": "III apenas",
+      "D": "II e III apenas",
+      "E": "I, II e III."
+    },
+    "gabarito": "E",
+    "explicacao": "(CORRETO) I. <ol> é a tag para listas ordenadas, em que os itens são numerados (CORRETO) II. <ul> é a tag para listas não ordenadas. (CORRETO) III. <li> descreve itens dentro da lista Conteúdo abordado na Aula 4",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 15,
+    "enunciado": "Podemos utilizar um pseudoelemento para estilizar parte de um elemento. Como a primeira letra de uma palavra, ou de uma linha. Qual das seguintes opções descreve corretamente o uso do pseudoelemento ::after no CSS?",
+    "alternativas": {
+      "A": "O pseudoelemento ::after é usado para selecionar o elemento antes do conteúdo do elemento principal.",
+      "B": "O pseudoelemento ::after é usado para selecionar o elemento depois do conteúdo do elemento principal.",
+      "C": "O pseudoelemento ::after é usado para selecionar a primeira linha do elemento principal.",
+      "D": "O pseudoelemento ::after é usado para selecionar a primeira letra do elemento principal.",
+      "E": "O pseudoelemento ::after é usado para selecionar os marcadores de uma lista."
+    },
+    "gabarito": "B",
+    "explicacao": "O pseudoelemento ::after é usado para selecionar o elemento depois do conteúdo do elemento principal.",
+    "imagens": [],
+    "imagens_explicacao": []
+  }
+]

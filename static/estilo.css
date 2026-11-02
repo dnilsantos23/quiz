@@ -1,0 +1,89 @@
+/* ============================================================
+   APARÊNCIA da página (cores, tamanhos, posicionamento).
+   Organizado por região: base, topo, questões, feedback,
+   barra de ações e menu inicial.
+   ============================================================ */
+
+/* ---------- Base ---------- */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', system-ui, sans-serif; background: #f0f2f5; color: #1c1e21; padding-bottom: 100px; }
+main { max-width: 860px; margin: 24px auto; padding: 0 16px; }
+
+/* ---------- Cabeçalho fixo do topo ---------- */
+header.topo { position: sticky; top: 0; z-index: 10; background: #1e3a5f; color: #fff; padding: 14px 24px; display: flex; justify-content: space-between; align-items: center; gap: 12px; box-shadow: 0 2px 6px rgba(0,0,0,.25); }
+header.topo h1 { font-size: 17px; font-weight: 600; }
+#titulo-atual { font-weight: 700; color: #ffd54f; margin-left: 10px; }
+#progresso { font-size: 14px; opacity: .92; white-space: nowrap; }
+.acoes-topo { display: flex; align-items: center; gap: 12px; }
+#btn-atualizar { padding: 8px 16px; background: #ffd54f; color: #1e3a5f; font-size: 13px; }
+.carregamento { display: none; position: absolute; top: 100%; right: 24px; align-items: center; gap: 9px; padding: 8px 12px; background: #fff; color: #1e3a5f; border-radius: 0 0 8px 8px; box-shadow: 0 2px 6px rgba(0,0,0,.2); font-size: 13px; }
+.carregamento.visivel { display: flex; }
+.carregamento.erro { color: #c62828; }
+.barra-carregamento { width: 100px; height: 5px; overflow: hidden; border-radius: 5px; background: #dce6ef; }
+.barra-carregamento span { display: block; width: 45%; height: 100%; border-radius: 5px; background: #1e3a5f; animation: carregar 1.1s ease-in-out infinite; }
+@keyframes carregar { from { transform: translateX(-100%); } to { transform: translateX(230%); } }
+
+/* ---------- Banner de nota (após finalizar) ---------- */
+#resultado { display: none; margin-bottom: 24px; padding: 22px 26px; border-radius: 12px; background: linear-gradient(135deg, #1e3a5f, #2e5a88); color: #fff; font-size: 19px; text-align: center; box-shadow: 0 4px 14px rgba(30,58,95,.35); }
+
+/* ---------- Cartão de questão ---------- */
+.questao { background: #fff; border-radius: 12px; padding: 22px 26px; margin-bottom: 22px; box-shadow: 0 1px 4px rgba(0,0,0,.08); border-left: 5px solid #ccc; transition: border-color .3s, background .3s; }
+.questao.correto { border-left-color: #2e7d32; background: #f2fbf3; }   /* acertou */
+.questao.incorreto { border-left-color: #c62828; background: #fef5f5; } /* errou */
+.enunciado { font-size: 15.5px; line-height: 1.55; margin-bottom: 16px; }
+.rotulo { color: #1e3a5f; font-weight: 700; margin-right: 6px; }
+.imagem-questao { display: block; max-width: 100%; max-height: 420px; object-fit: contain; margin: 0 auto 16px; }
+
+/* ---------- Alternativas (radios) ---------- */
+.opcao { display: flex; gap: 10px; align-items: flex-start; padding: 11px 14px; border: 1px solid #dde1e6; border-radius: 8px; margin-bottom: 9px; cursor: pointer; line-height: 1.45; transition: background .15s, border-color .15s; font-size: 14.5px; }
+.opcao:hover { background: #f5f7fa; }
+.opcao.selecionada { border-color: #1e3a5f; background: #eaf1f8; }
+.opcao input { margin-top: 3px; accent-color: #1e3a5f; flex-shrink: 0; }
+
+/* ---------- Feedback dentro da questão ---------- */
+.feedback { display: none; margin-top: 14px; padding: 13px 16px; border-radius: 8px; font-size: 14.5px; line-height: 1.5; }
+.feedback.ok { display: block; background: #dcedc8; color: #1b5e20; font-weight: 600; }
+.feedback.dica { display: block; background: #fff3e0; color: #5d4037; border-left: 4px solid #ef6c00; }
+.bloco-imagens-feedback { margin-top: 12px; }
+.imagem-feedback { margin: 8px auto; max-height: 380px; }
+.detalhe-explicacao { font-weight: 400; margin-top: 6px; font-size: 14px; }
+
+/* ---------- Barra fixa de ações (rodapé) ---------- */
+.barra-final { position: fixed; bottom: 0; left: 0; right: 0; background: #fff; box-shadow: 0 -2px 8px rgba(0,0,0,.15); padding: 14px 24px; display: none; justify-content: center; gap: 14px; z-index: 10; }
+
+/* ---------- Botões ---------- */
+button { border: none; border-radius: 8px; padding: 13px 34px; font-size: 15.5px; font-weight: 600; cursor: pointer; transition: filter .15s; font-family: inherit; }
+button:hover:not(:disabled) { filter: brightness(1.12); }
+button:disabled { opacity: .55; cursor: not-allowed; }
+#btn-finalizar { background: #2e7d32; color: #fff; }
+#btn-refazer { background: #ef6c00; color: #fff; display: none; }
+#btn-menu { background: #455a64; color: #fff; }
+
+/* ---------- Menu inicial (escolha de disciplina/quiz) ---------- */
+#menu { min-height: calc(100vh - 53px); display: flex; align-items: center; justify-content: center; padding: 24px 16px; }
+.card-menu { background: #fff; border-radius: 16px; box-shadow: 0 6px 24px rgba(0,0,0,.12); padding: 42px 48px; text-align: center; max-width: 560px; width: 100%; }
+.card-menu h2 { color: #1e3a5f; font-size: 24px; margin-bottom: 8px; }
+.card-menu p { color: #607d8b; font-size: 14.5px; margin-bottom: 28px; }
+.grupo-menu { margin-bottom: 26px; }          /* bloco de uma disciplina */
+.grupo-menu:last-child { margin-bottom: 0; }
+.grupo-menu h3 { color: #455a64; font-size: 14px; text-transform: uppercase; letter-spacing: .06em; border-bottom: 1px solid #eceff1; padding-bottom: 8px; margin-bottom: 14px; }
+.btn-apol { display: block; width: 100%; margin-bottom: 14px; padding: 20px; background: #eaf1f8; color: #1e3a5f; border: 2px solid #1e3a5f; }
+.btn-apol:hover { background: #1e3a5f; color: #fff; }
+.btn-apol span { display: block; font-size: 13.5px; font-weight: 400; margin-top: 4px; opacity: .85; }
+.apostila { margin-top: 30px; padding-top: 24px; border-top: 1px solid #eceff1; text-align: left; }
+.apostila h3 { color: #1e3a5f; margin-bottom: 6px; }
+.apostila p { margin-bottom: 16px; }
+#form-apostila { display: grid; gap: 10px; }
+#form-apostila label { color: #455a64; font-size: 13px; font-weight: 600; }
+#form-apostila input { display: block; width: 100%; margin-top: 5px; padding: 9px; border: 1px solid #cfd8dc; border-radius: 6px; font: inherit; }
+#form-apostila select { display: block; width: 100%; margin-top: 5px; padding: 9px; border: 1px solid #cfd8dc; border-radius: 6px; font: inherit; background: #fff; }
+#form-apostila .aviso-chave { color: #607d8b; font-size: 11.5px; line-height: 1.35; }
+#form-apostila button { background: #1e3a5f; color: #fff; }
+#mensagem-apostila { color: #455a64; font-size: 13px; line-height: 1.4; }
+.progresso-apostila { display: none; align-items: center; gap: 8px; color: #455a64; font-size: 12px; }
+.progresso-apostila.visivel { display: flex; }
+.barra-progresso { flex: 1; height: 8px; overflow: hidden; border-radius: 8px; background: #dce6ef; }
+.barra-progresso span { display: block; width: 0; height: 100%; border-radius: 8px; background: #2e7d32; transition: width .3s ease; }
+
+/* ---------- Celulares ---------- */
+@media (max-width: 600px) { .barra-final { flex-direction: column; } .barra-final button { width: 100%; } header.topo { flex-wrap: wrap; } .carregamento { left: 24px; right: 24px; } }

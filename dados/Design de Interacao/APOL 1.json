@@ -1,0 +1,197 @@
+[
+  {
+    "numero": 1,
+    "enunciado": "Considere o usuário no contexto móvel, analise as assertivas que seguem e marque V para as asserções verdadeiras, e F para as asserções falsas.\nI. () Deve-se considerar o contexto cultural dos usuários, suas condições econômicas, sociais, seus gostos, como ocupa seu tempo.\nII. () As características ambientais dos usuários não são diversificadas.\nIII. () Para utilizar o smartphone o usuário não pode estar desenvolvendo outra atividade, como caminhar, por exemplo.\nIV. () Para interagir com smartphone o tempo de atenção deve ser continuo.\nAgora, selecione a alternativa que apresenta a sequência correta:",
+    "alternativas": {
+      "A": "F - V - V - V",
+      "B": "V - F - F - F",
+      "C": "V - V - F - F",
+      "D": "V - F - V - V",
+      "E": "V - F - V - F"
+    },
+    "gabarito": "B",
+    "explicacao": "Estão erradas as afirmativas II (as características ambientais são diversificadas), III (o usuário pode sim estar desenvolvendo outra atividade, caminhar por exemplo) e IV (o tempo de interação pode ser contínuo ou intermitente) - (aula 3, tema 1)."
+  },
+  {
+    "numero": 2,
+    "enunciado": "Ao interpretar e compreender os objetivos e funcionalidades de uma tela de um sistema ou aplicativo que é utilizado pela primeira vez, o usuário armazena essa decodificação simbólica numa região do Modelo do Processador Humano.\nAssinale abaixo a afirmativa que identifica corretamente o nome dessa área de armazenamento.",
+    "alternativas": {
+      "A": "Memória da Imagem Auditiva",
+      "B": "Memória de Longa Duração",
+      "C": "Memória de Trabalho",
+      "D": "Processador Motor",
+      "E": "Processador Cognitivo"
+    },
+    "gabarito": "C",
+    "explicacao": "Segundo o Modelo do Processador Humano, a primeira etapa de armazenamento de informações ocorre na memória de trabalho. (aula 2 - tema 1)"
+  },
+  {
+    "numero": 3,
+    "enunciado": "Para garantir uma navegação simples e intuitiva em aplicativos móveis, as heurísticas de Nielsen orientam o designer a estruturar interfaces que facilitem a localização de informações, reduzam erros e ofereçam feedback claro. Essas diretrizes ajudam o usuário a compreender onde está no sistema, reconhecer opções sem depender da memória e evitar ações incorretas durante a interação. Com base nessas heurísticas amplamente aplicadas no design móvel, analise as alternativas a seguir.\nQual alternativa apresenta corretamente uma das heurísticas de Nielsen?",
+    "alternativas": {
+      "A": "Permitir que o usuário memorize atalhos complexos para aumentar sua eficiência.",
+      "B": "Ocultar indicadores de navegação para evitar distrações visuais.",
+      "C": "Exibir claramente onde o usuário está na interface por meio de feedback visual.",
+      "D": "Criar layouts que mudam a posição dos elementos em cada tela para estimular a exploração.",
+      "E": "Remover confirmações antes de ações críticas para acelerar o fluxo."
+    },
+    "gabarito": "C",
+    "explicacao": "A Aula 3 reforça que uma das heurísticas de Nielsen é a visibilidade do status do sistema, ou seja, mostrar ao usuário onde ele está na interface e fornecer feedback claro sobre sua navegação."
+  },
+  {
+    "numero": 4,
+    "enunciado": "Design de experiência é a prática de projetar produtos, processos, serviços, eventos e ambientes com foco na qualidade e no aproveitamento da experiência total. O design preocupa-se com a forma como as coisas funcionam, como são controladas e com a natureza da interação entre as pessoas e a tecnologia. (Norman, Don. The Design of Everyday Things, 2013)\nConsiderando que você é um designer e irá participar do desenvolvimento de um aplicativo, analise as assertivas que seguem e marque V para as asserções verdadeiras, e F para as asserções falsas.\nI. () Após o aplicativo ser desenvolvido, devemos compreender o porquê ele será utilizado.\nII. () Antes do desenvolvimento, devemos saber \"o quê\", \"por que\" e \"como\" se dará o contexto de uso do aplicativo.\nIII. () Após o desenvolvimento do aplicativo devemos verificar quem será o usuário do aplicativo.\nIV. () Experiência no contexto de uso de um aplicativo ultrapassa as funcionalidades, considera também se é agradável de ser usado.\nAgora, selecione a alternativa que apresenta a sequência correta:",
+    "alternativas": {
+      "A": "F - V - V - V",
+      "B": "V - V - F - V",
+      "C": "V - V - V - F",
+      "D": "F - V - F - V",
+      "E": "F - V - F - F"
+    },
+    "gabarito": "D",
+    "explicacao": "São falsas as alternativas I (Deve-se compreender o objetivo antes do desenvolvimento) e III (Deve-se saber quem serão os usuários antes do desenvolvimento)."
+  },
+  {
+    "numero": 5,
+    "enunciado": "Ao desenvolver interfaces para diferentes dispositivos, algumas empresas optam pelo design adaptativo, que utiliza media queries para entregar versões com layouts fixos conforme as características da tela. Nesse modelo, o site pode exibir um layout distinto em smartphones, mantendo outro no desktop. O objetivo é ajustar a experiência de acordo com cada dispositivo, mesmo que isso exija múltiplas versões de layout.\nQual alternativa descreve corretamente o design adaptativo?",
+    "alternativas": {
+      "A": "Um único layout que se reorganiza automaticamente para qualquer largura de tela.",
+      "B": "Vários layouts fixos, selecionados conforme características da mídia detectada.",
+      "C": "Um site exclusivo para dispositivos móveis, acessado por meio de \"m.\" na URL.",
+      "D": "Um layout fluido que utiliza apenas porcentagens para redimensionar elementos.",
+      "E": "Uma técnica que não utiliza media queries e depende apenas de JavaScript."
+    },
+    "gabarito": "B",
+    "explicacao": "O design adaptativo utiliza vários layouts fixos, definidos previamente, que são escolhidos pelo navegador com base nas características da mídia, por meio de media queries."
+  },
+  {
+    "numero": 6,
+    "enunciado": "Ao projetar interfaces que funcionem em diversos dispositivos, o design responsivo utiliza recursos do CSS3 para ajustar automaticamente a distribuição dos elementos conforme a largura disponível. Essa estratégia visa adequar imagens, textos e layouts para garantir boa experiência tanto em desktops quanto em smartphones, utilizando um único desenvolvimento que reage às mudanças do navegador.\nCom base nesse conceito, qual situação exemplifica corretamente o uso de design responsivo?",
+    "alternativas": {
+      "A": "Criar três versões separadas do mesmo site (desktop, tablet e smartphone), cada uma com layout fixo.",
+      "B": "Utilizar consultas de mídia (media queries) para reorganizar elementos e redimensionar imagens conforme a largura da tela.",
+      "C": "Redirecionar automaticamente o usuário para \"m.site.com\" ao acessar pelo celular.",
+      "D": "Construir layouts exclusivamente para desktop e permitir que o navegador reduza tudo proporcionalmente.",
+      "E": "Carregar a mesma estrutura fixa em qualquer dispositivo, ajustando apenas o zoom."
+    },
+    "gabarito": "B",
+    "explicacao": "O design responsivo utiliza CSS3 e media queries para ajustar o layout conforme o tamanho da tela, reorganizando elementos e adequando textos e imagens sem precisar criar múltiplos sites."
+  },
+  {
+    "numero": 7,
+    "enunciado": "Ao projetar interfaces digitais, é essencial considerar como os usuários percebem e organizam visualmente os elementos na tela. A Aula 2 apresenta princípios cognitivos e leis da Gestalt que ajudam a tornar interfaces mais intuitivas, reduzindo esforço mental e facilitando o reconhecimento de padrões. Esses princípios orientam o designer a estruturar informações de forma clara e coerente, favorecendo a compreensão do usuário.\nCom base nesses conceitos, qual alternativa representa corretamente um princípio da Gestalt aplicado ao design de interfaces?",
+    "alternativas": {
+      "A": "Agrupar elementos próximos entre si faz com que o usuário os perceba como parte de um mesmo conjunto.",
+      "B": "Inserir o máximo de informações possíveis em uma tela aumenta a eficiência cognitiva do usuário.",
+      "C": "Utilizar cores totalmente aleatórias facilita a criação de novos modelos mentais.",
+      "D": "Exigir que o usuário memorize longas sequências aumenta a percepção visual.",
+      "E": "Evitar padrões e repetir elementos de maneira inconsistente facilita a organização da informação."
+    },
+    "gabarito": "A",
+    "explicacao": "A lei da proximidade, um princípio da Gestalt, indica que elementos próximos entre si tendem a ser percebidos como pertencentes ao mesmo grupo."
+  },
+  {
+    "numero": 8,
+    "enunciado": "Observe a imagem [representando uma UI - Interface de Usuário em smartphone].\nAcima temos a representação de uma UI - Interface de Usuário, ou tela, meio pelo qual o usuário interage com o dispositivo. Considerando os conteúdos do texto-base da disciplina, é correto dizer que a perspectiva da interface:",
+    "alternativas": {
+      "A": "No contato físico com a interface o usuário interpreta, processa e raciocina.",
+      "B": "O usuário não mantém um contato conceitual ao manipular a interface.",
+      "C": "A interface não interfere na experiência do usuário, o principal o que interfere é o contexto de uso.",
+      "D": "A interface do usuário tem um papel importante na experiência do usuário, porque é uma das partes que integram a experiência.",
+      "E": "No contato conceitual o usuário percebe e manipula a interface."
+    },
+    "gabarito": "D",
+    "explicacao": "A interface do usuário tem um papel importante na experiência do usuário, porque é uma das partes que integram a experiência. No contato físico o usuário percebe e manipula; no contato conceitual o usuário interpreta, processa e raciocina."
+  },
+  {
+    "numero": 9,
+    "enunciado": "Ao projetar interfaces para dispositivos móveis, a usabilidade é um dos elementos centrais para garantir que o usuário consiga atingir seus objetivos com facilidade. Segundo a NBR 9241-11, a usabilidade envolve aspectos como eficácia, eficiência e satisfação dentro de um contexto específico de uso.\nConsiderando esses princípios, analise a definição e a aplicação da usabilidade em produtos digitais.\nQual das alternativas representa corretamente o conceito de usabilidade?",
+    "alternativas": {
+      "A": "Uma interface bonita, independentemente de permitir que usuários concluam suas tarefas.",
+      "B": "A capacidade de um sistema oferecer emoção e prazer ao usuário, sem considerar o contexto de uso.",
+      "C": "A medida pela qual um produto é usado por usuários específicos para alcançar objetivos específicos com eficácia, eficiência e satisfação.",
+      "D": "O conjunto de elementos visuais que compõem a interface, como ícones e cores.",
+      "E": "Uma metodologia focada apenas em tornar a interface mais rápida, ignorando aspectos subjetivos de satisfação."
+    },
+    "gabarito": "C",
+    "explicacao": "A alternativa C reproduz exatamente a definição apresentada pela NBR 9241-11, que afirma que usabilidade é a medida pela qual um produto pode ser usado por usuários específicos para alcançar objetivos específicos com eficácia, eficiência e satisfação em um contexto específico de uso."
+  },
+  {
+    "numero": 10,
+    "enunciado": "O Design Sprint é apresentado na Aula 3 como uma metodologia criada para validar ideias rapidamente em apenas cinco dias, reduzindo custos e riscos no desenvolvimento de produtos. Ele organiza o processo em etapas bem definidas, desde a compreensão do desafio até a criação de protótipos e testes com usuários. Esse formato permite que equipes identifiquem soluções promissoras antes de investir em desenvolvimento completo.\nCom base nessas informações, qual alternativa descreve corretamente uma característica fundamental do Design Sprint?",
+    "alternativas": {
+      "A": "Criar uma versão finalizada do produto ao final dos cinco dias, pronta para lançamento.",
+      "B": "Utilizar o sprint para testar hipóteses rapidamente com protótipos simples, antes de desenvolver a solução final.",
+      "C": "Prolongar o processo por várias semanas para garantir que todas as funcionalidades sejam desenvolvidas.",
+      "D": "Eliminar completamente a necessidade de testes com usuários, já que as decisões são tomadas no início.",
+      "E": "Trabalhar apenas com equipes grandes, pois o método não funciona com grupos pequenos."
+    },
+    "gabarito": "B",
+    "explicacao": "O Design Sprint tem como objetivo testar hipóteses rapidamente, criando protótipos mínimos e validando ideias com usuários antes de investir em desenvolvimento completo."
+  },
+  {
+    "numero": 11,
+    "enunciado": "Nos sites de compra, ao se utilizar a metáfora do carrinho de compras está sendo assertivo e utilizando uma das heurísticas de Nielsen.\nLeia as heurísticas abaixo e identifique a que se refere ao exemplo do carrinho de compras.",
+    "alternativas": {
+      "A": "Visibilidade do Sistema.",
+      "B": "Correspondência entre o sistema e mundo real.",
+      "C": "Consistência e padrões.",
+      "D": "Flexibilidade e eficiência de uso.",
+      "E": "Prevenção de erros."
+    },
+    "gabarito": "B",
+    "explicacao": "Nesse caso, um exemplo muito bem aplicado em sites, tanto para desktop quanto para dispositivos móveis, é o uso do carrinho de compras, usado no mundo real. (Aula 3 - tema 2)"
+  },
+  {
+    "numero": 12,
+    "enunciado": "O Design Sprint foi também utilizado no GV, antigo Google Ventures, firma de capital de risco criada pelo Google para investir em startups promissoras. Em geral, essas empresas têm apenas uma chance de criar um produto de sucesso antes de ficarem sem dinheiro. Os sprints permitiam que os autores soubessem se estavam no caminho certo antes de se arriscarem a desenvolver e lançar seus produtos. Conduzir sprints era uma chance de economizar e gerar dinheiro.\nConsiderando o uso da metodologia de design sprint os vídeos sobre o conteúdo, analise as assertivas que seguem:\nI. O design sprint é dividido em cinco etapas.\nII. No primeiro dia é possível já fazer o esboço da aplicação.\nIII. No segundo dia já é apresentada a proposta ao cliente.\nIV. O quinto dia é o dia dos testes. Pode-se convidar pessoas para participar dos testes.\nSão corretas apenas as afirmativas:",
+    "alternativas": {
+      "A": "II, III e IV",
+      "B": "I, II e III",
+      "C": "II e III",
+      "D": "I, III e IV",
+      "E": "I e IV"
+    },
+    "gabarito": "E",
+    "explicacao": "Estão erradas as alternativas II (no primeiro dia se conhece os objetivos do projeto) e III (o segundo dia é o dia das ideias / brainstorming - Aula 3, tema 5)."
+  },
+  {
+    "numero": 13,
+    "enunciado": "Ao projetar interfaces digitais, é essencial compreender como a percepção, a atenção e a memória influenciam a interação do usuário. A Aula 2 destaca que a atenção é limitada, a percepção pode ser influenciada por cores e formas, e a memória de trabalho comporta poucos itens simultaneamente, o que impacta fortemente o design de menus, botões e organização visual. Com base nesses conceitos, responda à questão a seguir.\nQual alternativa representa corretamente um princípio relacionado à percepção, atenção ou memória no design de interfaces?",
+    "alternativas": {
+      "A": "Adicionar o máximo de elementos visuais possíveis ajuda a manter a atenção do usuário.",
+      "B": "Interfaces devem exigir que o usuário memorize sequências longas de ações para aumentar o engajamento.",
+      "C": "Utilizar cores, contrastes e agrupamentos facilita a percepção e reduz o esforço cognitivo.",
+      "D": "A memória de trabalho é ilimitada, permitindo listas extensas sem prejudicar o usuário.",
+      "E": "Distrair o usuário com telas intermediárias aumenta sua capacidade de manter a atenção."
+    },
+    "gabarito": "C",
+    "explicacao": "A Aula 2 explica que a percepção se apoia em elementos como forma, cor, contraste e agrupamento, que facilitam a interpretação visual. Esses recursos ajudam a organizar informações e reduzem a carga cognitiva durante a interação."
+  },
+  {
+    "numero": 14,
+    "enunciado": "A psicologia cognitiva tem por objetivo compreender a cognição humana por meio do estudo do comportamento; uma definição mais ampla também inclui o estudo da atividade e da estrutura cerebral.\nConsiderando o texto-base e os vídeos sobre o conteúdo, analise as assertivas que seguem:\nI. A psicologia cognitiva estuda os processos envolvidos em dar sentido ao ambiente e decidir que ação deve ser apropriada.\nII. Os processos cognitivos ocorrem de forma isolada de maneira a não sobrecarregar os usuários ao desenvolverem suas tarefas.\nIII. Os processos cognitivos são interdependentes, vários processos podem estar envolvidos em uma determinada atividade.\nIV. A psicologia cognitiva tem como objetivo de compreender a cognição humana por meio da observação do comportamento das pessoas enquanto executam várias tarefas cognitivas.\nSão corretas apenas as afirmativas:",
+    "alternativas": {
+      "A": "I, IV",
+      "B": "I, II e IV",
+      "C": "I, III e IV",
+      "D": "II, III",
+      "E": "Todas as afirmativas estão corretas."
+    },
+    "gabarito": "C",
+    "explicacao": "Está errada a alternativa II (Os processos cognitivos ocorrem de forma isolada de maneira a não sobrecarregar os usuários ao desenvolverem suas tarefas). (aula 2, tema 1)"
+  },
+  {
+    "numero": 15,
+    "enunciado": "Com a crescente utilização de diversos dispositivos para acesso à internet - como desktops, tablets e smartphones - os designers precisam garantir que conteúdos e interfaces se ajustem corretamente a diferentes larguras de tela. O design responsivo, fundamentado em recursos do CSS3, permite que páginas reajam ao tamanho do navegador, reorganizando elementos visuais para melhorar a experiência do usuário em múltiplos contextos de uso.\nQual alternativa descreve corretamente o design responsivo?",
+    "alternativas": {
+      "A": "Criar múltiplos sites diferentes, cada um com layout fixo para um dispositivo específico.",
+      "B": "Desenvolver um único layout que não muda, independentemente do tamanho da tela.",
+      "C": "Produzir um único desenvolvimento que se adapta automaticamente às dimensões da tela, ajustando elementos do design conforme a largura disponível.",
+      "D": "Criar apenas versões móveis (m-sites) com endereço \"m.\" para melhorar a navegação no smartphone.",
+      "E": "Utilizar apenas JavaScript para redimensionar elementos, ignorando o uso de CSS3."
+    },
+    "gabarito": "C",
+    "explicacao": "O design responsivo utiliza técnicas do CSS3, permitindo que um único desenvolvimento se adapte ao tamanho da tela, reorganizando imagens, textos e outros elementos conforme a largura disponível."
+  }
+]

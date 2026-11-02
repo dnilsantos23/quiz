@@ -1,0 +1,152 @@
+[
+  {
+    "numero": 1,
+    "enunciado": "Qual é a forma geral de uma função afim (polinomial de primeiro grau)?",
+    "alternativas": {
+      "A": "f(x) = ax² + b",
+      "B": "f(x) = ax + b",
+      "C": "f(x) = ax³ + bx + c",
+      "D": "f(x) = a(x - x1)(x - x2)",
+      "E": "f(x) = x² + bx + c"
+    },
+    "gabarito": "B",
+    "explicacao": "Conforme o Tema 1 e 2 da apostila, a função afim é representada por f(x) = ax + b.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 2,
+    "enunciado": "Dada a função quadrática f(x) = x² - 5x + 6, quais são as suas raízes?",
+    "alternativas": {
+      "A": "1 e 6",
+      "B": "-2 e -3",
+      "C": "2 e 3",
+      "D": "0 e 5",
+      "E": "1 e 5"
+    },
+    "gabarito": "C",
+    "explicacao": "As raízes da função x² - 5x + 6 são os valores que tornam a função igual a zero, sendo 2 e 3 (Exemplo 7).",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 3,
+    "enunciado": "Qual é a representação gráfica de uma função quadrática?",
+    "alternativas": {
+      "A": "Uma reta",
+      "B": "Uma hipérbole",
+      "C": "Uma parábola",
+      "D": "Uma circunferência",
+      "E": "Uma reta paralela ao eixo x"
+    },
+    "gabarito": "C",
+    "explicacao": "O Tema 4 da apostila define que uma função quadrática é representada por uma parábola.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 4,
+    "enunciado": "No exemplo 9 (ENEM 2013), qual a quantidade de bonés que resulta no lucro máximo para a função L(x) = -x² + 12x - 20?",
+    "alternativas": {
+      "A": "4",
+      "B": "6",
+      "C": "9",
+      "D": "10",
+      "E": "14"
+    },
+    "gabarito": "B",
+    "explicacao": "Conforme o exemplo 9 da apostila, a quantidade de bonés para o lucro máximo é 6.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 5,
+    "enunciado": "Qual o resultado do produto notável (a - b)(a + b)?",
+    "alternativas": {
+      "A": "a² + 2ab + b²",
+      "B": "a² - 2ab + b²",
+      "C": "a² - b²",
+      "D": "a² + b²",
+      "E": "a² - ab + b²"
+    },
+    "gabarito": "C",
+    "explicacao": "O Tema 5 da apostila lista os produtos notáveis, onde (a - b)(a + b) = a² - b².",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 6,
+    "enunciado": "No exercício 04 (IFSC 2017), qual a quantidade mínima de arame necessária para o cercado de Pedro?",
+    "alternativas": {
+      "A": "545 m",
+      "B": "225 m",
+      "C": "200 m",
+      "D": "500 m",
+      "E": "450 m"
+    },
+    "gabarito": "E",
+    "explicacao": "A resolução do exercício 04 mostra que o perímetro é 90m e, com 5 voltas, o total é 450m.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 7,
+    "enunciado": "No exercício 07 (ENEM 2013), qual o tempo mínimo de espera para a abertura do forno, dado que a temperatura deve atingir 39 ºC?",
+    "alternativas": {
+      "A": "19,0 min",
+      "B": "19,8 min",
+      "C": "20,0 min",
+      "D": "38,0 min",
+      "E": "39,0 min"
+    },
+    "gabarito": "D",
+    "explicacao": "A resolução do exercício 07 demonstra que o tempo t necessário é 38 minutos.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 8,
+    "enunciado": "Quais são as raízes da função polinomial f(x) = x³ - 3x² + 2x?",
+    "alternativas": {
+      "A": "{-1, 0, 1}",
+      "B": "{0, 1, 2}",
+      "C": "{1, 2, 3}",
+      "D": "{0, 2, 3}",
+      "E": "{-2, 0, 2}"
+    },
+    "gabarito": "B",
+    "explicacao": "Conforme o exemplo 10 da apostila, as raízes da função x³ - 3x² + 2x são {0, 1, 2}.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 9,
+    "enunciado": "Como é chamada a forma f(x) = a(x - x1)(x - x2) de uma função quadrática?",
+    "alternativas": {
+      "A": "Forma linear",
+      "B": "Forma polinomial",
+      "C": "Forma fatorada",
+      "D": "Forma reduzida",
+      "E": "Forma de Bhaskara"
+    },
+    "gabarito": "C",
+    "explicacao": "O Tema 3 da apostila define f(x) = a(x - x1)(x - x2) como a forma fatorada.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 10,
+    "enunciado": "Na função afim f(x) = ax + b, o que representa o coeficiente 'a'?",
+    "alternativas": {
+      "A": "Coeficiente linear",
+      "B": "Raiz da função",
+      "C": "Coeficiente angular",
+      "D": "Ponto de intersecção com o eixo y",
+      "E": "O valor máximo da função"
+    },
+    "gabarito": "C",
+    "explicacao": "O Tema 2 da apostila define 'a' como o coeficiente angular e 'b' como o coeficiente linear.",
+    "imagens": [],
+    "imagens_explicacao": []
+  }
+]

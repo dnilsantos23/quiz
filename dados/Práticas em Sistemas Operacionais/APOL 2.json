@@ -1,0 +1,235 @@
+[
+  {
+    "numero": 1,
+    "enunciado": "Os processos em execução podem ser identificados e gerenciados pelo administrador (root) dos sistemas GNU/Linux. Além de verificar as atividades em execução é possível observar o consumo de recursos, entre outras propriedades. Considerando os comandos de gerência de processos dos sistemas GNU/Linux, assinale o comando que possibilita enviar sinais para interação com os processos em execução:",
+    "alternativas": {
+      "A": "top",
+      "B": "ps",
+      "C": "kill",
+      "D": "pidoff",
+      "E": "tree"
+    },
+    "gabarito": "C",
+    "explicacao": "O comando KILL tem a finalidade de enviar um sinal para um processo em execução, a lista de possíveis sinais (SIGNAL) pode ser obtida com o comando “kill -l”. Aula 5: TEMA 3 – GERENCIAMENTO DE PROCESSOS",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 2,
+    "enunciado": "O agendador de tarefas é um serviço, carregado durante o processo de boot, que possibilita a programação de execução de processos e comandos para serem realizadas periodicamente. É um recurso fundamental para automatização da administração do sistema e em outros casos em que se faz necessário o agendamento de execução de uma determina atividade. Qual dos serviços abaixo é um agendador de tarefas?",
+    "alternativas": {
+      "A": "RSyslog",
+      "B": "Postfix",
+      "C": "Apache",
+      "D": "Cron",
+      "E": "Gdm"
+    },
+    "gabarito": "D",
+    "explicacao": "O CRON é o serviço nativo de agendamento de tarefas nos sistemas GNU/Linux, seu principal arquivo de configuração é o /etc/crontab. Cada usuário pode agendar suas tarefas com o comando # crontab -e . Aula 6: TEMA 5 – AGENDAMENTO DE TAREFAS.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 3,
+    "enunciado": "A filosofia de trabalho do ambiente GNU/Linux visa limitar o uso do sistema operacional apenas para os usuários autorizados. Assim, o Linux oferece um sistema de gerenciamento de usuários que permite criar uma conta de usuário para cada pessoa, de modo que cada uma possa ter permissões individuais no sistema. usuario@hostname:/sbin# _ Como qualquer sistema operacional, os sistemas GNU/Linux conferem 'superpoderes' ao usuário administrador. Qual das alternativas abaixo identifica o 'superusuário' dos sistemas GNU/Linux?",
+    "alternativas": {
+      "A": "system",
+      "B": "administrador",
+      "C": "administrator",
+      "D": "root",
+      "E": "admin"
+    },
+    "gabarito": "D",
+    "explicacao": "O usuário root é o usuário padrão dos sistemas GNU/Linux, recebe a identificação zero (UID=0), e possui as permissões necessárias para realização de tarefas de administração do sistema. Aula 5: TEMA 4 – ADMINISTRAÇÃO DE GRUPOS E USUÁRIOS.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 4,
+    "enunciado": "Ao ligar um computador o circuito de inicialização executa uma série de operações importantes para carga do sistema operacional. Desde a energização dos circuitos elétricos, até que o sistema esteja pronto para uso, é importante que o administrador do sistema saiba quais componente podem influenciar no bom funcionamento do sistema. Assinale a alternativa abaixo do componente que é responsável por identificar os dispositivos inicializáveis e carregar o gerenciador de inicialização:",
+    "alternativas": {
+      "A": "POST (Power On Self Test)",
+      "B": "BIOS (Basic Input Output System)",
+      "C": "LILO (Linux Loader)",
+      "D": "GRUB (GRand Unifield Bootloader)",
+      "E": "MBR (Master Boot Record)"
+    },
+    "gabarito": "B",
+    "explicacao": "O BIOS (Basic Input Output System) lê o setor de boot (MBR) e executa um programa chamado gerenciador de inicialização. Aula 5: TEMA 1 – NÍVEIS DE EXECUÇÃO.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 5,
+    "enunciado": "Nos sistemas GNU/Linux os arquivos de configuração são armazenados no diretório /etc. Para armazenar os dados dos usuários são utilizados os arquivos /etc/passwd e /etc/shadow. Os parâmetros de configuração para criação de novos usuários estão no arquivo /etc/logins.def e /etc/adduser.conf. As políticas de senhas e demais parâmetros podem variar de acordo com cada distribuição. Sobre a Gerência de usuários de grupos nos sistemas GNU/Linux, assinale a alternativa INCORRETA:",
+    "alternativas": {
+      "A": "Cada linha do arquivo /etc/passwd corresponde a um usuário do sistema",
+      "B": "Cada linha do arquivo /etc/grupo corresponde a um grupo do sistema",
+      "C": "3. O comando pwd do Linux possibilita ao usuário efetuar a troca de senha (password)",
+      "D": "As senhas dos usuários ficam armazenadas criptografadas no arquivo /etc/shadow",
+      "E": "O comando adduser adiciona um usuário de acordo com os parâmetros do arquivo /etc/adduser.conf."
+    },
+    "gabarito": "C",
+    "explicacao": "O comando pwd exibe o diretório atual, para troca de senhas é utilizado o comando passwd. Aula 5: TEMA 4 – ADMINISTRAÇÃO DE GRUPOS E USUÁRIOS",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 6,
+    "enunciado": "Um administrador realizou ao agendamento de uma tarefa no sistema cron, conforme a linha abaixo: Considerando a ordem de configuração do arquivo: Minuto | Hora | Dia do Mês | Mês | Dia da semana | UID | <Comando> Assinale a alternativa que descreve o momento da sua execução:",
+    "alternativas": {
+      "A": "Todos os dias as 00h20m",
+      "B": "Todos os dias as 20h00m",
+      "C": "Todos os domingo as 00h20m",
+      "D": "Todos os domingo as 20h00m",
+      "E": "Todo 1º dia do mês as 20h00m"
+    },
+    "gabarito": "D",
+    "explicacao": "Todos os domingo as 20h00m Minuto: 00 | Hora: 20 | Dia do Mês: todos | Mês: todos | Dia da semana: domingo | UID: root | Comando: /backup/backup-configs.sh Aula 6: TEMA 5 – AGENDAMENTO DE TAREFAS",
+    "imagens": [
+      "APOL 2_imagens/pagina-003-imagem-01.png"
+    ],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 7,
+    "enunciado": "O gerenciamento de arquivos inclui tanto o controle de acesso quanto o controle da localização e manuseio dos conteúdos de cada arquivo. As funções de um sistema de arquivos concentram-se no controle dos arquivos em disco; dentro desse contexto, as principais funções desempenhadas por ele incluem: proteção, mapeamento de nomes, endereçamento, segurança e logs de eventos ocorridos. São exemplos de sistemas de arquivos nativamente desenvolvidos para os sistemas GNU/Linux:",
+    "alternativas": {
+      "A": "SMB/CIFS, NFS e SSHFS",
+      "B": "BIOS e UEFI",
+      "C": "MBR e GPT",
+      "D": "FAT16, FAT32, exFAT e NTFS",
+      "E": "EXT4, XFS, JFS, ReiserFS e BTRFS"
+    },
+    "gabarito": "E",
+    "explicacao": "O EXT2 é o sistema nativo dos sistemas GNU/Linux, posteriormente novas versões e novos sistemas de arquivos forma incorporados como XFS, JFS, ReiserFS, BTRFS, entre outros. Os sistemas FAT, NTFS e SMB/CIFS são desenvolvidos pela Microsoft para os sistemas MS-Windows. Aula 4: TEMA 1 - 1.1 Sistema de arquivos (Filesystem).",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 8,
+    "enunciado": "Em virtualização, o hipervisor também é chamado de Monitor de Máquinas Virtuais (VMM). A função do hipervisor é administrar os recursos de um sistema hospedeiro, permitindo o compartilhamento desses recursos por várias máquinas virtuais, que são executadas com o suporte oferecido pelo próprio hipervisor. Os hipervisors são classificados como nativos (Bare Metal - Tipo 1) ou hospedeiros (Hosted Hipervisor - Tipo 2). Qual das alternativas abaixo descreve os hipervisors do Tipo 1?",
+    "alternativas": {
+      "A": "Hipervisor tipo 1 é instalado diretamente no hardware do servidor físico, sem a necessidade de um sistema operacional hospedeiro.",
+      "B": "Hipervisor tipo 1 é instalado sobre um sistema operacional hospedeiro, estabelecendo uma camada de abstração entre o sistema operacional nativo e a máquina virtual.",
+      "C": "Hipervisor tipo 1 é uma versão anterior ao Hipervisor tipo 2.",
+      "D": "Hipervisor tipo 2 é uma atualização de segurança do Hipervisor tipo 1.",
+      "E": "Não há diferença na execução de máquinas virtuais entre o hipervisor tipo 1 e tipo 2 porque ambos têm acesso direto ao hardware físico do equipamento."
+    },
+    "gabarito": "A",
+    "explicacao": "O Hipervisor tipo 1 é tecnicamente um sistema operacional dedicado a função de virtualização, uma vez que é instalado diretamente no hardware. Aula 6: 3.1 Hypervisores Nativo ou Bare Metal (Tipo 1).",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 9,
+    "enunciado": "Todos os programas e utilitários em execução no MS-Windows executam tarefas que precisam de recursos, são processos gerenciados pelo sistema operacional. As tarefas podem ser visualizadas, bem como os usuários e os recursos utilizados pelos processos no Gerenciador de Tarefas. Assinale qual alternativa contém um comando que pode ser utilizado para iniciar o gerenciador de tarefas:",
+    "alternativas": {
+      "A": "taskmgr",
+      "B": "tasklist",
+      "C": "taskill",
+      "D": "services.msc",
+      "E": "mstsc"
+    },
+    "gabarito": "A",
+    "explicacao": "Os comandos e os atalhos criados no ambiente MS-Windows facilitam a otimização das tarefas e permitem a criação de scripts. Para iniciar o gerenciador de tarefas é possível utilizar o comando taskmgr. Aula 2: TEMA 4 – GERENCIADOR DE TAREFAS",
+    "imagens": [
+      "APOL 2_imagens/pagina-005-imagem-01.png"
+    ],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 10,
+    "enunciado": "Nem todo processo é facilmente identificado por um usuário, pois nem sempre está rodando em primeiro plano (em alguma janela ou terminal), muitos processos executam serviços do sistema, e são executados em segundo plano (background). Assinale a opção que apresenta dois comandos utilizados para visualizar os processos em execução:",
+    "alternativas": {
+      "A": "kill e killall",
+      "B": "ps e top",
+      "C": "systemctl e sysv-rc-conf",
+      "D": "nice e renice",
+      "E": "locate e find"
+    },
+    "gabarito": "B",
+    "explicacao": "O comando PS tem a finalidade de identificar os processos em execução e retorna na tela os processos em execução no sistema, ou usuário. O comando TOP tem a finalidade de identificar os processos em execução, a diferença com o PS é a interatividade (a ordem dos processos é por uso de processamento - CPU). Aula 5: TEMA 3 – GERENCIAMENTO DE PROCESSOS",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 11,
+    "enunciado": "Em um sistema MS-Windows foi executado o comando abaixo: Observando o comando, assinale qual alternativa que apresenta a afirmação correta sobre os sistemas de arquivos dos sistemas operacionais MS -Windows:",
+    "alternativas": {
+      "A": "O comando dir é um comando de administração, executado em um prompt de comando, e deve ser usado exclusivamente por um usuário administrador.",
+      "B": "O comando dir é equivalente ao comando cd dos sistemas GNU/Linux.",
+      "C": "Após a execução do comando deste comando foi possível observar todos arquivos e pastas do usuário corrente.",
+      "D": "A pasta c:\\ representa o diretório Raiz dos sistemas MS-Windows, a partir dele são criados todos os demais arquivos e pastas.",
+      "E": "O prompt de comando dos sistemas Microsoft era utilizado no sistema operacional MS-DOS e não são mais utilizados."
+    },
+    "gabarito": "D",
+    "explicacao": "O comando dir listou o conteúdo da pasta C:\\, que representa o diretório Raiz dos sistemas de arquivos MS-Windows. O prompt de comando e o PowerShell são interpretadores de comando em linha de texto (CLI) largamente utilizados nos sistemas MS-Windows. Pode ser utilizado por qualquer usuário, limitado as suas permissões. Aula 2: 2.2 Hierarquia de arquivos/pastas.",
+    "imagens": [
+      "APOL 2_imagens/pagina-006-imagem-01.png"
+    ],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 12,
+    "enunciado": "Os programas desenvolvidos para uso em sistemas GNU/Linux são distribuídos em formato de pacote. Pacote é um arquivo que, além de conter os arquivos necessários para instalação de determinado aplicativo, contém as informações de controle necessárias para q ue o gerenciador de pacotes possa instalar, manter e remover programas, incluindo suas dependências. Sobre a Gerência de pacotes nos sistemas GNU/Linux, assinale a alternativa CORRETA:",
+    "alternativas": {
+      "A": "Todos os sistemas GNU/Linux suportam os pacotes .deb e .rpm nativamente",
+      "B": "No Debian GNU/Linux e seus derivados, a extensão utilizada é ” .deb”",
+      "C": "No Ubuntu GNU/Linux e seus derivados, a extensão utilizada é ” .rpm”",
+      "D": "A principal ferramenta de gerência de pacotes dos sistemas Red Hat é o APT (Advanced Packet Tool)",
+      "E": "5. A principal ferramenta de gerência de pacotes dos sistemas Debian é o YUM (YellowDog Updater Modified )"
+    },
+    "gabarito": "B",
+    "explicacao": "No Debian GNU/Linux e seus derivados, a extensão utilizada é ”.deb”. Outra extensão comumente encontrada é “.rpm”, que é utilizada nas distribuições derivadas do RedHat GNU/Linux. Aula 6: TEMA 1 – SISTEMAS DE GERENCIAMENTO DE PACOTES",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 13,
+    "enunciado": "O gerenciador de inicialização (loaders) é o responsável por carregar o sistema operacional durante o processo de inicialização, além de, nos casos em que houver mais de um sistema operacional, permitir que seja feita a escolha de qual sistema operacional deverá ser carregado. Este programa geralmente fica gravado no setor de boot de uma partição ativa ou na Master Boot Record (MBR) do disco. Assinale a alternativa que contém os principais loaders dos sistemas GNU/Linux:",
+    "alternativas": {
+      "A": "LILO e GRUB",
+      "B": "NTLDR e NTFS",
+      "C": "MBR e GPT",
+      "D": "BIOS e UEFI",
+      "E": "WINDOWS e LINUX"
+    },
+    "gabarito": "A",
+    "explicacao": "O GRUB (sigla de GRand Unifield Bootloader) é o gerenciador de partida mais utilizado pelas distribuições GNU/Linux atualmente. Trata-se de um sistema multiboot muito versátil e que tem suporte para diversos sistemas operacionais. Entretanto existem vários outros, o mais clássico deles é o Linux Loader (LILO). Aula 5: 1.1 Gerenciador de inicialização.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 14,
+    "enunciado": "Nos sistemas GNU/Linux, um arquivo pode ser comum ou especial. Estes são os principais tipos de arquivos que podemos encontrar: Qual das alternativas abaixo contém o tipo de arquivo que se espera encontrar no diretório /dev?",
+    "alternativas": {
+      "A": "Arquivos comuns",
+      "B": "Pseudo-dispositivos",
+      "C": "Links simbólicos",
+      "D": "Pipe",
+      "E": "O diretório /dev não contém arquivos"
+    },
+    "gabarito": "B",
+    "explicacao": "O /dev contém arquivos especiais para acesso aos dispositivos de hardware chamados pseudo-dispositivos. Aula 4: 1.3 Tipos de Arquivos.",
+    "imagens": [
+      "APOL 2_imagens/pagina-008-imagem-01.png"
+    ],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 15,
+    "enunciado": "Nos sistemas GNU/Linux, existem dois comandos de busca que têm a finalidade de varrer o sistema de arquivos para encontrar um arquivo ou diretório. Assinale um dos comandos abaixo que permite uma busca avançada, diretamente no sistema de arquivos, por meio do qual a pesquisa pode ser feita pelo nome do arquivo, tamanho, proprietário, permissões, entre vários outros parâmetros.",
+    "alternativas": {
+      "A": "find",
+      "B": "Locate",
+      "C": "findstr",
+      "D": "whereis",
+      "E": "ls"
+    },
+    "gabarito": "A",
+    "explicacao": "# find <onde?> <como?> <o quê?> Os comandos de busca nos ambientes GNU/Linux são locate e find. O locate não faz busca direta no sistema de arquivos, pois consulta apenas uma base de dados previamente carregada pelo comando updatedb. A sintaxe e as opções do comando find permite o uso de diversas opções de pesquisa e possibilitando uma busca avançada, inclusive combinando diversas características dos arquivos e diretórios para criação de filtrar os resultados. Aula 4: TEMA 3 – COMANDOS DE BUSCA",
+    "imagens": [],
+    "imagens_explicacao": []
+  }
+]
