@@ -198,6 +198,10 @@ locais e manutenção estão em
   mas os nomes de modelo fixos não estão habilitados nesse projeto. O sistema
   consulta automaticamente os modelos autorizados pela chave; confira se ela
   foi criada no projeto correto do Google AI Studio.
+- **JSON retornado pela IA é inválido:** tente gerar novamente. O sistema
+  solicita uma resposta estruturada ao Gemini e valida as 10 questões antes
+  de salvar; se o erro persistir, verifique se o modelo selecionado está
+  disponível e atualizado.
 - **Não foi possível conectar à API:** verifique a internet, proxy, firewall e
   se o endereço `generativelanguage.googleapis.com` está acessível. A mensagem
   exibida agora informa a causa técnica da conexão quando o Windows fornecê-la.

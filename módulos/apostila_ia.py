@@ -154,12 +154,17 @@ def _extrair_json(resposta, provedor="gemini"):
     try:
         dados = json.loads(resposta)
     except json.JSONDecodeError as erro:
-        inicio = resposta.find("[")
-        fim = resposta.rfind("]")
-        if inicio < 0 or fim <= inicio:
+        inicio = next(
+            (indice for indice, caractere in enumerate(resposta) if caractere in "[{"),
+            -1,
+        )
+        if inicio < 0:
+            raise GeracaoApostilaError(f"JSON retornado pela IA é inválido: {erro}") from erro
+        fim = _fim_json(resposta, inicio)
+        if fim <= inicio:
             raise GeracaoApostilaError(f"JSON retornado pela IA é inválido: {erro}") from erro
         try:
-            dados = json.loads(resposta[inicio:fim + 1])
+            dados = json.loads(resposta[inicio:fim])
         except json.JSONDecodeError as erro_lista:
             raise GeracaoApostilaError(f"JSON retornado pela IA é inválido: {erro_lista}") from erro_lista
 
@@ -172,6 +177,34 @@ def _extrair_json(resposta, provedor="gemini"):
             if isinstance(dados.get(chave), list):
                 return dados[chave]
     raise GeracaoApostilaError("O provedor de IA não retornou uma lista de perguntas.")
+
+
+def _fim_json(texto, inicio):
+    """Encontra o fim do primeiro objeto/array JSON sem confundir texto interno."""
+    fechamentos = {"[": "]", "{": "}"}
+    pilha = []
+    dentro_string = False
+    escapado = False
+    for indice in range(inicio, len(texto)):
+        caractere = texto[indice]
+        if dentro_string:
+            if escapado:
+                escapado = False
+            elif caractere == "\\":
+                escapado = True
+            elif caractere == '"':
+                dentro_string = False
+            continue
+        if caractere == '"':
+            dentro_string = True
+        elif caractere in fechamentos:
+            pilha.append(fechamentos[caractere])
+        elif caractere in ("]", "}"):
+            if not pilha or pilha.pop() != caractere:
+                return -1
+            if not pilha:
+                return indice + 1
+    return -1
 
 
 def _validar(perguntas, quantidade):
@@ -222,7 +255,38 @@ def _validar(perguntas, quantidade):
 def _corpo_gemini(prompt):
     return {
         "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"},
+        "generationConfig": {
+            "temperature": 0.2,
+            "maxOutputTokens": 8192,
+            "responseMimeType": "application/json",
+            "responseSchema": {
+                "type": "OBJECT",
+                "properties": {
+                    "perguntas": {
+                        "type": "ARRAY",
+                        "items": {
+                            "type": "OBJECT",
+                            "properties": {
+                                "enunciado": {"type": "STRING"},
+                                "alternativas": {
+                                    "type": "ARRAY",
+                                    "items": {"type": "STRING"},
+                                },
+                                "gabarito": {"type": "STRING"},
+                                "explicacao": {"type": "STRING"},
+                            },
+                            "required": [
+                                "enunciado",
+                                "alternativas",
+                                "gabarito",
+                                "explicacao",
+                            ],
+                        },
+                    }
+                },
+                "required": ["perguntas"],
+            },
+        },
     }
 
 

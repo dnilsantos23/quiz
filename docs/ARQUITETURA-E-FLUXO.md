@@ -64,6 +64,12 @@ automaticamente somente modelos que a chave informa como compatíveis com
 `generateContent`. Isso evita depender de nomes de modelo que podem não estar
 habilitados em todos os projetos.
 
+A solicitação Gemini também usa `responseSchema` para exigir o objeto
+`perguntas`, com cinco alternativas, gabarito e explicação em cada item.
+Depois da resposta, o parser remove eventuais cercas Markdown, identifica o
+primeiro objeto JSON balanceando chaves e colchetes fora de strings e valida
+exatamente dez perguntas antes de gravar o arquivo.
+
 Falhas de rede são repetidas e, quando persistem, retornam a causa fornecida
 pelo sistema operacional, facilitando identificar DNS, timeout, proxy ou firewall.
 
