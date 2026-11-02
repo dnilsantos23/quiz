@@ -12,6 +12,7 @@ Responsabilidades deste módulo:
 import ctypes
 import json
 import os
+import secrets
 import socket
 import sys
 import threading
@@ -34,9 +35,20 @@ import apostila_ia
 import quiz_dados
 
 app = Flask(__name__)
+TOKEN_SESSAO = secrets.token_urlsafe(32)
 geracoes = {}
 geracoes_lock = threading.Lock()
 geracao_html_lock = threading.Lock()
+
+
+def _requisicao_autorizada():
+    origem = request.headers.get("Origin")
+    origens_permitidas = {"http://127.0.0.1:5000", "http://localhost:5000"}
+    if origem and origem not in origens_permitidas:
+        return False
+    return secrets.compare_digest(
+        request.headers.get("X-Quiz-Token", ""), TOKEN_SESSAO
+    )
 
 
 def _chave_disciplina(nome):
@@ -125,6 +137,8 @@ def favicon():
 def atualizar_quiz():
     """Converte PDFs novos, regenera o quiz.html e informa o resultado ao cliente."""
     global ultimo_ping
+    if not _requisicao_autorizada():
+        return jsonify({"sucesso": False, "erro": "Sessão local não autorizada."}), 403
     ultimo_ping = time.time()
     try:
         with geracao_html_lock:
@@ -139,6 +153,8 @@ def atualizar_quiz():
 def gerar_apostila():
     """Recebe uma apostila e inicia a geração em segundo plano."""
     global ultimo_ping
+    if not _requisicao_autorizada():
+        return jsonify({"sucesso": False, "erro": "Sessão local não autorizada."}), 403
     ultimo_ping = time.time()
     disciplina = request.form.get("disciplina", "").strip()
     titulo = request.form.get("titulo", "").strip()
@@ -252,9 +268,21 @@ def apostilas_disponiveis():
 
 @app.get("/configuracao-ia")
 def configuracao_ia():
-    """Entrega ao formulário a última configuração local do provedor."""
+    """Entrega apenas metadados da configuração local, nunca as chaves."""
     configuracao = apostila_ia.carregar_configuracao()
-    return jsonify({"sucesso": True, **configuracao})
+    return jsonify(
+        {
+            "sucesso": True,
+            "provedor": configuracao["provedor"],
+            "configurados": sorted(configuracao["chaves"]),
+        }
+    )
+
+
+@app.get("/sessao")
+def sessao():
+    """Entrega o token efêmero desta execução para a página local."""
+    return jsonify({"sucesso": True, "token": TOKEN_SESSAO})
 
 
 @app.get("/gerar-apostila/<identificador>")

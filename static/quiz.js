@@ -10,6 +10,25 @@
 let discAtual = null;      // índice da disciplina em DADOS
 let quizAtual = null;      // índice do quiz dentro da disciplina
 const cartoes = {};        // mapa "disc-quiz" -> índices dos cartões dessa prova
+const tokenSessao = fetch('/sessao')
+  .then(function(resposta) {
+    if (!resposta.ok) throw new Error('Não foi possível iniciar a sessão local.');
+    return resposta.json();
+  })
+  .then(function(dados) {
+    if (!dados.sucesso || !dados.token) throw new Error('Sessão local inválida.');
+    return dados.token;
+  });
+
+function fetchProtegido(url, opcoes) {
+  return tokenSessao.then(function(token) {
+    const configuracao = opcoes || {};
+    const cabecalhos = Object.assign({}, configuracao.headers || {}, {
+      'X-Quiz-Token': token
+    });
+    return fetch(url, Object.assign({}, configuracao, { headers: cabecalhos }));
+  });
+}
 
 /** Escapa texto antes de inseri-lo em HTML para evitar interpretação de marcação. */
 function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
@@ -252,7 +271,7 @@ document.getElementById('btn-atualizar').addEventListener('click', function() {
   carregamento.classList.add('visivel');
   mensagem.textContent = 'Convertendo PDFs novos...';
 
-  fetch('/atualizar', { method: 'POST' })
+  fetchProtegido('/atualizar', { method: 'POST' })
     .then(function(resposta) {
       return resposta.json().then(function(dados) {
         if (!resposta.ok || !dados.sucesso) {
@@ -283,7 +302,7 @@ function acompanharGeracao(id) {
   botao.disabled = true;
   progresso.classList.add('visivel');
   function consultar() {
-    fetch('/gerar-apostila/' + encodeURIComponent(id))
+    fetchProtegido('/gerar-apostila/' + encodeURIComponent(id))
           .then(function(resposta) {
             return resposta.json().then(function(status) {
               if (!resposta.ok || !status.sucesso) {
@@ -323,7 +342,7 @@ document.getElementById('form-apostila').addEventListener('submit', function(e) 
   const botao = form.querySelector('button[type=submit]');
   botao.disabled = true;
   mensagem.textContent = 'Enviando a apostila... Você pode abrir outro questionário pelo Menu.';
-  fetch('/gerar-apostila', { method: 'POST', body: new FormData(form) })
+  fetchProtegido('/gerar-apostila', { method: 'POST', body: new FormData(form) })
     .then(function(resposta) {
       return resposta.json().then(function(dados) {
         if (!resposta.ok || !dados.sucesso) {
@@ -391,9 +410,15 @@ fetch('/configuracao-ia')
     const provedor = document.getElementById('provedor-ia');
     const chave = document.getElementById('chave-api');
     provedor.value = configuracao.provedor;
-    chave.value = configuracao.chave_api || '';
+    chave.value = '';
+    chave.placeholder = configuracao.configurados.indexOf(provedor.value) >= 0
+      ? 'Chave salva localmente; informe outra para substituir'
+      : 'Cole sua chave aqui';
     provedor.addEventListener('change', function() {
-      chave.value = (configuracao.chaves || {})[provedor.value] || '';
+      chave.value = '';
+      chave.placeholder = configuracao.configurados.indexOf(provedor.value) >= 0
+        ? 'Chave salva localmente; informe outra para substituir'
+        : 'Cole sua chave aqui';
     });
   })
   .catch(function() {});

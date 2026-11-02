@@ -151,7 +151,9 @@ Como o conteúdo é gerado por inteligência artificial, revise as perguntas ant
 de usá-las.
 
 As chaves ficam em `configuracao_ia.json`, somente no computador local. Esse
-arquivo é ignorado pelo Git e não deve ser compartilhado.
+arquivo é ignorado pelo Git e não deve ser compartilhado. O servidor cria um
+token temporário a cada execução e protege as operações de atualização e
+geração contra requisições externas à página local.
 
 ## Estrutura principal
 

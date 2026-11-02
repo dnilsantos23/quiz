@@ -223,13 +223,13 @@ APOSTILA:
     else:
         url = None
         corpo = json.dumps(_corpo_gemini(prompt)).encode()
-    modelos = tuple(dict.fromkeys((modelo,) + MODELOS_RESERVA))
+        modelos = tuple(dict.fromkeys((modelo,) + MODELOS_RESERVA))
     ultimo_erro = None
     dados = None
     for modelo_atual in modelos:
         informar(25, f"Aguardando resposta da {PROVEDORES[provedor]['nome']}...")
-        destino = url if provedor == "openai" else f"{_url_modelo(modelo_atual)}?key={chave_api.strip()}"
-        requisicao = Request(
+        destino = url if provedor == "openai" else _url_modelo(modelo_atual)
+        requisicao_antiga = Request(
             destino,
             data=corpo,
             headers={
@@ -237,6 +237,13 @@ APOSTILA:
                 **({"Authorization": f"Bearer {chave_api.strip()}"} if provedor == "openai" else {}),
             },
         )
+        del requisicao_antiga
+        cabecalhos = {"Content-Type": "application/json"}
+        if provedor == "openai":
+            cabecalhos["Authorization"] = "Bearer " + chave_api.strip()
+        else:
+            cabecalhos["x-goog-api-key"] = chave_api.strip()
+        requisicao = Request(destino, data=corpo, headers=cabecalhos)
         sucesso = False
         for tentativa in range(TENTATIVAS_GEMINI):
             try:

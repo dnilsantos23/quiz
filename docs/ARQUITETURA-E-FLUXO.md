@@ -64,7 +64,12 @@ pelo sistema operacional, facilitando identificar DNS, timeout, proxy ou firewal
 
 As chaves são armazenadas por provedor em `configuracao_ia.json`, que é ignorado
 pelo Git. O endpoint `GET /configuracao-ia` preenche o formulário localmente,
-permitindo substituir a chave ou alternar entre provedores sem editar arquivos.
+permitindo alternar entre provedores sem expor as chaves ao navegador. A cada
+execução, o servidor cria um token efêmero; as rotas que alteram dados exigem
+esse token e uma origem local válida.
+
+A chave Gemini é enviada no cabeçalho `x-goog-api-key`, e a chave OpenAI no
+cabeçalho `Authorization`; nenhuma delas é colocada na URL.
 
 O identificador da tarefa é mantido no navegador durante a geração. Assim, um
 recarregamento causado pelo botão **Atualizar** não perde o acompanhamento. O
