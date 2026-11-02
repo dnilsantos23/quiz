@@ -1,0 +1,152 @@
+[
+  {
+    "numero": 1,
+    "enunciado": "Segundo a definição técnica de Pressman (2001) citada na apostila, o que consiste um software?",
+    "alternativas": {
+      "A": "Apenas em instruções executáveis de computador.",
+      "B": "Instruções, estruturas de dados e informação descritiva.",
+      "C": "Somente em códigos desenvolvidos em linguagem Python ou C.",
+      "D": "Apenas em documentações impressas e manuais de operação.",
+      "E": "Unicamente em sistemas operacionais e softwares utilitários."
+    },
+    "gabarito": "B",
+    "explicacao": "A definição de Pressman estabelece que o software consiste em instruções (programas), estruturas de dados e informação descritiva.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 2,
+    "enunciado": "De acordo com a classificação apresentada na apostila, qual das seguintes alternativas pertence à categoria de software de sistema (básico)?",
+    "alternativas": {
+      "A": "Editor de texto e planilhas eletrônicas.",
+      "B": "Sistemas operacionais e software utilitário.",
+      "C": "Navegadores web e editores de imagem.",
+      "D": "Aplicações em nuvem e bancos de dados.",
+      "E": "Aplicativos híbridos e nativos para smartphones."
+    },
+    "gabarito": "B",
+    "explicacao": "O software básico consiste em uma coleção de programas para apoiar outros programas, tendo como categorias os sistemas operacionais e o software utilitário.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 3,
+    "enunciado": "Qual das opções abaixo apresenta exclusivamente exemplos de softwares utilitários citados na apostila?",
+    "alternativas": {
+      "A": "Windows, Linux, MacOS e Android.",
+      "B": "Word, Excel, Chrome e Firefox.",
+      "C": "Antivírus, compactadores, desfragmentadores e backup.",
+      "D": "Python, Java, C e C++.",
+      "E": "Spring Boot, Laravel, React e Angular."
+    },
+    "gabarito": "C",
+    "explicacao": "A apostila define softwares utilitários como ferramentas que auxiliam o sistema operacional, citando antivírus, compactadores, desfragmentadores, formatadores e backup.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 4,
+    "enunciado": "Segundo a apostila, qual tradutor tem a característica de traduzir o código linha por linha enquanto é executado?",
+    "alternativas": {
+      "A": "Compilador",
+      "B": "Interpretador",
+      "C": "Gerenciador de tarefas",
+      "D": "Desfragmentador",
+      "E": "Depurador"
+    },
+    "gabarito": "B",
+    "explicacao": "Os interpretadores traduzem o código linha por linha, de forma análoga a um intérprete de idiomas.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 5,
+    "enunciado": "Como é definido um algoritmo na citação de Forbellone (2022) presente na apostila?",
+    "alternativas": {
+      "A": "Uma linguagem de programação de alto nível orientada a objetos.",
+      "B": "Um conjunto de softwares que interagem para alcançar um objetivo.",
+      "C": "Uma sequência de passos que visa atingir um objetivo bem definido.",
+      "D": "Uma camada intermediária entre o usuário e o hardware do computador.",
+      "E": "Um programa malicioso que detecta e remove vírus de computador."
+    },
+    "gabarito": "C",
+    "explicacao": "Forbellone define algoritmo exatamente como uma sequência de passos que visa atingir um objetivo bem definido.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 6,
+    "enunciado": "Qual termo da área de TI é definido na apostila como o envio de alterações de um trecho de código para a criação de uma nova versão do projeto?",
+    "alternativas": {
+      "A": "Commit",
+      "B": "Debug",
+      "C": "API",
+      "D": "SDK",
+      "E": "Sprint"
+    },
+    "gabarito": "A",
+    "explicacao": "Commit ou 'comitar' significa enviar alterações de um trecho de código, gerando uma nova versão do projeto.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 7,
+    "enunciado": "Segundo a apostila, qual modelo clássico de ciclo de vida de software apresenta fases sequenciais como requerimento, projeto, implementação, verificação e manutenção?",
+    "alternativas": {
+      "A": "Modelo Ágil",
+      "B": "Modelo Cascata (Waterfall)",
+      "C": "Framework Scrum",
+      "D": "Metodología eXtreme Programming",
+      "E": "Modelo Monolítico"
+    },
+    "gabarito": "B",
+    "explicacao": "O modelo cascata é o modelo clássico composto por cinco fases distintas executadas de forma sequencial.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 8,
+    "enunciado": "De acordo com o texto sobre metodologias ágeis, o Manifesto Ágil foi lançado em que ano por um grupo de programadores?",
+    "alternativas": {
+      "A": "1995",
+      "B": "2001",
+      "C": "2010",
+      "D": "1989",
+      "E": "2005"
+    },
+    "gabarito": "B",
+    "explicacao": "A apostila menciona que em 2001 um grupo de programadores lançou o Manifesto Ágil.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 9,
+    "enunciado": "No framework Scrum, como são chamados os ciclos nos quais os projetos são divididos e que representam a essência do framework?",
+    "alternativas": {
+      "A": "Commits",
+      "B": "Requerimentos",
+      "C": "Sprints",
+      "D": "Backlogs",
+      "E": "Snapshots"
+    },
+    "gabarito": "C",
+    "explicacao": "Os projetos no Scrum são divididos em ciclos chamados de Sprints, que constituem a essência e o coração do Scrum.",
+    "imagens": [],
+    "imagens_explicacao": []
+  },
+  {
+    "numero": 10,
+    "enunciado": "Quantos artefatos compõem o Scrum, de acordo com o material da aula?",
+    "alternativas": {
+      "A": "Três",
+      "B": "Cinco",
+      "C": "Quatro",
+      "D": "Dois",
+      "E": "Seis"
+    },
+    "gabarito": "A",
+    "explicacao": "O Scrum possui três artefatos: Product Backlog, Sprint Backlog e Incremento.",
+    "imagens": [],
+    "imagens_explicacao": []
+  }
+]
