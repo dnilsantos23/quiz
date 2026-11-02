@@ -194,6 +194,10 @@ locais e manutenção estão em
 - **Erro HTTP 503 ao gerar perguntas:** o modelo Gemini está temporariamente
   sobrecarregado. O sistema tenta novamente automaticamente e tenta modelos
   alternativos; se o erro persistir, aguarde alguns minutos e repita a geração.
+- **Nenhum modelo Gemini configurado está disponível:** a chave foi aceita,
+  mas os nomes de modelo fixos não estão habilitados nesse projeto. O sistema
+  consulta automaticamente os modelos autorizados pela chave; confira se ela
+  foi criada no projeto correto do Google AI Studio.
 - **Não foi possível conectar à API:** verifique a internet, proxy, firewall e
   se o endereço `generativelanguage.googleapis.com` está acessível. A mensagem
   exibida agora informa a causa técnica da conexão quando o Windows fornecê-la.

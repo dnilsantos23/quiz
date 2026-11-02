@@ -59,6 +59,11 @@ automaticamente até três vezes, com espera progressiva e respeito ao cabeçalh
 modelos Gemini de reserva. O provedor também pode ser OpenAI, usando o endpoint
 de chat completions e o modelo `gpt-4o-mini`.
 
+Antes da geração Gemini, o sistema consulta `/v1beta/models` e seleciona
+automaticamente somente modelos que a chave informa como compatíveis com
+`generateContent`. Isso evita depender de nomes de modelo que podem não estar
+habilitados em todos os projetos.
+
 Falhas de rede são repetidas e, quando persistem, retornam a causa fornecida
 pelo sistema operacional, facilitando identificar DNS, timeout, proxy ou firewall.
 

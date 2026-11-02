@@ -31,6 +31,60 @@ def _url_modelo(modelo):
     return f"{GEMINI_API_URL}/{modelo}:generateContent"
 
 
+def _listar_modelos_gemini(chave_api):
+    """Obtém os modelos autorizados pela chave e compatíveis com texto."""
+    requisicao = Request(
+        GEMINI_API_URL,
+        headers={"x-goog-api-key": chave_api.strip()},
+    )
+    try:
+        with urlopen(requisicao, timeout=30) as resposta:
+            dados = json.loads(resposta.read().decode("utf-8"))
+    except HTTPError as erro:
+        detalhe = erro.read().decode("utf-8", errors="replace")[:300]
+        raise GeracaoApostilaError(
+            f"Não foi possível consultar os modelos Gemini (HTTP {erro.code}): {detalhe}"
+        ) from erro
+    except (URLError, TimeoutError, OSError) as erro:
+        detalhe = getattr(erro, "reason", None) or str(erro)
+        raise GeracaoApostilaError(
+            f"Não foi possível consultar os modelos Gemini: {detalhe}."
+        ) from erro
+    except json.JSONDecodeError as erro:
+        raise GeracaoApostilaError(
+            "A API Gemini retornou uma lista de modelos inválida."
+        ) from erro
+
+    modelos = []
+    for item in dados.get("models", []):
+        nome = str(item.get("name", ""))
+        metodos = item.get("supportedGenerationMethods", [])
+        if nome.startswith("models/"):
+            nome = nome[7:]
+        if nome and "generateContent" in metodos:
+            modelos.append(nome)
+    if not modelos:
+        raise GeracaoApostilaError(
+            "A chave Gemini foi aceita, mas não há modelos disponíveis para "
+            "generateContent neste projeto."
+        )
+    return modelos
+
+
+def _ordenar_modelos_gemini(modelos, preferidos):
+    disponiveis = set(modelos)
+    ordenados = [modelo for modelo in preferidos if modelo in disponiveis]
+    restantes = sorted(
+        (modelo for modelo in modelos if modelo not in ordenados),
+        key=lambda modelo: (
+            "flash" not in modelo.lower(),
+            "lite" not in modelo.lower(),
+            modelo,
+        ),
+    )
+    return tuple(ordenados + restantes)
+
+
 def carregar_configuracao(provedor=None):
     """Carrega a configuração local sem falhar quando ela ainda não existe."""
     try:
@@ -223,21 +277,15 @@ APOSTILA:
     else:
         url = None
         corpo = json.dumps(_corpo_gemini(prompt)).encode()
-        modelos = tuple(dict.fromkeys((modelo,) + MODELOS_RESERVA))
+        modelos_disponiveis = _listar_modelos_gemini(chave_api)
+        modelos = _ordenar_modelos_gemini(
+            modelos_disponiveis, (modelo,) + MODELOS_RESERVA
+        )
     ultimo_erro = None
     dados = None
     for modelo_atual in modelos:
         informar(25, f"Aguardando resposta da {PROVEDORES[provedor]['nome']}...")
         destino = url if provedor == "openai" else _url_modelo(modelo_atual)
-        requisicao_antiga = Request(
-            destino,
-            data=corpo,
-            headers={
-                "Content-Type": "application/json",
-                **({"Authorization": f"Bearer {chave_api.strip()}"} if provedor == "openai" else {}),
-            },
-        )
-        del requisicao_antiga
         cabecalhos = {"Content-Type": "application/json"}
         if provedor == "openai":
             cabecalhos["Authorization"] = "Bearer " + chave_api.strip()
